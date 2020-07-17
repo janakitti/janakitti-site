@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+.vertical-center {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items vertically (column-direction) */
+  justify-content: center; /* Align items in the flex direction */
+}
+
+.center-children > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
