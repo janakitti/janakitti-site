@@ -4,3 +4,8 @@ export interface ProgressItems {
   color1: string;
   color2: string;
 }
+
+export interface SkillItem {
+  name: string;
+  color: string;
+}

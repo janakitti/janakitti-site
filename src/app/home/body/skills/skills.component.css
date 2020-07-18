@@ -1,0 +1,15 @@
+.skill-item {
+  background-color: #eeeeee;
+  margin: 3px;
+  display: inline-block;
+  border-radius: 30px;
+
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.2em 0.5em;
+}
+
+.skill-item:hover {
+  background-color: #cccccc;
+}

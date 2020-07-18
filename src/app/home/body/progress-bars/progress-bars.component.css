@@ -2,7 +2,8 @@
   width: 100%;
 }
 .progress-text {
-  font-size: 1.2em;
+  font-family: Poppins;
+  font-size: 1em;
 }
 
 .progress-status-container {
