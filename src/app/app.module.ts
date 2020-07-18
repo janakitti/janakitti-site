@@ -6,6 +6,7 @@ import { LandingComponent } from './home/landing/landing.component';
 import { BodyComponent } from './home/body/body.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/body/about/about.component';
+import { ProgressBarsComponent } from './home/body/progress-bars/progress-bars.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AboutComponent } from './home/body/about/about.component';
     LandingComponent,
     BodyComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ProgressBarsComponent
   ],
   imports: [
     BrowserModule
