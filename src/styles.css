@@ -19,6 +19,13 @@
   align-items: center;
 }
 
+.body-container {
+  border-radius: 1em;
+  background: var(--main-grey);
+  box-shadow:  5px 5px 10px #dadada,
+  -5px -5px 10px #ffffff;
+}
+
 .section-title {
   font-family: Poppins;
   font-size: 1.5em;
