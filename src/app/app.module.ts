@@ -9,6 +9,7 @@ import { AboutComponent } from './home/body/about/about.component';
 import { ProgressBarsComponent } from './home/body/progress-bars/progress-bars.component';
 import { SkillsComponent } from './home/body/skills/skills.component';
 import { FeaturedComponent } from './home/featured/featured.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FeaturedComponent } from './home/featured/featured.component';
     AboutComponent,
     ProgressBarsComponent,
     SkillsComponent,
-    FeaturedComponent
+    FeaturedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

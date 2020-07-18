@@ -1,0 +1,14 @@
+#footer {
+  background: #1f1f1f;
+}
+
+#footer-text {
+  font-family: Poppins;
+  font-size: 1em;
+  color: white;
+}
+
+#footer-logo {
+  height: 3em;
+  width: 3em;
+}
