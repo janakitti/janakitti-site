@@ -8,7 +8,7 @@
 
 #landing-img {
   background: url("../../../assets/images/landing-img.svg") no-repeat center bottom;
-  background-size: 100%;
+  background-size: auto;
   height: 100vh;
   overflow: hidden;
   position: absolute;
