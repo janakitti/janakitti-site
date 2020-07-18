@@ -1,0 +1,41 @@
+#resume-container {
+  background: var(--main-grey);
+}
+
+.resume-header {
+  font-family: Poppins;
+  font-size: 2em;
+}
+
+.project-title {
+  font-family: Roboto;
+  font-size: 1.5em;
+}
+
+.project-date {
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 0.9em;
+  line-height: 0.5em;
+}
+
+.project-desc {
+  font-family: Roboto;
+  font-size: 0.9em;
+}
+
+.tech {
+  background-color: #eeeeee;
+  margin: 3px;
+  display: inline-block;
+  border-radius: 30px;
+
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.2em 0.5em;
+}
+
+ul {
+  padding-left: 1em;
+}
