@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Achievement} from '../../shared/interfaces';
+import {Achievement} from '../../../shared/interfaces';
+
+declare var $: any;
 
 @Component({
   selector: 'app-timeline',
@@ -17,6 +19,7 @@ export class TimelineComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

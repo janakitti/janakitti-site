@@ -11,7 +11,7 @@ import { SkillsComponent } from './home/body/skills/skills.component';
 import { FeaturedComponent } from './home/featured/featured.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ResumeComponent } from './home/resume/resume.component';
-import { TimelineComponent } from './home/timeline/timeline.component';
+import { TimelineComponent } from './home/resume/timeline/timeline.component';
 
 @NgModule({
   declarations: [

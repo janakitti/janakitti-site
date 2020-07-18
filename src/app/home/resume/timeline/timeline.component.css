@@ -39,10 +39,15 @@
 #dot-present {
   position: absolute;
   bottom: 0em;
-  height: 1em;
-  width: 1em;
+  height: 0.8em;
+  width: 0.8em;
   border-radius: 100%;
   background: black;
+}
+
+#present-spacer {
+  background: red;
+  width: 20em;
 }
 
 ::-webkit-scrollbar {
