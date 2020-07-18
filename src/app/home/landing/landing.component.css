@@ -6,21 +6,22 @@
   width: 100%;
 }
 
-#landing-border {
-  position: absolute;
-  border: 0.1em solid white;
-  top: 1em;
-  bottom: 1em;
-  left: 1em;
-  right: 1em;
-}
+/*#landing-border {*/
+/*  position: absolute;*/
+/*  border: 0.1em solid white;*/
+/*  top: 1em;*/
+/*  bottom: 1em;*/
+/*  left: 1em;*/
+/*  right: 1em;*/
+/*}*/
 
 #title-container {
 }
 
 #landing-title {
-  font-family: Montserrat;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 6em;
   color: black;
-  letter-spacing: 0.2em;
 }
 

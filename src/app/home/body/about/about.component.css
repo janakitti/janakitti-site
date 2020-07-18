@@ -1,0 +1,27 @@
+/*#about-container {*/
+/*  border-radius: 50px;*/
+/*  background: var(--main-grey);*/
+/*  box-shadow:  5px 5px 10px #dadada,*/
+/*  -5px -5px 10px #ffffff;*/
+/*}*/
+
+#profile-pic {
+  height: 6em;
+  width: 6em;
+  position: center;
+  border: 0.4em solid #FFFFFF;
+  display: inline-block;
+  border-radius: 100em;
+  box-shadow: 0 0 0.1em #595959;
+}
+
+#about-title {
+  font-font: Poppins;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+#about-body {
+  font-family: Roboto;
+  text-align: justify;
+}
