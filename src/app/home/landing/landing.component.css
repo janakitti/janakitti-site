@@ -25,3 +25,28 @@
   color: black;
 }
 
+.frame-text {
+  position: absolute;
+  top: 1em;
+  font-family: Poppins;
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.5em;
+}
+
+#frame-l {
+  text-align: left;
+  left: 1em;
+  padding-right: 1em;
+}
+
+#frame-r {
+  text-align: right;
+  right: 1em;
+  padding-left: 1em;
+}
+
+.a:link {
+  color: black;
+}
