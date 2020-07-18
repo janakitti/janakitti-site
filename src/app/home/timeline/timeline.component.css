@@ -1,0 +1,50 @@
+#timeline-container {
+  background: var(--main-grey);
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.event {
+  border-bottom: black solid 0.2em;
+  padding: 2em 5em;
+  margin-bottom: 0.3em;
+  width: auto;
+
+  font-family: Poppins;
+  font-size: 1.2em;
+}
+
+.dot {
+  position: absolute;
+  bottom: 0em;
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 100%;
+  background: black;
+}
+
+#present {
+  padding: 0;
+  margin-bottom: 0.3em;
+  width: auto;
+
+  font-family: Poppins;
+  font-size: 1.2em;
+}
+
+#dot-present {
+  position: absolute;
+  bottom: 0em;
+  height: 1em;
+  width: 1em;
+  border-radius: 100%;
+  background: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -38,3 +38,8 @@ export interface Resume {
   projects: ResumeProject[];
   experiences: ResumeExperience[];
 }
+
+export interface Achievement {
+  title: string;
+  date: string;
+}

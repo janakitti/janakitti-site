@@ -1,0 +1,12 @@
+<div class="container-fluid full-width pb-5" id="timeline-container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 timeline-container">
+      <div *ngFor="let ach of achievements" class="event">
+        {{ ach.title }}
+        <div class="dot"></div>
+      </div>
+      <div id="present">
+      </div>
+    </div>
+  </div>
+</div>
