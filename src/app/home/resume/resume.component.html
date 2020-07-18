@@ -1,22 +1,30 @@
 <div class="container-fluid full-width pb-5" id="resume-container">
   <div class="row d-flex justify-content-center">
-    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 vertical-center center-children">
+    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
       <div class="row">
-        <div class="order-1 col-12 col-md-6">
+        <div class="order-1 col-12 col-md-6 mb-5">
           <h2 class="resume-header">Projects</h2>
-          <div *ngFor="let project of resume.projects" class="project mt-3">
+          <div *ngFor="let project of resume.projects" class="project mt-4">
             <h3 class="project-title">{{ project.title }}</h3>
-            <p class="project-date">{{ project.date }}</p>
-            <div *ngFor="let tech of project.tech" class="tech">
+            <p class="date">{{ project.date }}</p>
+            <div *ngFor="let tech of project.tech" class="tech mb-2 mr-2" [ngStyle]="{'color': formatService.skillpills[tech]}">
               {{ tech }}
             </div>
             <ul>
-              <li *ngFor="let desc of project.description" class="project-desc"> {{ desc }}</li>
+              <li *ngFor="let desc of project.description" class="desc"> {{ desc }}</li>
             </ul>
           </div>
         </div>
-        <div class="order-2 col-12 col-md-6" style="background: blue">
-          world
+        <div class="order-2 col-12 col-md-6 mb-5">
+          <h2 class="resume-header">Experiences</h2>
+          <div *ngFor="let exp of resume.experiences" class="project mt-4">
+            <span class="experience-position">{{ exp.position }} | </span>
+            <span class="experience-organization">{{ exp.organization }}</span>
+            <p class="date">{{ exp.date }}</p>
+            <ul>
+              <li *ngFor="let desc of exp.description" class="desc"> {{ desc }}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
