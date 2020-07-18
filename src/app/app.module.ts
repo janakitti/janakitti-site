@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/body/about/about.component';
 import { ProgressBarsComponent } from './home/body/progress-bars/progress-bars.component';
 import { SkillsComponent } from './home/body/skills/skills.component';
+import { FeaturedComponent } from './home/featured/featured.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SkillsComponent } from './home/body/skills/skills.component';
     HomeComponent,
     AboutComponent,
     ProgressBarsComponent,
-    SkillsComponent
+    SkillsComponent,
+    FeaturedComponent
   ],
   imports: [
     BrowserModule

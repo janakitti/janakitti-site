@@ -1,0 +1,18 @@
+<div class="full-width" id="featured-container" [ngStyle]="{'background-color': featured.color1,
+                                                            'background': 'linear-gradient(90deg,'
+                                                                            +featured.color1+' 0%,'
+                                                                            +featured.color2+' 100%'}">
+  <div class="row d-flex justify-content-center py-3">
+    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 center-children">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h1 id="featured-title">Featured Project: {{ featured.title }}</h1>
+          <p id="featured-description">{{ featured.description }}</p>
+        </div>
+        <div class="d-none d-sm-none d-md-block col-md-6 col-lg-6 col-xl-6">
+          <img id="featured-img" src="{{ featured.image }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

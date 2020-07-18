@@ -1,0 +1,24 @@
+#featured-container {
+  width: 100vw;
+  background: white;
+  box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+
+#featured-title {
+  font-family: Poppins;
+  font-size: 2em;
+  color: white;
+}
+
+#featured-description {
+  font-family: Roboto;
+  color: white;
+}
+
+#featured-img {
+  position: relative;
+  display: block;
+  vertical-align: center;
+  object-fit: cover;
+  width: 80%;
+}

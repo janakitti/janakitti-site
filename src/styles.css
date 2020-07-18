@@ -23,3 +23,8 @@
   font-family: Poppins;
   font-size: 1.5em;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
