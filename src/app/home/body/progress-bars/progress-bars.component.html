@@ -1,18 +1,17 @@
-
-  <h2 class="section-title">Progress Bars</h2>
-  <div *ngFor="let item of progressItems" class="progress-container my-3">
-    <h2 class="progress-text" [ngStyle]="{'color': item.color1}">{{ item.name }}</h2>
-    <div class="progress-status-container">
-      <div class="progress-status"
-           [ngStyle]="{'width': item.percentage + '%',
-                     'background-color': item.color1,
-                     'background': 'repeating-linear-gradient(-55deg,'
-                                    +item.color1+','
-                                    +item.color1+' 10px,'
-                                    +item.color2+' 10px,'
-                                    +item.color2+' 20px'}">
-      </div>
+<h2 class="section-title">Progress</h2>
+<div *ngFor="let item of progressItems" class="progress-container my-3">
+  <h2 class="progress-text" [ngStyle]="{'color': item.color1}">{{ item.name }}</h2>
+  <div class="progress-status-container">
+    <div class="progress-status"
+         [ngStyle]="{'width': item.percentage + '%',
+                   'background-color': item.color1,
+                   'background': 'repeating-linear-gradient(-55deg,'
+                                  +item.color1+','
+                                  +item.color1+' 10px,'
+                                  +item.color2+' 10px,'
+                                  +item.color2+' 20px'}">
     </div>
   </div>
+</div>
 
 

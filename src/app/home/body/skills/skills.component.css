@@ -13,3 +13,9 @@
 .skill-item:hover {
   background-color: #cccccc;
 }
+
+.skill-header {
+  font-family: Poppins;
+  font-size: 1em;
+  color: #595959;
+}
