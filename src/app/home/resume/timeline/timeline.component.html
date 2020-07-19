@@ -2,16 +2,8 @@
   <div class="row d-flex justify-content-center">
     <div class="col-12 timeline-container" id="timeline-container-scroll">
       <div class="vertical-center" id="present">
-        <table>
-          <tr>
-            <td>
-              <span id="timeline-scroll-text">Scroll</span>
-            </td>
-            <td>
-              <img src="../../../../assets/icons/chevrons-left.svg" id="timeline-chevrons">
-            </td>
-          </tr>
-        </table>
+        <span id="timeline-scroll-text">Scroll</span>
+        <img src="../../../../assets/icons/chevrons-left.svg" id="timeline-chevrons">
       </div>
       <div *ngFor="let ach of achievements" class="event">
         <span class="title">{{ ach.title }}</span>
