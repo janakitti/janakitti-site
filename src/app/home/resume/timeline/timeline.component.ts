@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Achievement} from '../../../shared/interfaces';
 
-declare var $: any;
-
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
@@ -18,8 +16,6 @@ export class TimelineComponent implements OnInit {
   ];
   constructor() { }
 
-  ngOnInit(): void {
-    $('#timeline-container-scroll').scrollLeft(1000);
-  }
+  ngOnInit(): void { }
 
 }
