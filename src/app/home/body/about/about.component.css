@@ -1,11 +1,16 @@
 #profile-pic {
   height: 6em;
   width: 6em;
-  position: center;
   border: 0.4em solid #FFFFFF;
+  align-self: center;
   display: inline-block;
   border-radius: 100em;
   box-shadow: 0 0 0.1em #595959;
+}
+
+#profile-pic-col {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #about-title {
