@@ -9,25 +9,31 @@
 
 .project-title {
   font-family: Roboto;
+  font-weight: bold;
   font-size: 1.3em;
+  line-height: 0;
 }
 
 .experience-position {
   font-family: Roboto;
+  font-weight: bold;
   font-size: 1.3em;
+  line-height: 0;
 }
 
 .experience-organization {
   font-family: Roboto;
   font-weight: lighter;
   font-size: 1.3em;
+  line-height: 0;
 }
 
 .date {
   font-family: Roboto;
   font-weight: lighter;
   font-size: 0.9em;
-  line-height: 0.7em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .desc {
