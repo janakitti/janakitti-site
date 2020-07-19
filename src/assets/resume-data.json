@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "title": "virtrolio",
+      "date": "May 2020 - present",
+      "tech": ["Angular", "TypeScript", "Firebase"],
+      "description": ["Web service allowing students practicing physical distancing due to COVID-19 to sign each others yearbooks virtually",
+        "Front-end work"]
+    }
+  ],
+  "experiences": [
+    {
+      "organization": "Providius Corp",
+      "position": "Software Engineering Co-op",
+      "date": "May 2020 - present",
+      "location": "Hamilton, ON",
+      "description": ["Developed Angular/Python web app for simulating real world data flow on a network"]
+    }
+  ]
+}

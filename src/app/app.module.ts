@@ -13,6 +13,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ResumeComponent } from './home/resume/resume.component';
 import { TimelineComponent } from './home/resume/timeline/timeline.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { TimelineComponent } from './home/resume/timeline/timeline.component';
     TimelineComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
