@@ -5,6 +5,7 @@
 .timeline-container {
   display: flex;
   flex-direction: row;
+  direction: rtl;
   overflow-x: auto;
 }
 
@@ -13,9 +14,20 @@
   padding: 2em 5em;
   margin-bottom: 0.3em;
   width: auto;
+}
 
-  font-family: Poppins;
-  font-size: 1.2em;
+.title {
+  font-family: Roboto;
+  font-size: 1.3em;
+  line-height: 0;
+}
+
+.date {
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .dot {
@@ -28,26 +40,30 @@
 }
 
 #present {
-  padding: 0;
+  padding-right: 50%;
+  padding: 2em 5em;
   margin-bottom: 0.3em;
-  width: auto;
+  width: 100vw;
 
   font-family: Poppins;
   font-size: 1.2em;
 }
 
-#dot-present {
-  position: absolute;
-  bottom: 0em;
-  height: 0.8em;
-  width: 0.8em;
-  border-radius: 100%;
-  background: black;
-}
-
 #present-spacer {
   background: red;
   width: 20em;
+}
+
+#timeline-chevrons {
+  float: left;
+}
+
+#timeline-scroll-text {
+  float: right;
+}
+
+#triangle-right {
+
 }
 
 ::-webkit-scrollbar {

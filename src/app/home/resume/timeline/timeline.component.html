@@ -1,12 +1,22 @@
 <div class="container-fluid full-width pb-5" id="timeline-container">
   <div class="row d-flex justify-content-center">
     <div class="col-12 timeline-container" id="timeline-container-scroll">
-      <div *ngFor="let ach of achievements" class="event">
-        {{ ach.title }}
-        <div class="dot"></div>
+      <div class="vertical-center" id="present">
+        <table>
+          <tr>
+            <td>
+              <span id="timeline-scroll-text">Scroll</span>
+            </td>
+            <td>
+              <img src="../../../../assets/icons/chevrons-left.svg" id="timeline-chevrons">
+            </td>
+          </tr>
+        </table>
       </div>
-      <div id="present">
-        <div id="dot-present"></div>
+      <div *ngFor="let ach of achievements" class="event">
+        <span class="title">{{ ach.title }}</span>
+        <p class="date">{{ ach.date }}</p>
+        <div class="dot"></div>
       </div>
     </div>
   </div>
