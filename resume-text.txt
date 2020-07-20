@@ -1,0 +1,40 @@
+#Project
+virtrolio
+May 2020 - present
+Angular, TypeScript, Firebase
+Web service allowing students practicing physical distancing due to COVID-19 to sign each others yearbooks virtually
+Front-end work
+//
+#Project
+FedoraField
+Oct 2019 - present
+C#, Unity, Adobe Illustrator
+Developed a game in which players interact with enemy projectiles using gravitational and magnetic fields
+Modelled object interactions with various fields using the Unity physics engine
+Created a level loading system and an adaptive soundtrack using Unity coroutines
+//
+#Project
+Tangible
+Oct 2019 - Dec 2019
+Arduino, C++, Unity
+Built a 'universal touchscreen' accessory with Arduino ultrasonic sensors to enable touchscreen capability\n on non-touchscreen monitors
+Programmed a finger-mapping system to process sensor inputs as taps and gestures on the screen
+Developed a collection of touch-optimized C# applets to demonstrate effectiveness of hardware
+//
+#Experience
+Programmer
+Team 4308: Absolute Robotics - FIRST Robotics
+Sep 2017 - Apr 2019
+Mississauga, ON
+Developed the computer vision pipeline to identify target objects on the playing field using Python
+Qualified as 2018 FIRST Robotics World Championship Divisional Semi-Finalists
+Rebranded the Absolute Robotics organization, increasing student engagement within the school
+//
+#Experience
+Entrepreneurial Competitor
+DECA Business Competition
+Sep 2017 - Apr 2019
+Mississauga, ON
+Prepared a business plan and pitch for a startup company idea
+Competed at the international competition in Atlanta, Georgia
+//
