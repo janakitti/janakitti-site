@@ -67,5 +67,18 @@
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dddddd;
+  border-radius: 100em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
 }
