@@ -31,14 +31,30 @@
 #landing-title {
   font-family: Poppins;
   font-weight: normal;
-  font-size: 6em;
+  font-size: 8vw;
+  color: black;
+}
+
+#landing-title-mobile {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 16vw;
   color: black;
 }
 
 #landing-subtitle {
   font-family: Poppins;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.2vw;
+  text-align: right;
+  line-height: 0;
+  color: black;
+}
+
+#landing-subtitle-mobile {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 4vw;
   text-align: right;
   line-height: 0;
   color: black;

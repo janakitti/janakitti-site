@@ -1,0 +1,18 @@
+.featured-card {
+  background: red;
+  border-radius: 1em;
+  height: 7em;
+  overflow: hidden;
+}
+
+.featured-card-row {
+  height: 100%;
+}
+
+.featured-card-img {
+  background: pink;
+}
+
+.featured-card-text {
+  background: white;
+}

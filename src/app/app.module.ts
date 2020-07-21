@@ -14,6 +14,7 @@ import { ResumeComponent } from './home/resume/resume.component';
 import { TimelineComponent } from './home/resume/timeline/timeline.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FeaturedCardComponent } from './home/body/progress-bars/featured-card/featured-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     FeaturedComponent,
     FooterComponent,
     ResumeComponent,
-    TimelineComponent
+    TimelineComponent,
+    FeaturedCardComponent
   ],
   imports: [
     BrowserModule,
