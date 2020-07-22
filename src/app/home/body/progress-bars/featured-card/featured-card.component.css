@@ -1,7 +1,8 @@
 .featured-card {
-  background: red;
+  background: rgb(250,128,114);
+  background: linear-gradient(45deg, rgba(250,128,114,1) 0%, rgba(230,113,109,1) 100%);
   border-radius: 1em;
-  height: 7em;
+  height: auto;
   overflow: hidden;
 }
 
@@ -10,9 +11,27 @@
 }
 
 .featured-card-img {
-  background: pink;
+  background: url('../../../../../assets/images/featured-img.png') no-repeat center;
+  background-size: cover;
+  opacity: 0.5;
 }
 
 .featured-card-text {
   background: white;
+}
+
+.featured-card-featured {
+  font-family: Poppins;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+}
+
+.featured-card-title {
+  font-family: Poppins;
+  font-size: 1.2em;
+}
+
+.featured-card-body {
+  font-family: Roboto;
+  font-size: 0.9em;
 }
