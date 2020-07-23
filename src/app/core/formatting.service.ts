@@ -18,6 +18,7 @@ export class FormattingService {
     'Adobe After Effects': '#8002ad',
     'Motion 5': '#ff369e',
     'Autodesk Inventor': '#f23d29',
+    'MS PowerPoint': '#ff5e00',
     'Firebase': '#f2c629',
     'Bootstrap': '#bc1fd1',
     'Angular': '#e30000',

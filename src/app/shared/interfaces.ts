@@ -7,7 +7,6 @@ export interface ProgressItems {
 
 export interface SkillItem {
   name: string;
-  color: string;
 }
 
 export interface FeaturedItem {
