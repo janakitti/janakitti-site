@@ -55,3 +55,13 @@
 ul {
   padding-left: 1em;
 }
+
+a {
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: aqua;
+}

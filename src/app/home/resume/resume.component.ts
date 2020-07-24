@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {Resume} from '../../shared/interfaces';
 import {FormattingService} from '../../core/formatting.service';
 import {HttpClient} from '@angular/common/http';
@@ -6,7 +6,8 @@ import {HttpClient} from '@angular/common/http';
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css']
+  styleUrls: ['./resume.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ResumeComponent implements OnInit {
   resume: Resume = {projects: [], experiences: []};

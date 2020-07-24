@@ -22,7 +22,7 @@
             <span class="experience-organization">{{ exp.organization }}</span>
             <p class="date">{{ exp.date }}</p>
             <ul>
-              <li *ngFor="let desc of exp.description" class="desc"> {{ desc }}</li>
+              <li *ngFor="let desc of exp.description" class="desc" [innerHTML]="desc"></li>
             </ul>
           </div>
         </div>
