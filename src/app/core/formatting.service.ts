@@ -8,7 +8,7 @@ export class FormattingService {
   skillpills = {
     'Python': '#82cf06',
     'C++': '#f77977',
-    'TypeScript': '#ff9429',
+    'TypeScript': '#027be6',
     'HTML': '#ff7700',
     'CSS': '#fc0d55',
     'SQL': '#35f2ad',
