@@ -56,12 +56,12 @@ ul {
   padding-left: 1em;
 }
 
-a {
+.resume-link {
   color: #000000;
   font-weight: bold;
 }
 
-a:hover {
+.resume-link:hover {
   text-decoration: none;
   color: aqua;
 }

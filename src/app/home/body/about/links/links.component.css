@@ -15,3 +15,12 @@
   font-size: 1em;
   padding: 0.3em 0.7em;
 }
+
+.link-link {
+  color: black;
+}
+
+.link-link:hover {
+  color: #555555;
+  text-decoration: none;
+}
