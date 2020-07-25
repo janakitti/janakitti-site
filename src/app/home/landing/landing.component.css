@@ -105,6 +105,18 @@
   padding-left: 1em;
 }
 
+#socials-bar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.social {
+  height: 1.5em;
+  width: 1.5em;
+}
+
 .a:link {
   color: black;
 }
