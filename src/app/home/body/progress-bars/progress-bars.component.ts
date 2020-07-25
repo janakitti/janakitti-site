@@ -19,7 +19,7 @@ export class ProgressBarsComponent implements OnInit {
     this.progressItems = [
       { name: 'Bachelor of Software Engineering', percentage: sePercentage, color1: '#a13cc9', color2: '#ae54d1' },
       { name: 'Coop @ Providius Corp', percentage: coopPercentage, color1: '#ff6e63', color2: '#fc7e74' },
-      { name: 'This website', percentage: 60, color1: '#76dec2', color2: '#8fe3cc' }
+      { name: 'This website', percentage: 80, color1: '#76dec2', color2: '#8fe3cc' }
     ];
   }
 
