@@ -2,9 +2,11 @@
   background: #1f1f1f;
 }
 
-#footer-text {
+.footer-text {
   font-family: Poppins;
+  font-weight: lighter;
   font-size: 1em;
+  letter-spacing: 0.2em;
   color: white;
 }
 
