@@ -9,7 +9,9 @@
         "Firebase"
       ],
       "description": [
-        "Web service allowing students practicing physical distancing due to COVID-19 to sign each others yearbooks virtually"
+        "Created a web service allowing students practicing physical distancing due to COVID-19 to sign each others yearbooks virtually",
+        "Developed the front-end component for viewing yearbook messages using Angular and Bootstrap",
+        "Utilized Firebase Cloud Firestore to store user and message data"
       ],
       "link": "virtrolio.web.app/"
     },
