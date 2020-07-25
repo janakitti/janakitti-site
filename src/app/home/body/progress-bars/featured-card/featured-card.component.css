@@ -13,7 +13,7 @@
 .featured-card-img {
   background: url('../../../../../assets/images/featured-img.png') no-repeat center;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .featured-card-text {
