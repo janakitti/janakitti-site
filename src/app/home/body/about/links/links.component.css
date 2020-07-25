@@ -1,0 +1,17 @@
+.links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link-item {
+  background-color: #eeeeee;
+  display: inline-block;
+  border-radius: 30px;
+
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.3em 0.7em;
+}

@@ -1,1 +1,7 @@
-<p>links works!</p>
+<div class="links-container">
+  <div *ngFor="let link of links" class="link-item my-2 mx-2">
+    <a href="{{ link.link }}" target="_blank">
+      {{ link.name }}
+    </a>
+  </div>
+</div>

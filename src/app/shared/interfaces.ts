@@ -1,3 +1,9 @@
+export interface LinkItem {
+  name: string;
+  color: string;
+  link: string;
+}
+
 export interface ProgressItems {
   name: string;
   percentage: number;
