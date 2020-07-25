@@ -29,6 +29,7 @@ export interface ResumeProject {
   date: string;
   tech: string[];
   description: string[];
+  link: string;
 }
 
 export interface ResumeExperience {
@@ -39,9 +40,25 @@ export interface ResumeExperience {
   description: string[];
 }
 
+export interface ResumeAchievement {
+  title: string;
+  date: string;
+  description: string;
+}
+
+export interface ResumePortfolio {
+  title: string;
+  subtitle: string;
+  date: string;
+  description: string;
+  link: string;
+}
+
 export interface Resume {
   projects: ResumeProject[];
   experiences: ResumeExperience[];
+  achievements: ResumeAchievement[];
+  portfolios: ResumePortfolio[];
 }
 
 export interface Achievement {

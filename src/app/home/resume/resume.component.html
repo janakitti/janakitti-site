@@ -4,8 +4,11 @@
       <div class="row">
         <div class="order-1 col-12 col-md-6 mb-4 px-0 px-md-5">
           <h2 class="resume-header">Projects</h2>
-          <div *ngFor="let project of resume.projects" class="project mt-4">
+          <div *ngFor="let project of resume.projects" class="project my-4">
             <span class="project-title">{{ project.title }}</span>
+            <a href="//{{ project.link}}" target="_blank">
+              <img src="../../../assets/icons/link.svg" class="link-arrow ml-2 pb-1">
+            </a>
             <p class="date">{{ project.date }}</p>
             <div *ngFor="let tech of project.tech" class="tech mb-2 mr-2" [ngStyle]="{'color': formatService.skillpills[tech]}">
               {{ tech }}
@@ -17,13 +20,28 @@
         </div>
         <div class="order-2 col-12 col-md-6 mb-4 px-0 px-md-5">
           <h2 class="resume-header">Experiences</h2>
-          <div *ngFor="let exp of resume.experiences" class="project mt-4">
+          <div *ngFor="let exp of resume.experiences" class="project my-4">
             <span class="experience-position">{{ exp.position }} | </span>
             <span class="experience-organization">{{ exp.organization }}</span>
             <p class="date">{{ exp.date }}</p>
             <ul>
               <li *ngFor="let desc of exp.description" class="desc" [innerHTML]="desc"></li>
             </ul>
+          </div>
+          <h2 class="resume-header">Long-Term Projects</h2>
+          <div *ngFor="let port of resume.portfolios" class="project my-4">
+            <span class="experience-position">{{ port.title }} | </span>
+            <span class="experience-organization">{{ port.subtitle }}</span>
+            <a href="//{{ port.link}}" target="_blank">
+              <img src="../../../assets/icons/link.svg" class="link-arrow ml-2 pb-1">
+            </a>
+            <p class="date">Created in {{ port.date }}</p>
+            <p class="desc">{{ port.description }}</p>
+          </div>
+          <h2 class="resume-header">Achievements</h2>
+          <div *ngFor="let ach of resume.achievements" class="project my-4">
+            <span class="achievement-date">{{ ach.date }}</span>
+            <span class="achievement-title"> // {{ ach.title }}</span>
           </div>
         </div>
       </div>

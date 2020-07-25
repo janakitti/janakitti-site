@@ -10,7 +10,7 @@ import {HttpClient} from '@angular/common/http';
   encapsulation: ViewEncapsulation.None
 })
 export class ResumeComponent implements OnInit {
-  resume: Resume = {projects: [], experiences: []};
+  resume: Resume = {projects: [], experiences: [], achievements: [], portfolios: []};
 
   constructor(public formatService: FormattingService, private http: HttpClient) {
     this.http.get<Resume>('../../../assets/resume-data.json').subscribe(data => {

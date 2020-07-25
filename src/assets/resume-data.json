@@ -11,7 +11,8 @@
       "description": [
         "Web service allowing students practicing physical distancing due to COVID-19 to sign each others yearbooks virtually",
         "Front-end work"
-      ]
+      ],
+      "link": "virtrolio.web.app/"
     },
     {
       "title": "FedoraField",
@@ -25,7 +26,8 @@
         "Developed a game in which players interact with enemy projectiles using gravitational and magnetic fields",
         "Modelled object interactions with various fields using the Unity physics engine",
         "Created a level loading system and an adaptive soundtrack using Unity coroutines"
-      ]
+      ],
+      "link": "/github.com/janakitti/FedoraField"
     },
     {
       "title": "Tangible",
@@ -36,10 +38,39 @@
         "Unity"
       ],
       "description": [
-        "Built a 'universal touchscreen' accessory with Arduino ultrasonic sensors to enable touchscreen capability\\n on non-touchscreen monitors",
+        "Built a 'universal touchscreen' accessory with Arduino ultrasonic sensors to enable touchscreen capability on non-touchscreen monitors",
         "Programmed a finger-mapping system to process sensor inputs as taps and gestures on the screen",
         "Developed a collection of touch-optimized C# applets to demonstrate effectiveness of hardware"
-      ]
+      ],
+      "link": ""
+    },
+    {
+      "title": "MAGNET",
+      "date": "Sep 2018 // Hack the North '18",
+      "tech": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "Raspberry Pi"
+      ],
+      "description": [
+        "Constructed a projectile-catching robot with a holonomic drive train controlled by an Arduino",
+        "Used OpenCV library in Python on a Raspberry Pi to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets"
+      ],
+      "link": "devpost.com/software/magnet"
+    },
+    {
+      "title": "Employee Management System",
+      "date": "Oct 2017 - Jan 2018",
+      "tech": [
+        "Java",
+        "NetBeans"
+      ],
+      "description": [
+        "Built a desktop application to manage employee profiles, applying object-oriented programming principles",
+        "Implemented a hash table from scratch for efficient data retrieval"
+      ],
+      "link": "devpost.com/software/magnet"
     }
   ],
   "experiences": [
@@ -77,6 +108,54 @@
         "Prepared a business plan and pitch for a startup company idea",
         "Competed at the international competition in Atlanta, Georgia"
       ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Ted Rogers Scholar",
+      "date": "2019",
+      "description": ""
+    },
+    {
+      "title": "Schulich Leader's Scholarship Winner",
+      "date": "2019",
+      "description": ""
+    },
+    {
+      "title": "UWaterloo | President's Scholarship",
+      "date": "2019",
+      "description": ""
+    },
+    {
+      "title": "DECA Provincial Champion",
+      "date": "2019",
+      "description": ""
+    },
+    {
+      "title": "Winning DECA Ontario Competition Shirt Design",
+      "date": "2018",
+      "description": ""
+    },
+    {
+      "title": "FIRST Robotics World Championship",
+      "date": "2018",
+      "description": ""
+    }
+  ],
+  "portfolios": [
+    {
+      "title": "artwork.jr",
+      "subtitle": "Art Portfolio",
+      "date": "2019",
+      "description": "artwork.jr is a visual arts portfolio where I showcase some of my graphics design work. On my spare time, I create logos, posters, UI, and creative spins on artwork from the pop culture (i.e. turning songs into movie posters, turning movies into album covers, etc.).",
+      "link": "instagram.com/artwork.jr/"
+    },
+    {
+      "title": "WizardOfColours",
+      "subtitle": "YouTube Channel",
+      "date": "2015",
+      "description": "WizardOfColours is a YouTube channel that showcases creative projects made using minimal technical resources. The channel was inspired by my dream of creating video games and animations despite not having the skills nor the software at the time to do so.",
+      "link": "youtube.com/channel/UCqDA91GZPdKF69dodlUE7xA"
     }
   ]
 }

@@ -28,6 +28,25 @@
   line-height: 0;
 }
 
+.achievement-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 0;
+}
+
+.achievement-date {
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.achievement-desc {
+  margin: 0;
+}
+
 .date {
   font-family: Roboto;
   font-weight: lighter;
@@ -64,4 +83,9 @@ ul {
 .resume-link:hover {
   text-decoration: none;
   color: aqua;
+}
+
+.link-arrow {
+  height: 1.4em;
+  width: 1.4em;
 }
