@@ -15,6 +15,7 @@ import { TimelineComponent } from './home/resume/timeline/timeline.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FeaturedCardComponent } from './home/body/progress-bars/featured-card/featured-card.component';
+import { LinksComponent } from './home/body/about/links/links.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FeaturedCardComponent } from './home/body/progress-bars/featured-card/f
     FooterComponent,
     ResumeComponent,
     TimelineComponent,
-    FeaturedCardComponent
+    FeaturedCardComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
