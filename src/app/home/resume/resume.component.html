@@ -36,7 +36,7 @@
               <img src="../../../assets/icons/link.svg" class="link-arrow ml-2 pb-1">
             </a>
             <p class="date">Created in {{ port.date }}</p>
-            <p class="desc">{{ port.description }}</p>
+            <p class="desc" [innerHTML]="port.description"></p>
           </div>
           <h2 class="resume-header">Achievements</h2>
           <div *ngFor="let ach of resume.achievements" class="project my-4">

@@ -1,6 +1,6 @@
 import json
 
-resume = {'projects': [], 'experiences': []}
+resume = {'projects': [], 'experiences': [], 'portfolios': [], 'achievements': []}
 
 file = open('resume-text.txt', 'r')
 
@@ -10,10 +10,12 @@ while True:
     project = {'title': '',
                'date': '',
                'tech': [],
-               'description': []}
+               'description': [],
+               'link': ''}
     project['title'] = file.readline().replace("\n", "")
     project['date'] = file.readline().replace("\n", "")
     project['tech'] = file.readline().replace("\n", "").split(', ')
+    project['link'] = file.readline().replace("\n", "")
     desc = file.readline().replace("\n", "")
     while desc != '//':
       project['description'].append(desc)
@@ -34,6 +36,26 @@ while True:
       experience['description'].append(desc)
       desc = file.readline().replace("\n", "")
     resume['experiences'].append(experience)
+  elif line == '#Portfolio':
+    portfolio = {'title': '',
+               'subtitle': '',
+               'date': '',
+               'description': '',
+               'link': ''}
+    portfolio['title'] = file.readline().replace("\n", "")
+    portfolio['subtitle'] = file.readline().replace("\n", "")
+    portfolio['date'] = file.readline().replace("\n", "")
+    portfolio['link'] = file.readline().replace("\n", "")
+    portfolio['description'] = file.readline().replace("\n", "")
+    resume['portfolios'].append(portfolio)
+  elif line == '#Achievement':
+    achievement = {'title': '',
+               'date': '',
+               'description': ''}
+    achievement['title'] = file.readline().replace("\n", "")
+    achievement['date'] = file.readline().replace("\n", "")
+    achievement['description'] = file.readline().replace("\n", "")
+    resume['achievements'].append(achievement)
   if not line:
     break
 
