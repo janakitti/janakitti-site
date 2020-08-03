@@ -1,5 +1,8 @@
-#project-card-row {
+#project-card-row-container {
   background: var(--main-grey);
+}
+
+#project-card-row {
   display: flex;
   flex-direction: row;
   overflow-x: auto;

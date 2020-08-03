@@ -1,8 +1,12 @@
-<div class="pb-5" id="project-card-row">
-  <div *ngFor="let project of dataService.resume.projects" class="project-card">
-    <div class="card-background"
-         [ngStyle]="{'background': 'url(' + project.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
+<div class="pb-5" id="project-card-row-container">
+  <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1500" id="project-card-row">
+    <div *ngFor="let project of dataService.resume.projects" class="project-card my-5">
+      <a href="//{{ project.link }}" target="_blank">
+        <div class="card-background"
+             [ngStyle]="{'background': 'url(' + project.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
 
+        </div>
+      </a>
     </div>
   </div>
 </div>
