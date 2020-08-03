@@ -1,19 +1,27 @@
-<div class="pb-5" id="project-card-row-container">
-
-    <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
-      <drag-scroll [scrollbar-hidden]="true">
-      <div *ngFor="let project of dataService.resume.projects" drag-scroll-item class="vertical-center project-card my-5">
-        <a href="//{{ project.link }}" target="_blank">
-          <div class="card-background"
-               [ngStyle]="{'background': 'url(' + project.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
-
-          </div>
-        </a>
+<div class="container-fluid full-width background">
+  <div class="row d-flex justify-content-center">
+    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+      <div class="row">
+        <div class="col-12 px-0 px-md-5">
+          <h2 class="section-title">Gallery</h2>
+        </div>
       </div>
-      </drag-scroll>
     </div>
+  </div>
+</div>
+<div class="background">
+  <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
+    <drag-scroll [scrollbar-hidden]="true" [snap-disabled]="true" class="vertical-center">
+    <div *ngFor="let project of dataService.resume.projects" drag-scroll-item class="vertical-center project-card my-3">
+      <a href="//{{ project.link }}" target="_blank">
+        <div class="card-background"
+             [ngStyle]="{'background': 'url(' + project.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
 
-
+        </div>
+      </a>
+    </div>
+    </drag-scroll>
+  </div>
 </div>
 
 

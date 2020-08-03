@@ -1,4 +1,4 @@
-#project-card-row-container {
+.background {
   background: var(--main-grey);
 }
 
@@ -6,7 +6,7 @@
 }
 
 drag-scroll {
-  height: 30em;
+  height: 24em;
   width: 100%;
 }
 
@@ -15,10 +15,10 @@ drag-scroll {
   background: red;
   height: 20em;
   width: 15em;
-  margin: 0 3em;
+  margin: 0 2em;
   border-radius: 1em;
   flex-shrink: 0;
-  box-shadow: 10px 10px 43px -15px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 25px -19px rgba(0,0,0,0.75);
   overflow: hidden;
 }
 

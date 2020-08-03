@@ -42,7 +42,7 @@ Employee Management System
 Oct 2017 - Jan 2018
 Java, NetBeans
 
-../../../../assets/im
+../../../assets/images/ems.svg
 Built a desktop application to manage employee profiles, applying object-oriented programming principles
 Implemented a hash table from scratch for efficient data retrieval
 //
