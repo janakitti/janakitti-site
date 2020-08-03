@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FeaturedCardComponent } from './home/body/progress-bars/featured-card/featured-card.component';
 import { LinksComponent } from './home/body/about/links/links.component';
 import { ProjectCardsComponent } from './home/project-cards/project-cards.component';
+import { DragScrollModule } from 'ngx-drag-scroll';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ProjectCardsComponent } from './home/project-cards/project-cards.compon
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    DragScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
