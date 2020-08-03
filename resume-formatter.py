@@ -43,11 +43,13 @@ while True:
                'subtitle': '',
                'date': '',
                'description': '',
-               'link': ''}
+               'link': '',
+               'image': ''}
     portfolio['title'] = file.readline().replace("\n", "")
     portfolio['subtitle'] = file.readline().replace("\n", "")
     portfolio['date'] = file.readline().replace("\n", "")
     portfolio['link'] = file.readline().replace("\n", "")
+    portfolio['image'] = file.readline().replace("\n", "")
     portfolio['description'] = file.readline().replace("\n", "")
     resume['portfolios'].append(portfolio)
   elif line == '#Achievement':

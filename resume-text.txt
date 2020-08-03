@@ -22,7 +22,7 @@ Created a level loading system and an adaptive soundtrack using Unity coroutines
 Tangible
 Oct 2019 - Dec 2019
 Arduino, C++, Unity
-
+git.uwaterloo.ca/jratanar/Tangible
 ../../../assets/images/tangible.svg
 Built a 'universal touchscreen' accessory with Arduino ultrasonic sensors to enable touch screen capability on non-touchscreen monitors
 Programmed a finger-mapping system to process sensor inputs as taps and gestures on the screen
@@ -41,7 +41,7 @@ Used OpenCV library in Python on a Raspberry Pi to generate binary images from U
 Employee Management System
 Oct 2017 - Jan 2018
 Java, NetBeans
-
+github.com/ningsongshen/employee-management-system
 ../../../assets/images/ems.svg
 Built a desktop application to manage employee profiles, applying object-oriented programming principles
 Implemented a hash table from scratch for efficient data retrieval
@@ -80,12 +80,14 @@ artwork.jr
 Art Portfolio
 2019
 instagram.com/artwork.jr
+../../../assets/images/jr.svg
 artwork.jr is a visual arts portfolio where I showcase some of my graphics design work. On my spare time, I create logos, posters, UI, and creative spins on artwork from the pop culture (i.e. turning songs into movie posters, turning movies into album covers, etc.).
 #Portfolio
 WizardOfColours
 YouTube Channel
 2015
 youtube.com/channel/UCqDA91GZPdKF69dodlUE7xA
+../../../assets/images/wizard.svg
 WizardOfColours is a YouTube channel that showcases creative projects made using minimal technical resources. The projects on this channel were motivated by a desire to bring my video game and animation ideas to life at a time when I didn't have quite enough technical knowledge or access to professional software. Here are some of the project's I have showcased:<ul><li><b>Chromatic Squares</b>: A 7-level platformer game with on-screen controls, powerups, gravity, soundtrack, level-progress memory, and a sleek menu interface. Created entirely using 440+ slides in MS PowerPoint.</li><li><b>Paint Galaxy</b>: A cursor game where you navigate through a course while avoiding obstacles. Includes a tutorial section, 21 unique levels in 5 different worlds, and final boss with health bar. Created using MS PowerPoint.</li><li><b>Sticky Note</b>: A two-episode 'animation IRL' series that follows a character drawn on a sticky note that comes to life and interacts with the real-world environment. Created using MS PowerPoint, iMovie and Motion 5.</li><ul>
 #Achievement
 Ted Rogers Scholar

@@ -53,6 +53,7 @@ export interface ResumePortfolio {
   date: string;
   description: string;
   link: string;
+  image: string;
 }
 
 export interface Resume {
