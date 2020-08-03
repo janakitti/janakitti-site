@@ -30,6 +30,7 @@ export interface ResumeProject {
   tech: string[];
   description: string[];
   link: string;
+  image: string;
 }
 
 export interface ResumeExperience {

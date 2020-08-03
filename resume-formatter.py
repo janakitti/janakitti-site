@@ -11,11 +11,13 @@ while True:
                'date': '',
                'tech': [],
                'description': [],
-               'link': ''}
+               'link': '',
+               'image': ''}
     project['title'] = file.readline().replace("\n", "")
     project['date'] = file.readline().replace("\n", "")
     project['tech'] = file.readline().replace("\n", "").split(', ')
     project['link'] = file.readline().replace("\n", "")
+    project['image'] = file.readline().replace("\n", "")
     desc = file.readline().replace("\n", "")
     while desc != '//':
       project['description'].append(desc)

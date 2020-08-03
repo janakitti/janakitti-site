@@ -8,8 +8,18 @@
 .project-card {
   background: red;
   height: 20em;
-  width: 20em;
+  width: 15em;
   margin: 0 3em;
-  border-radius: 2em;
+  border-radius: 1em;
   flex-shrink: 0;
+  box-shadow: 10px 10px 43px -15px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+
+.card-background {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

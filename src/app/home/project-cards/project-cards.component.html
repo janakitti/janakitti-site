@@ -1,6 +1,9 @@
 <div class="pb-5" id="project-card-row">
-  <div class="project-card">
+  <div *ngFor="let project of dataService.resume.projects" class="project-card">
+    <div class="card-background"
+         [ngStyle]="{'background': 'url(' + project.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
 
+    </div>
   </div>
 </div>
 

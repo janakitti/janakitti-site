@@ -3,6 +3,7 @@ virtrolio
 May 2020 - present
 Angular, TypeScript, Firebase
 virtrolio.web.app
+../../../assets/images/virtrolio.svg
 Created a web service allowing students practicing physical distancing due to COVID-19 to sign each others yearbooks virtually
 Developed the front-end component for viewing yearbook messages using Angular and Bootstrap
 Utilized Firebase Cloud Firestore to store user and message data
@@ -12,6 +13,7 @@ FedoraField
 Oct 2019 - present
 C#, Unity, Adobe Illustrator
 github.com/janakitti/FedoraField
+../../../assets/images/fedora-field.svg
 Developed a game in which players interact with enemy projectiles using gravitational and magnetic fields
 Modelled object interactions with various fields using the Unity physics engine
 Created a level loading system and an adaptive soundtrack using Unity coroutines
@@ -21,6 +23,7 @@ Tangible
 Oct 2019 - Dec 2019
 Arduino, C++, Unity
 
+../../../assets/images/tangible.svg
 Built a 'universal touchscreen' accessory with Arduino ultrasonic sensors to enable touch screen capability on non-touchscreen monitors
 Programmed a finger-mapping system to process sensor inputs as taps and gestures on the screen
 Developed a collection of touch-optimized C# applets to demonstrate effectiveness of hardware
@@ -30,6 +33,7 @@ MAGNET
 Sep 2018 // Hack the North '18
 Python, OpenCV, Arduino, Raspberry Pi
 devpost.com/software/magnet
+../../../assets/images/magnet.svg
 Constructed a projectile-catching robot with a holonomic drive train controlled by an Arduino
 Used OpenCV library in Python on a Raspberry Pi to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets
 //
@@ -38,6 +42,7 @@ Employee Management System
 Oct 2017 - Jan 2018
 Java, NetBeans
 
+../../../../assets/im
 Built a desktop application to manage employee profiles, applying object-oriented programming principles
 Implemented a hash table from scratch for efficient data retrieval
 //

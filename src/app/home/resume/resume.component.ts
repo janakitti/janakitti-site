@@ -1,7 +1,6 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
-import {Resume} from '../../shared/interfaces';
 import {FormattingService} from '../../core/formatting.service';
-import {HttpClient} from '@angular/common/http';
+import {DataService} from '../../core/data.service';
 
 @Component({
   selector: 'app-resume',
@@ -10,13 +9,8 @@ import {HttpClient} from '@angular/common/http';
   encapsulation: ViewEncapsulation.None
 })
 export class ResumeComponent implements OnInit {
-  resume: Resume = {projects: [], experiences: [], achievements: [], portfolios: []};
 
-  constructor(public formatService: FormattingService, private http: HttpClient) {
-    this.http.get<Resume>('../../../assets/resume-data.json').subscribe(data => {
-      this.resume = data;
-    });
-  }
+  constructor(public formatService: FormattingService, public dataService: DataService) {}
 
   ngOnInit(): void {
   }
