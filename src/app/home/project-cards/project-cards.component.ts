@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {DataService} from '../../core/data.service';
-import * as AOS from 'aos';
+// import * as AOS from 'aos';
 
 @Component({
   selector: 'app-project-cards',
@@ -10,7 +10,7 @@ import * as AOS from 'aos';
 export class ProjectCardsComponent implements OnInit {
 
   constructor(public dataService: DataService) {
-    AOS.init();
+    // AOS.init();
   }
 
   ngOnInit(): void {
