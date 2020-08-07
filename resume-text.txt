@@ -1,5 +1,6 @@
 #Project
 virtrolio
+Virtual yearbook-signing web app
 May 2020 - present
 Angular, TypeScript, Firebase
 virtrolio.web.app
@@ -10,6 +11,7 @@ Utilized Firebase Cloud Firestore to store user and message data
 //
 #Project
 FedoraField
+Action video game where gravity is your weapon
 Oct 2019 - present
 C#, Unity, Adobe Illustrator
 github.com/janakitti/FedoraField
@@ -20,6 +22,7 @@ Created a level loading system and an adaptive soundtrack using Unity coroutines
 //
 #Project
 Tangible
+Turn any screen into a touch-screen
 Oct 2019 - Dec 2019
 Arduino, C++, Unity
 git.uwaterloo.ca/jratanar/Tangible
@@ -30,21 +33,13 @@ Developed a collection of touch-optimized C# applets to demonstrate effectivenes
 //
 #Project
 MAGNET
+Projectile-catching robot
 Sep 2018 // Hack the North '18
 Python, OpenCV, Arduino, Raspberry Pi
 devpost.com/software/magnet
 ../../../assets/images/magnet.svg
 Constructed a projectile-catching robot with a holonomic drive train controlled by an Arduino
 Used OpenCV library in Python on a Raspberry Pi to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets
-//
-#Project
-Employee Management System
-Oct 2017 - Jan 2018
-Java, NetBeans
-github.com/ningsongshen/employee-management-system
-../../../assets/images/ems.svg
-Built a desktop application to manage employee profiles, applying object-oriented programming principles
-Implemented a hash table from scratch for efficient data retrieval
 //
 #Experience
 Programmer

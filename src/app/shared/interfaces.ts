@@ -26,6 +26,7 @@ export interface FeaturedItem {
 
 export interface ResumeProject {
   title: string;
+  subtitle: string;
   date: string;
   tech: string[];
   description: string[];

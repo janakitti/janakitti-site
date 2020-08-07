@@ -9,6 +9,7 @@
             <a href="//{{ project.link}}" target="_blank">
               <img src="../../../assets/icons/link.svg" class="link-arrow ml-2 pb-1">
             </a>
+            <p class="subtitle">{{ project.subtitle }}</p>
             <p class="date">{{ project.date }}</p>
             <div *ngFor="let tech of project.tech" class="tech mb-2 mr-2" [ngStyle]="{'color': formatService.skillpills[tech]}">
               {{ tech }}

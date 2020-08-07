@@ -8,12 +8,14 @@ while True:
   line = file.readline().replace("\n", "")
   if line == '#Project':
     project = {'title': '',
+               'subtitle': '',
                'date': '',
                'tech': [],
                'description': [],
                'link': '',
                'image': ''}
     project['title'] = file.readline().replace("\n", "")
+    project['subtitle'] = file.readline().replace("\n", "")
     project['date'] = file.readline().replace("\n", "")
     project['tech'] = file.readline().replace("\n", "").split(', ')
     project['link'] = file.readline().replace("\n", "")
