@@ -19,8 +19,9 @@
   font-size: 1.8em;
 }
 
-#about-body {
+.about-body {
   font-family: Roboto;
+  font-size: 0.9em;
   text-align: justify;
   margin: 0;
 }
