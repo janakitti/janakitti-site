@@ -26,4 +26,12 @@ drag-scroll {
   height: 100%;
 }
 
+#gallery-text {
+  display: inline-block;
+}
 
+#scroll-text {
+  display: inline-block;
+  font-size: 1em;
+  color: #555555;
+}
