@@ -35,3 +35,13 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+a {
+  font-weight: bold;
+  color: #1f1f1f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00dfff;
+}
