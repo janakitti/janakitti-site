@@ -101,6 +101,7 @@
 
 .frame-r {
   text-align: right;
+  font-weight: normal;
   right: 1em;
   padding-left: 1em;
 }
@@ -124,6 +125,3 @@
   width: 1.5em;
 }
 
-.a:link {
-  color: black;
-}
