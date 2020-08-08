@@ -68,3 +68,8 @@ export interface Achievement {
   title: string;
   date: string;
 }
+
+export interface GalleryItem {
+    image: string;
+    link: string;
+}

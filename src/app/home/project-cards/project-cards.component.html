@@ -12,18 +12,10 @@
 <div class="background">
 <!--  <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">-->
     <drag-scroll [scrollbar-hidden]="true" [snap-disabled]="true" class="vertical-center">
-      <div *ngFor="let project of dataService.resume.projects" drag-scroll-item class="vertical-center project-card my-3">
+      <div *ngFor="let project of dataService.gallery" drag-scroll-item class="vertical-center project-card my-3">
         <a href="//{{ project.link }}" target="_blank">
           <div class="card-background"
                [ngStyle]="{'background': 'url(' + project.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
-
-          </div>
-        </a>
-      </div>
-      <div *ngFor="let port of dataService.resume.portfolios" drag-scroll-item class="vertical-center project-card my-3">
-        <a href="//{{ port.link }}" target="_blank">
-          <div class="card-background"
-               [ngStyle]="{'background': 'url(' + port.image + ')', 'background-repeat': 'no-repeat', 'background-position': 'center center', 'background-size': 'contain'}">
 
           </div>
         </a>
