@@ -3,11 +3,11 @@
 }
 .progress-text {
   font-family: Poppins;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .progress-status-container {
-  height: 1.2em;
+  height: 1em;
   border-radius: 0.5em;
   background-color: white;
   overflow: hidden;

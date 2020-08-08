@@ -1,12 +1,12 @@
 .skill-item {
-  background-color: #eeeeee;
+  background-color: #eaeaea;
   margin: 3px;
   display: inline-block;
   border-radius: 30px;
 
   font-family: 'Roboto Mono';
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 0.2em 0.5em;
 }
 
