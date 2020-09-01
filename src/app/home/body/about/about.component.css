@@ -14,13 +14,13 @@
 }
 
 #about-title {
-  font-font: Poppins;
+  font-font: Poppins, sans-serif;
   font-weight: bold;
   font-size: 1.8em;
 }
 
 .about-body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 0.9em;
   text-align: justify;
   margin: 0;
