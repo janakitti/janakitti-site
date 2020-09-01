@@ -43,10 +43,20 @@ Constructed a projectile-catching robot with a holonomic drive train controlled 
 Used OpenCV library in Python on a Raspberry Pi to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets
 //
 #Experience
+Software Engineer
+Providius Corp.
+May 2020 - Aug 2020
+Hamilton, ON
+Angular, Python, C++, Qt
+Built a web app/tool for manipulating the transmission of packets to simulate practical network connections
+Improved performance of network dashboard web app by developing a custom browser using Qt and Chromium Embedded Framework
+//
+#Experience
 Programmer
 Team 4308: Absolute Robotics - FIRST Robotics
 Sep 2017 - Apr 2019
 Mississauga, ON
+Python
 Developed the computer vision pipeline to identify target objects on the playing field using Python
 Qualified as 2018 FIRST Robotics World Championship Divisional Semi-Finalists
 Rebranded the Absolute Robotics organization, increasing student engagement within the school
@@ -56,6 +66,7 @@ Hackathon Hacker
 Various Organizations
 Dec 2016 - present
 Anywhere
+
 <a href="//devpost.com/software/camhunt" target="_blank" class="resume-link">CAMHUNT</a> @ Hack the North 2019
 <a href="//devpost.com/software/magnet" target="_blank" class="resume-link">MAGNET</a> @ Hack the North 2018
 <a href="//devpost.com/software/piing" target="_blank" class="resume-link">Piing</a> @ Hack the Hammer
@@ -68,6 +79,7 @@ Entrepreneurial Competitor
 DECA Business Competition
 Sep 2017 - Apr 2019
 Mississauga, ON
+
 Developed a winning startup company idea called Spark, a parking lot management system designed to minimize traffic congestion in major cities
 Competed at the international level at ICDC in Atlanta, Georgia
 //

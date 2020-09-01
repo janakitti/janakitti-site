@@ -25,6 +25,11 @@
             <span class="experience-position">{{ exp.position }} | </span>
             <span class="experience-organization">{{ exp.organization }}</span>
             <p class="date">{{ exp.date }}</p>
+            <span *ngFor="let tech of exp.tech">
+              <div *ngIf="tech != ''"  class="tech mb-2 mr-2" [ngStyle]="{'color': formatService.skillpills[tech]}" class="tech mb-2 mr-2" [ngStyle]="{'color': formatService.skillpills[tech]}">
+                {{ tech }}
+              </div>
+            </span>
             <ul>
               <li *ngFor="let desc of exp.description" class="desc" [innerHTML]="desc"></li>
             </ul>

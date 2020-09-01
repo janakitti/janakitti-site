@@ -24,6 +24,7 @@ export class FormattingService {
     'Angular': '#e30000',
     'Flask': '#525151',
     'Arduino': '#1aba9d',
+    'Qt': '#22e600'
   };
   constructor() { }
 }

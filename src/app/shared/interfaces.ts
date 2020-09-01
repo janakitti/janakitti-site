@@ -39,6 +39,7 @@ export interface ResumeExperience {
   position: string;
   date: string;
   location: string;
+  tech: string[];
   description: string[];
 }
 

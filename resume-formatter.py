@@ -30,11 +30,13 @@ while True:
                'organization': '',
                'date': '',
                'location': '',
+               'tech': '',
                'description': []}
     experience['position'] = file.readline().replace("\n", "")
     experience['organization'] = file.readline().replace("\n", "")
     experience['date'] = file.readline().replace("\n", "")
     experience['location'] = file.readline().replace("\n", "")
+    experience['tech'] = file.readline().replace("\n", "").split(', ')
     desc = file.readline().replace("\n", "")
     while desc != '//':
       experience['description'].append(desc)
