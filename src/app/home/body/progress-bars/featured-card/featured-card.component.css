@@ -21,18 +21,18 @@
 }
 
 .featured-card-featured {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.2em;
 }
 
 .featured-card-title {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 1.2em;
 }
 
 .featured-card-body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 0.8em;
   margin: 0;
 }

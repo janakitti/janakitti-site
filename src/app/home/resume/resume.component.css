@@ -3,40 +3,40 @@
 }
 
 .resume-header {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;;
   font-size: 2em;
 }
 
 .project-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-weight: bold;
   font-size: 1.3em;
   line-height: 0;
 }
 
 .experience-position {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-weight: bold;
   font-size: 1.3em;
   line-height: 0;
 }
 
 .experience-organization {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-weight: lighter;
   font-size: 1.3em;
   line-height: 0;
 }
 
 .achievement-title {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-weight: bold;
   font-size: 1em;
   line-height: 0;
 }
 
 .achievement-date {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-weight: lighter;
   font-size: 1em;
   line-height: 1.5em;
@@ -48,7 +48,7 @@
 }
 
 .subtitle {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-size: 1em;
   font-style: italic;
   line-height: 1.5em;
@@ -56,7 +56,7 @@
 }
 
 .date {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-weight: lighter;
   font-size: 0.9em;
   line-height: 1.5em;
@@ -64,7 +64,7 @@
 }
 
 .desc {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;;
   font-size: 0.9em;
 }
 
