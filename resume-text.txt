@@ -34,7 +34,7 @@ Developed a small collection of touch-optimized C# applets to demonstrate effect
 //
 #Project
 MAGNET
-Projectile-catching robot
+A projectile-catching robot
 Sep 2018 // Hack the North '18
 Python, OpenCV, Arduino, Raspberry Pi
 devpost.com/software/magnet
@@ -89,7 +89,7 @@ Art Portfolio
 2019
 instagram.com/artwork.jr
 ../../../assets/images/jr.svg
-artwork.jr is a visual arts portfolio where I showcase some of my graphics design work. I’m working on a variety of different art series, such as turning songs into movie posters, turning movies into album covers, minimalist posters, etc.
+artwork.jr is a visual arts portfolio where I showcase some of my graphics design work. I'm working on a variety of different art series, such as turning songs into movie posters, turning movies into album covers, minimalist posters, etc.
 #Portfolio
 WizardOfColours
 YouTube Channel
