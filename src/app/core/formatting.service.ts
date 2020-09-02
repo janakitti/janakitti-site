@@ -11,11 +11,11 @@ export class FormattingService {
     'TypeScript': '#027be6',
     'HTML': '#ff7700',
     'CSS': '#fc0d55',
-    'SQL': '#35f2ad',
+    'SQL': '#2b9e9a',
     'Git': '#b98fc2',
     'Unity': '#5d008f',
-    'Adobe Illustrator': '#e66b00',
-    'Adobe After Effects': '#8002ad',
+    'Illustrator': '#e66b00',
+    'After Effects': '#8002ad',
     'Motion 5': '#ff369e',
     'Autodesk Inventor': '#f23d29',
     'MS PowerPoint': '#ff5e00',
@@ -24,7 +24,10 @@ export class FormattingService {
     'Angular': '#e30000',
     'Flask': '#525151',
     'Arduino': '#1aba9d',
-    'Qt': '#22e600'
+    'Qt': '#22e600',
+    'Figma': '#de009f',
+    'VSCode': '#004fbd',
+    'WebStorm': '#00cc8b'
   };
   constructor() { }
 }

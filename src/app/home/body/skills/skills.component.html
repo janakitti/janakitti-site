@@ -3,12 +3,16 @@
   <h2 class="skill-header">Languages</h2>
   <div *ngFor="let skill of languages" class="skill-item my-1" [ngStyle]="{'color': formatService.skillpills[skill.name]}">{{ skill.name }}</div>
 </div>
-<div class="skills-container py-2">
-  <h2 class="skill-header">Tools</h2>
-  <div *ngFor="let skill of tools" class="skill-item my-1" [ngStyle]="{'color': formatService.skillpills[skill.name]}">{{ skill.name }}</div>
-</div>
 <div class="skills-container pt-2">
   <h2 class="skill-header">Frameworks/APIs</h2>
   <div *ngFor="let skill of frameworks" class="skill-item my-1" [ngStyle]="{'color': formatService.skillpills[skill.name]}">{{ skill.name }}</div>
+</div>
+<div class="skills-container py-2">
+  <h2 class="skill-header">Dev Tools</h2>
+  <div *ngFor="let skill of devtools" class="skill-item my-1" [ngStyle]="{'color': formatService.skillpills[skill.name]}">{{ skill.name }}</div>
+</div>
+<div class="skills-container py-2">
+  <h2 class="skill-header">Design/Creative</h2>
+  <div *ngFor="let skill of creativetools" class="skill-item my-1" [ngStyle]="{'color': formatService.skillpills[skill.name]}">{{ skill.name }}</div>
 </div>
 

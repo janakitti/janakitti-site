@@ -16,11 +16,17 @@ export class SkillsComponent implements OnInit {
     {name: 'CSS'},
     {name: 'SQL'}
   ];
-  tools: SkillItem[] = [
+  devtools: SkillItem[] = [
     {name: 'Git'},
     {name: 'Unity'},
-    {name: 'Adobe Illustrator'},
-    {name: 'Adobe After Effects'},
+    {name: 'Qt'},
+    {name: 'WebStorm'},
+    {name: 'VSCode'}
+  ];
+  creativetools: SkillItem[] = [
+    {name: 'Figma'},
+    {name: 'Illustrator'},
+    {name: 'After Effects'},
     {name: 'Motion 5'},
     {name: 'Autodesk Inventor'},
     {name: 'MS PowerPoint'}
