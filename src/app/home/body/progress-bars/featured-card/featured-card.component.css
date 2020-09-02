@@ -1,6 +1,7 @@
 .featured-card {
   background: rgb(250,128,114);
   background: linear-gradient(45deg, rgba(250,128,114,1) 0%, rgba(230,113,109,1) 100%);
+
   border-radius: 1em;
   height: auto;
   overflow: hidden;
@@ -8,12 +9,7 @@
 
 .featured-card-row {
   height: 100%;
-}
-
-.featured-card-img {
-  /*background: url('../../../../../assets/images/featured-img.png') no-repeat center;*/
-
-  opacity: 1;
+  margin: auto;
 }
 
 #featured-img {
