@@ -3,7 +3,8 @@
   /*background: linear-gradient(45deg, rgba(70,1,93,1) 0%, rgba(87,7,82,1) 100%);*/
   /* background: linear-gradient(223deg, #fae2f6, #c3a5d7, #d6edfe, #ffeee7);*/
   /*background: linear-gradient(223deg, #dddddd, #ebfaff, #ffebf1, #fffbeb, #ffffff);*/
-  background: linear-gradient(223deg, #fc4a3a, #e0d314, #c2d627, #13d69f);
+  /*background: linear-gradient(223deg, #fc4a3a, #e0d314, #c2d627, #13d69f);*/
+  background: linear-gradient(223deg, #b700d4, #ebdeff, #6435b0);
   background-size: 600% 600%;
 
   -webkit-animation: BgAnimation 30s ease infinite;
