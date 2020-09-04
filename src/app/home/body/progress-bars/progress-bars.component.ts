@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ProgressItems} from '../../../shared/interfaces';
 
 @Component({
@@ -17,8 +17,20 @@ export class ProgressBarsComponent implements OnInit {
     const coopEnd = new Date('December 1, 2020, 00:00:00').getTime();
     const coopPercentage = Math.round((today - coopStart) / (coopEnd - coopStart) * 100);
     this.progressItems = [
-      { name: 'Bachelor of Software Engineering', percentage: sePercentage, color1: '#a13cc9', color2: '#ae54d1' },
-      { name: 'Machine Learning by Stanford University', percentage: coopPercentage, color1: '#c4294b', color2: '#d14765' }
+      {
+        name: 'Bachelor of Software Engineering',
+        link: 'uwaterloo.ca/future-students/programs/software-engineering',
+        percentage: sePercentage,
+        color1: '#a13cc9',
+        color2: '#ae54d1'
+      },
+      {
+        name: 'Machine Learning by Stanford University',
+        link: 'www.coursera.org/learn/machine-learning',
+        percentage: coopPercentage,
+        color1: '#c4294b',
+        color2: '#d14765'
+      }
     ];
   }
 

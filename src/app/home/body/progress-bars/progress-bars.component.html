@@ -1,6 +1,9 @@
 <h2 class="section-title">Dashboard</h2>
 <div *ngFor="let item of progressItems" class="progress-container mt-3">
-  <h2 class="progress-text" [ngStyle]="{'color': item.color1}">{{ item.name }}</h2>
+  <span class="progress-text" [ngStyle]="{'color': item.color1}">{{ item.name }}</span>
+  <a href="//{{ item.link}}" target="_blank">
+    <img src="../../../assets/icons/link.svg" class="link ml-2 pb-1">
+  </a>
   <div class="progress-status-container">
     <div class="progress-status"
          [ngStyle]="{'width': item.percentage + '%',
