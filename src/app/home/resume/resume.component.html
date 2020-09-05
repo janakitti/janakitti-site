@@ -40,9 +40,7 @@
                 {{ tech }}
               </div>
             </span>
-            <ul>
-              <li *ngFor="let desc of exp.description" class="desc" [innerHTML]="desc"></li>
-            </ul>
+            <div *ngFor="let desc of exp.description" class="desc" [innerHTML]="desc"></div>
           </div>
           <h2 class="resume-header">Achievements</h2>
           <div *ngFor="let ach of dataService.resume.achievements" class="project my-4">

@@ -6,9 +6,9 @@ Angular, TypeScript, Firebase
 virtrolio.web.app
 ../../../assets/images/virtrolio.svg
 Worked with a team of 7 to create a web service to allow students to sign each others yearbooks virtually, while practicing physical distancing due to COVID-19
-Developed the front-end component for viewing yearbook messages using Angular and Bootstrap
-Utilized Firebase Cloud Firestore to store and retrieve user and message data
-Designed the product branding and promotional materials
+Developed the front-end interface for viewing yearbook messages using Angular and Bootstrap
+Implemented Firebase Cloud Firestore to allow users to privately sign and receive yearbook messages
+Led the designing of the overall product UI and promotional materials
 //
 #Project
 FedoraField
@@ -17,7 +17,7 @@ Oct 2019 - present
 C#, Unity, Adobe Illustrator
 github.com/janakitti/FedoraField
 ../../../assets/images/fedora-field.svg
-Developed a Unity game in which player's character interacts with enemy projectiles using gravitational and magnetic fields
+Developed a Unity game in which player's character interacts with enemy projectiles using in-game gravitational and magnetic fields
 Modelled object interactions with various fields using the Unity physics engine
 Created a level loading system and an adaptive soundtrack
 //
@@ -48,8 +48,7 @@ Providius Corp.
 May 2020 - Aug 2020
 Hamilton, ON
 Angular, Python, C++, Qt
-Built a web app/tool for manipulating the transmission of packets to simulate practical network connections
-Improved performance of network dashboard web app by developing a custom browser using Qt and Chromium Embedded Framework
+<ul><li>Built Angular web apps for monitoring and manipulating transmission of packets over a network</li><ul><li>Created a tool for simulating practical network connections (packet drop, delay, etc.) using a Flask backend and Socketio</li><li>Designed an intuitive web interface using Bootstrap and Angular Material</li></ul><li>Reduced CPU usage of network dashboard web app by 24% through developing a custom browser using Qt and Chromium Embedded Framework</li><ul><li>Configured browsers setup for seamless integration of the web app with third party vendor apps</li><li>Packaged desktop browser app for deployment using QtInstallerFramework</li></ul><li>Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using Google App Scripts</li></ul>
 //
 #Experience
 Programmer
@@ -57,9 +56,7 @@ Team 4308: Absolute Robotics - FIRST Robotics
 Sep 2017 - Apr 2019
 Mississauga, ON
 Python
-Developed the computer vision pipeline to identify target objects on the playing field using Python
-Qualified as 2018 FIRST Robotics World Championship Divisional Semi-Finalists
-Rebranded the Absolute Robotics organization, increasing student engagement within the school
+<ul><li>Developed the computer vision pipeline to identify target objects on the playing field using Python</li><li>Qualified as 2018 FIRST Robotics World Championship Divisional Semi-Finalists</li><li>Rebranded the Absolute Robotics organization, increasing student engagement within the school</li></ul>
 //
 #Experience
 Hackathon Hacker
@@ -67,12 +64,7 @@ Various Organizations
 Dec 2016 - present
 Anywhere
 
-<a href="//devpost.com/software/camhunt" target="_blank" class="resume-link">CAMHUNT</a> @ Hack the North 2019
-<a href="//devpost.com/software/magnet" target="_blank" class="resume-link">MAGNET</a> @ Hack the North 2018
-<a href="//devpost.com/software/piing" target="_blank" class="resume-link">Piing</a> @ Hack the Hammer
-<a href="//devpost.com/software/screenbot" target="_blank" class="resume-link">ScreenBot</a> @ Hacking Good Toronto
-<a href="//devpost.com/software/safety-way" target="_blank" class="resume-link">DangerSense</a> @ Snowday '17: Presented by Cipher | WINNER of the Economic Development Prize
-<a href="//devpost.com/software/finsim" target="_blank" class="resume-link">FINSIM</a> @ Cipher Presents: Local Hack Day
+<ul><li><a href="//devpost.com/software/camhunt" target="_blank" class="resume-link">CAMHUNT</a> @ Hack the North 2019</li><li><a href="//devpost.com/software/magnet" target="_blank" class="resume-link">MAGNET</a> @ Hack the North 2018</li><li><a href="//devpost.com/software/piing" target="_blank" class="resume-link">Piing</a> @ Hack the Hammer</li><li><a href="//devpost.com/software/screenbot" target="_blank" class="resume-link">ScreenBot</a> @ Hacking Good Toronto</li><li><a href="//devpost.com/software/safety-way" target="_blank" class="resume-link">DangerSense</a> @ Snowday '17: Presented by Cipher | WINNER of the Economic Development Prize</li><li><a href="//devpost.com/software/finsim" target="_blank" class="resume-link">FINSIM</a> @ Cipher Presents: Local Hack Day</li></ul>
 //
 #Experience
 Entrepreneurial Competitor
@@ -80,8 +72,7 @@ DECA Business Competition
 Sep 2017 - Apr 2019
 Mississauga, ON
 
-Developed a winning startup company idea called Spark, a parking lot management system designed to minimize traffic congestion in major cities
-Competed at the international level at ICDC in Atlanta, Georgia
+<ul><li>Developed a winning startup company idea called Spark, a parking lot management system designed to minimize traffic congestion in major cities</li><li>Competed at the international level at ICDC in Atlanta, Georgia</li></ul>
 //
 #Portfolio
 artwork.jr
