@@ -34,7 +34,7 @@
               {{ tech }}
             </div>
             <ul>
-              <li *ngFor="let desc of project.description" class="desc"> {{ desc }}</li>
+              <li *ngFor="let desc of project.description" class="desc" [innerHTML]="desc"></li>
             </ul>
           </div>
           <h2 class="resume-header">Long-Term Projects</h2>
