@@ -6,9 +6,9 @@ Angular, TypeScript, Firebase
 virtrolio.web.app
 ../../../assets/images/virtrolio.svg
 Worked with a team of 7 to create a web service to allow students to sign each others yearbooks virtually, while practicing physical distancing due to COVID-19
-Developed the front-end interface for viewing yearbook messages using <b>Angular</b> and <b>Bootstrap</b>
+Developed a Pinterest-style front-end interface for viewing yearbook messages using <b>Angular</b> and <b>Bootstrap</b>
 Implemented Firebase <b>Cloud Firestore</b> to allow users to privately sign and receive yearbook messages
-Led the designing of the overall product UI and promotional materials
+Led the designing of the overall product UI/UX and promotional materials
 //
 #Project
 FedoraField
@@ -17,9 +17,8 @@ Oct 2019 - present
 C#, Unity, Adobe Illustrator
 github.com/janakitti/FedoraField
 ../../../assets/images/fedora-field.svg
-Developed a <b>Unity</b> game in which player's character interacts with enemy projectiles using in-game gravitational and magnetic fields
-Modelled object interactions with various fields using the Unity physics engine
-Created a level loading system and an adaptive soundtrack
+Developed a <b>Unity</b> game in which players interact with enemy projectiles using simulated gravitational fields, modelled using the Unity physics engine
+Built a system for mixing audio based on player actions, creating an adaptive soundtrack for a unique experience
 //
 #Project
 Tangible
@@ -48,7 +47,7 @@ Providius Corp.
 May 2020 - Aug 2020
 Hamilton, ON
 Angular, Flask, Python, Bootstrap, Socketio, C++, Qt
-<ul><li>Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network</li><ul><li>Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socketio</b>, and <b>Linux traffic control</b></li><li>Designed an intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b></li></ul><li><b>Reduced CPU usage by 24%</b> for a network dashboard web app through developing a custom browser using <b>Qt</b> and <b>Chromium Embedded Framework</b></li><ul><li>Configured Chromium browser for seamless integration of the web app with third party vendor apps</li><li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b></li></ul><li>Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using <b>Google App Scripts</b></li></ul>
+<ul><li>Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network</li><ul><li>Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socketio</b>, and <b>Linux traffic control</b></li><li>Designed a modular and intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b></li></ul><li><b>Reduced CPU usage by 24%</b> for a network dashboard web app through developing a custom browser using <b>Qt</b> and <b>Chromium Embedded Framework</b></li><ul><li>Configured Chromium browser for seamless integration of the web app with third party vendor apps</li><li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b></li></ul><li>Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using <b>Google App Scripts</b></li></ul>
 //
 #Experience
 Programmer
