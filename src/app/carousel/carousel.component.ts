@@ -1,9 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import {trigger, transition, style, animate, useAnimation} from '@angular/animations';
+import {
+  fadeIn,
+  fadeOut,
+} from './carousel.animations';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  styleUrls: ['./carousel.component.css'],
+  animations: [
+    trigger('carouselAnimation', [
+      transition('void => *', [useAnimation(fadeIn)]),
+      transition('* => void', [useAnimation(fadeOut)]),
+    ])
+  ]
 })
 export class CarouselComponent implements OnInit {
 
