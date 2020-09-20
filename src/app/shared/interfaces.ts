@@ -72,6 +72,12 @@ export interface Achievement {
 }
 
 export interface GalleryItem {
-    image: string;
-    link: string;
+  image: string;
+  link: string;
+}
+
+export interface Carousel {
+  title: string;
+  slides: string[];
+  currentSlide: number;
 }

@@ -1,6 +1,6 @@
 <div class="container-fluid full-width pb-5" id="gallery-container">
   <div class="row d-flex justify-content-center">
-    <div *ngFor="let carousel of carousels; let i = index" class="carousel m-2">
+    <div *ngFor="let carousel of dataService.carousels; let i = index" class="carousel m-2">
       <ng-container *ngFor="let slide of carousel.slides; let j = index">
         <img
           *ngIf="j === carousel.currentSlide"

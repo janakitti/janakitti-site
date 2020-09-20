@@ -1,0 +1,7 @@
+[
+  {"title": "virtrolio", "slides": [
+    "../../assets/images/virtrolio.svg", "../../assets/images/tangible.svg"
+  ], "currentSlide": 0},
+  {
+    "title": "FedoraField", "slides": ["../../assets/images/tangible.svg", "t"], "currentSlide": 0}
+]
