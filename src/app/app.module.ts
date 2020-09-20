@@ -18,6 +18,7 @@ import { FeaturedCardComponent } from './home/body/progress-bars/featured-card/f
 import { LinksComponent } from './home/body/about/links/links.component';
 import { ProjectCardsComponent } from './home/project-cards/project-cards.component';
 import { DragScrollModule } from 'ngx-drag-scroll';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { DragScrollModule } from 'ngx-drag-scroll';
     TimelineComponent,
     FeaturedCardComponent,
     LinksComponent,
-    ProjectCardsComponent
+    ProjectCardsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
