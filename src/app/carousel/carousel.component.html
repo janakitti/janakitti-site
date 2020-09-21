@@ -1,24 +1,26 @@
 <div class="container-fluid full-width pb-5" id="gallery-container">
   <div class="row d-flex justify-content-center">
-    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8" id="carousel-container">
-<!--      <div *ngFor="let carousel of dataService.carousels; let i = index" class="carousel m-2" [ngStyle]="{'width': carousel.width + 'em'}">-->
-      <div *ngFor="let carousel of dataService.carousels; let i = index" class="carousel m-2">
-        <ng-container *ngFor="let slide of carousel.slides; let j = index">
-          <img
-            *ngIf="j === carousel.currentSlide"
-            [src]="slide"
-            class="slide"
-            @carouselAnimation
-          />
-        </ng-container>
+    <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 px-0 px-md-5" id="carousel-container">
+      <div *ngFor="let carousel of dataService.carousels; let i = index" class=" p-2" [class.col-lg-12]="carousel.width == 100" [class.col-lg-6]="carousel.width == 50">
+<!--      <div *ngFor="let carousel of dataService.carousels; let i = index" class="carousel m-2">-->
+        <div class="carousel">
+          <ng-container *ngFor="let slide of carousel.slides; let j = index">
+            <img
+              *ngIf="j === carousel.currentSlide"
+              [src]="slide"
+              class="slide"
+              @carouselAnimation
+            />
+          </ng-container>
 
-        <!-- controls -->
-        <button class="control prev" (click)="onPreviousClick(i)">
-          <span class="arrow left"></span>
-        </button>
-        <button class="control next" (click)="onNextClick(i)">
-          <span class="arrow right"></span>
-        </button>
+          <!-- controls -->
+          <button class="control prev" (click)="onPreviousClick(i)">
+            <span class="arrow left"></span>
+          </button>
+          <button class="control next" (click)="onNextClick(i)">
+            <span class="arrow right"></span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
