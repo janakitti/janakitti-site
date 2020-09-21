@@ -1,7 +1,23 @@
 [
-  {"title": "virtrolio", "slides": [
-    "../../assets/images/virtrolio.svg", "../../assets/images/tangible.svg"
-  ], "currentSlide": 0},
-  {
-    "title": "FedoraField", "slides": ["../../assets/images/tangible.svg", "t"], "currentSlide": 0}
+  { "title": "virtrolio",
+    "slides": [
+    "../../assets/images/virtrolio-01.svg",
+    "../../assets/images/virtrolio-02.png"
+    ],
+    "width": 30,
+    "currentSlide": 0},
+  { "title": "Tangible",
+    "slides": [
+      "../../assets/images/tangible-01.svg",
+      "../../assets/images/tangible-02.gif"
+    ],
+    "width": 30,
+    "currentSlide": 0},
+  { "title": "Packet",
+    "slides": [
+      "../../assets/images/packet-01.svg",
+      "../../assets/images/packet-02.png"
+    ],
+    "width": 40,
+    "currentSlide": 0}
 ]

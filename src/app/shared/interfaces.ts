@@ -79,5 +79,6 @@ export interface GalleryItem {
 export interface Carousel {
   title: string;
   slides: string[];
+  width: number;
   currentSlide: number;
 }
