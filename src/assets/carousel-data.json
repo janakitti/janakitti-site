@@ -42,7 +42,7 @@
   { "title": "FedoraField",
     "slides": [
       "../../assets/images/fedorafield-01.svg",
-      "../../assets/images/fedorafield-02.png"
+      "../../assets/images/fedorafield-02.svg"
     ],
     "width": 100,
     "currentSlide": 0}
