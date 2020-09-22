@@ -25,17 +25,11 @@ export class CarouselComponent implements OnInit {
   onPreviousClick(carousel: number) {
     const previous = this.dataService.carousels[carousel].currentSlide - 1;
     this.dataService.carousels[carousel].currentSlide = previous < 0 ? this.dataService.carousels[carousel].slides.length - 1 : previous;
-    console.log('previous clicked, new current slide is: ', this.dataService.carousels[carousel].currentSlide);
-    console.log('0: ', this.dataService.carousels[0].currentSlide);
-    console.log('1: ', this.dataService.carousels[1].currentSlide);
   }
 
   onNextClick(carousel: number) {
     const next = this.dataService.carousels[carousel].currentSlide + 1;
     this.dataService.carousels[carousel].currentSlide = next === this.dataService.carousels[carousel].slides.length ? 0 : next;
-    console.log('next clicked, new current slide is: ', this.dataService.carousels[carousel].currentSlide);
-    console.log('0: ', this.dataService.carousels[0].currentSlide);
-    console.log('1: ', this.dataService.carousels[1].currentSlide);
   }
 
 }
