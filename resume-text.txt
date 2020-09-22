@@ -8,7 +8,7 @@ virtrolio.web.app
 Worked with a team of 7 to create a web service to allow students to sign each others yearbooks virtually, while practicing physical distancing due to COVID-19
 Developed a Pinterest-style front-end interface for viewing yearbook messages using <b>Angular</b> and <b>Bootstrap</b>
 Implemented Firebase <b>Cloud Firestore</b> to allow users to privately sign and receive yearbook messages
-Led the designing of the overall product UI/UX and promotional materials
+Led the design of the overall product UI/UX and promotional materials
 //
 #Project
 FedoraField
@@ -47,15 +47,15 @@ Providius Corp.
 May 2020 - Aug 2020
 Hamilton, ON
 Angular, Flask, Python, Bootstrap, Socketio, C++, Qt
-<ul><li>Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network</li><ul><li>Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socketio</b>, and <b>Linux traffic control</b></li><li>Designed a modular and intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b></li></ul><li><b>Reduced CPU usage by 24%</b> for a network dashboard web app through developing a custom browser using <b>Qt</b> and <b>Chromium Embedded Framework</b></li><ul><li>Configured Chromium browser for seamless integration of the web app with third party vendor apps</li><li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b></li></ul><li>Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using <b>Google App Scripts</b></li></ul>
+<ul><li>Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network</li><ul><li>Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socket.io</b>, and <b>Linux Traffic Control</b></li><li>Designed a modular and intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b></li></ul><li><b>Reduced CPU usage by 24%</b> for a network dashboard web app through developing a custom browser using <b>Qt</b> and <b>Chromium Embedded Framework</b></li><ul><li>Configured Chromium browser for seamless integration of the web app with third party vendor apps</li><li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b></li></ul><li>Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using <b>Google App Scripts</b></li></ul>
 //
 #Experience
-Programmer
+Software Developer
 Team 4308: Absolute Robotics - FIRST Robotics
 Sep 2017 - Apr 2019
 Mississauga, ON
 Python
-<ul><li>Developed the <b>computer vision pipeline</b> to identify target objects on the playing field using Python</li><li>Qualified as 2018 FIRST Robotics World Championship Divisional Semi-Finalists</li><li>Rebranded the Absolute Robotics organization, <b>increasing student engagement within the school</b></li></ul>
+<ul><li>Developed the <b>computer vision pipeline</b> to identify target objects on the playing field using Python, OpenCV, and GRIP</li><li>Qualified as 2018 FIRST Robotics World Championship Divisional Semi-Finalists</li><li>Rebranded the Absolute Robotics organization, <b>increasing student engagement within the school</b></li></ul>
 //
 #Experience
 Hackathon Hacker

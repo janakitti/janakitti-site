@@ -13,9 +13,9 @@ export class ProgressBarsComponent implements OnInit {
     const seStart = new Date('September 7, 2019, 00:00:00').getTime();
     const seEnd = new Date('April 31, 2024, 00:00:00').getTime();
     const sePercentage = Math.round((today - seStart) / (seEnd - seStart) * 100);
-    const coopStart = new Date('September 1, 2020, 00:00:00').getTime();
-    const coopEnd = new Date('December 1, 2020, 00:00:00').getTime();
-    const coopPercentage = Math.round((today - coopStart) / (coopEnd - coopStart) * 100);
+    const otherStart = new Date('September 1, 2020, 00:00:00').getTime();
+    const otherEnd = new Date('December 15, 2020, 00:00:00').getTime();
+    const otherPercentage = Math.round((today - otherStart) / (otherEnd - otherStart) * 100);
     this.progressItems = [
       {
         name: 'Bachelor of Software Engineering',
@@ -27,7 +27,7 @@ export class ProgressBarsComponent implements OnInit {
       {
         name: 'Machine Learning by Stanford University',
         link: 'www.coursera.org/learn/machine-learning',
-        percentage: coopPercentage,
+        percentage: otherPercentage,
         color1: '#c4294b',
         color2: '#d14765'
       }
