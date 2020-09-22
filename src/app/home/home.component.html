@@ -2,6 +2,15 @@
 <app-body></app-body>
 <!--<app-featured></app-featured>-->
 <!--<app-project-cards></app-project-cards>-->
-<app-carousel></app-carousel>
-<app-resume></app-resume>
+    <div class="p-2" id="switch-pod">
+      <span class="switch-text ml-2"><img src="../../assets/icons/grid.svg"></span>
+      <label class="switch mx-2 mt-1">
+        <input (click)="toggleView(target)" type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+      <span class="switch-text mr-2"><img src="../../assets/icons/align-left.svg"></span>
+    </div>
+<div #target></div>
+<app-carousel *ngIf="isCarouselMode"></app-carousel>
+<app-resume *ngIf="!isCarouselMode"></app-resume>
 <app-footer></app-footer>
