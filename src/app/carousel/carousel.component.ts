@@ -20,6 +20,15 @@ export class CarouselComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.preloadCarouselSlides();
+  }
+
+  preloadCarouselSlides() {
+    for (const carousels of this.dataService.carousels) {
+      for (const slide of carousels.slides) {
+        new Image().src = slide;
+      }
+    }
   }
 
   onPreviousClick(carousel: number) {
