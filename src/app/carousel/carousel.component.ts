@@ -41,4 +41,12 @@ export class CarouselComponent implements OnInit {
     this.dataService.carousels[carousel].currentSlide = next === this.dataService.carousels[carousel].slides.length ? 0 : next;
   }
 
+  selectCarousel(index: number) {
+    for (let i = 0; i < this.dataService.carousels.length; i++) {
+      if (i === index) { this.dataService.carousels[i].width = 1000; }
+      else { this.dataService.carousels[i].width = 100; }
+      console.log(this.dataService.carousels[i].width);
+    }
+  }
+
 }

@@ -7,6 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 :host {
@@ -16,9 +17,29 @@
 .carousel {
   position: relative;
   height: 20em;
-  /*width: 100%;*/
+  transition: height 500ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+  transition: width 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+  width: 100%;
+  margin: 0.5em;
   overflow: hidden;
   border-radius: 1em;
+}
+
+.carousel-half {
+  width: calc(50% - 1em);
+  transition: width 300ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+}
+
+.carousel-full {
+  width: calc(100% - 1em);
+  transition: width 300ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+}
+
+.carousel-maximize {
+  height: 40em;
+  width: 100%;
+  transition: height 500ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+  transition: width 300ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
 }
 
 .slide {
