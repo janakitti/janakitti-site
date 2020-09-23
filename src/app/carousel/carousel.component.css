@@ -48,13 +48,13 @@ position: absolute;
   padding: 0.5em;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   user-select: none;
   height: 100%;
   opacity: 80%;
 
 transition: opacity 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
-
+  z-index: 500;
 }
 
 /* style the arrows */
