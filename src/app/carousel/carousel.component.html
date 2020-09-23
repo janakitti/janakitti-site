@@ -7,7 +7,6 @@
         <div class="">
           <ng-container *ngFor="let slide of carousel.slides; let j = index">
             <img
-              (click)="selectCarousel(i)"
               *ngIf="j === carousel.currentSlide"
               [src]="slide"
               class="slide"
