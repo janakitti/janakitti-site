@@ -6,7 +6,7 @@ declare var $: any;
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  public isCarouselMode = false;
+  public isCarouselMode = true;
   constructor() {}
 
   ngOnInit(): void {
