@@ -1,10 +1,9 @@
 <div class="container-fluid full-width pb-5" id="gallery-container">
   <div class="row d-flex justify-content-center">
     <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 px-0 px-md-5" id="carousel-container">
-      <div *ngFor="let carousel of dataService.carousels; let i = index" class="carousel" [class.carousel-full]="carousel.width == 100" [class.carousel-half]="carousel.width == 50"
-           [class.carousel-maximize]="carousel.width == 1000">
+      <div *ngFor="let carousel of dataService.carousels; let i = index" class="p-2" [class.col-lg-6]="carousel.width == 50" [class.col-lg-12]="carousel.width == 100">
         <!--      <div *ngFor="let carousel of dataService.carousels; let i = index" class="carousel m-2">-->
-        <div class="">
+        <div class="carousel">
           <ng-container *ngFor="let slide of carousel.slides; let j = index">
             <img
               *ngIf="j === carousel.currentSlide"
