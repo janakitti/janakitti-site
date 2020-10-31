@@ -14,12 +14,14 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ResumeComponent } from './home/resume/resume.component';
 import { TimelineComponent } from './home/resume/timeline/timeline.component';
 
+import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FeaturedCardComponent } from './home/body/progress-bars/featured-card/featured-card.component';
 import { LinksComponent } from './home/body/about/links/links.component';
 import { ProjectCardsComponent } from './home/project-cards/project-cards.component';
 import { DragScrollModule } from 'ngx-drag-scroll';
 import { CarouselComponent } from './carousel/carousel.component';
+import { HushHushComponent } from './portfolio/hush-hush/hush-hush.component';
 
 @NgModule({
   declarations: [
@@ -37,11 +39,13 @@ import { CarouselComponent } from './carousel/carousel.component';
     FeaturedCardComponent,
     LinksComponent,
     ProjectCardsComponent,
-    CarouselComponent
+    CarouselComponent,
+    HushHushComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
     HttpClientModule,
     DragScrollModule
   ],
