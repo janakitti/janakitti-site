@@ -22,6 +22,7 @@ import { ProjectCardsComponent } from './home/project-cards/project-cards.compon
 import { DragScrollModule } from 'ngx-drag-scroll';
 import { CarouselComponent } from './carousel/carousel.component';
 import { HushHushComponent } from './portfolio/hush-hush/hush-hush.component';
+import { LandingFrameComponent } from './shared/landing-frame/landing-frame.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { HushHushComponent } from './portfolio/hush-hush/hush-hush.component';
     LinksComponent,
     ProjectCardsComponent,
     CarouselComponent,
-    HushHushComponent
+    HushHushComponent,
+    LandingFrameComponent
   ],
   imports: [
     BrowserModule,

@@ -3,15 +3,6 @@
   background: linear-gradient(45deg, rgba(22,0,48,1) 0%, rgba(57,3,61,1) 100%);
 }
 
-#background-img {
-  background: url("../../../assets/images/hush-hush-bg.svg") no-repeat center;
-  background-size: cover;
-  height: 100vh;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
 
 .body-text {
   color: white;
