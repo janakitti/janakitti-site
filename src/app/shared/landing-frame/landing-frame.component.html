@@ -1,5 +1,5 @@
 <div class="background-container container-fluid full-width vertical-center center-children">
-  <div class="container-fluid full-width" id="background-img" [ngStyle]="{'background': 'url(&quot;'+ image +'&quot;) no-repeat center'}">
+  <div class="container-fluid full-width" id="background-img">
     <div id="landing-border">
       <p class="frame-text d-none d-md-block frame-l" [ngClass]="{'frame-text-w': isDarkMode}">&#8226; &#8226; &#8226;
         Mississauga, ON</p>
@@ -53,7 +53,7 @@
                                                                                       class="social"></a>
       </div>
       <div class="px-5 py-3" id="title-container">
-
+        <img [src]="image" class="portfolio-bg">
       </div>
     </div>
   </div>

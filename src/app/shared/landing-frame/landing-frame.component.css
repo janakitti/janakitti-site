@@ -4,6 +4,11 @@
   width: 100%;
 }
 
+.portfolio-bg{
+  width: 30em;
+  height: auto;
+}
+
 #landing-title {
   font-family: Poppins, sans-serif;
   font-weight: normal;
