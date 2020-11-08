@@ -23,6 +23,7 @@ import { DragScrollModule } from 'ngx-drag-scroll';
 import { CarouselComponent } from './carousel/carousel.component';
 import { HushHushComponent } from './portfolio/hush-hush/hush-hush.component';
 import { LandingFrameComponent } from './shared/landing-frame/landing-frame.component';
+import { VirtrolioComponent } from './portfolio/virtrolio/virtrolio.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { LandingFrameComponent } from './shared/landing-frame/landing-frame.comp
     ProjectCardsComponent,
     CarouselComponent,
     HushHushComponent,
-    LandingFrameComponent
+    LandingFrameComponent,
+    VirtrolioComponent
   ],
   imports: [
     BrowserModule,
