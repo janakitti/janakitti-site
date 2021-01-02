@@ -1,11 +1,11 @@
 [
-  { "title": "hush-hush",
+  { "title": "Hush",
     "slides": [
       "../../assets/images/hush-hush-01.svg"
     ],
     "width": 100,
     "currentSlide": 0},
-  { "title": "virtrolio",
+  { "title": "Virtrolio",
     "slides": [
     "../../assets/images/virtrolio-01.svg",
     "../../assets/images/virtrolio-02.png"

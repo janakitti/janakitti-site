@@ -9,6 +9,7 @@ export class DataService {
   resume: Resume = {projects: [], experiences: [], achievements: [], portfolios: []};
   gallery: GalleryItem[] = [];
   carousels: Carousel[] = [];
+  projectPages: Object = {};
   constructor(private http: HttpClient) {
     this.http.get<Resume>('../../../assets/resume-data.json').subscribe(data => {
       this.resume = data;
@@ -19,5 +20,10 @@ export class DataService {
     this.http.get<Carousel[]>('../../../assets/carousel-data.json').subscribe(data => {
       this.carousels = data;
     });
+
+  }
+
+  getProject() {
+    return this.http.get<Object>('../../../assets/portfolio-data.json');
   }
 }

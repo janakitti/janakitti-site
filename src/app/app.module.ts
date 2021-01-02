@@ -21,7 +21,7 @@ import { LinksComponent } from './home/body/about/links/links.component';
 import { ProjectCardsComponent } from './home/project-cards/project-cards.component';
 import { DragScrollModule } from 'ngx-drag-scroll';
 import { CarouselComponent } from './carousel/carousel.component';
-import { HushHushComponent } from './portfolio/hush-hush/hush-hush.component';
+import { ProjectPageComponent } from './portfolio/project-page/project-page.component';
 import { LandingFrameComponent } from './shared/landing-frame/landing-frame.component';
 import { VirtrolioComponent } from './portfolio/virtrolio/virtrolio.component';
 
@@ -42,7 +42,7 @@ import { VirtrolioComponent } from './portfolio/virtrolio/virtrolio.component';
     LinksComponent,
     ProjectCardsComponent,
     CarouselComponent,
-    HushHushComponent,
+    ProjectPageComponent,
     LandingFrameComponent,
     VirtrolioComponent
   ],

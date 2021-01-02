@@ -82,3 +82,8 @@ export interface Carousel {
   width: number;
   currentSlide: number;
 }
+
+export interface ProjectPage {
+  title: string,
+  body: Object[]
+}
