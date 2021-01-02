@@ -23,6 +23,7 @@ import { DragScrollModule } from 'ngx-drag-scroll';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProjectPageComponent } from './portfolio/project-page/project-page.component';
 import { LandingFrameComponent } from './shared/landing-frame/landing-frame.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { LandingFrameComponent } from './shared/landing-frame/landing-frame.comp
     ProjectCardsComponent,
     CarouselComponent,
     ProjectPageComponent,
-    LandingFrameComponent
+    LandingFrameComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
