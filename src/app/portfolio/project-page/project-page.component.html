@@ -5,8 +5,12 @@
         <h1>{{pageData.title}}</h1>
         <div *ngFor="let section of pageData.body">
           <div [ngSwitch]="section?.type">
-            <p *ngSwitchCase="'text'">{{section.data}}</p>
+            <p *ngSwitchCase="'text'" [innerHTML]="section.data"></p>
             <img *ngSwitchCase="'img'" src={{section.data}} class="portfolio-img">
+            <video *ngSwitchCase="'vid'" class="portfolio-img" controls>
+              <source src={{section.data}} type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
