@@ -4,4 +4,9 @@
 
 .portfolio-body {
   margin: 4em 0;
+  height: 100%;
+}
+
+#body-container {
+  min-height: calc(100vh - 3em);
 }
