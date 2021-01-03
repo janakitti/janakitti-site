@@ -2,9 +2,10 @@
     "Hush": {
         "title": "Hush-Hush",
         "body": [
-            {"type": "text", "data": "weijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofiweijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofiweijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofiweijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofi"},
+            {"type": "text", "data": "This project was the product of my first ever game jam! I participated in Unity's Create with Code Game Jam in October 2020. In this competition, we were tasked with creating a Unity video game in 56 hours that revolved around the theme of SECRETS."},
+            {"type": "text", "data": "The game I built was a 3D Sokoban-esque puzzler called HUSH-HUSH in which the player must navigate their “secret” out of a crowd of blocks without revealing it. Although I didn’t quite have enough time to fine-tune some of my level design and UI, I’m pretty happy with what I was able to create from scratch in such a short period of time."},
             {"type": "img", "data": "../../../assets/images/portfolio/hush/hush-hush-1.png"},
-            {"type": "text", "data": "weijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofiweijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofiweijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofiweijfwoiefjoweijfowejfoew few fjoew jfowe jfoweifj oweifj oewifj woefijw oefijw eofijwe foiewj foweifj ewofi"}
+            {"type": "text", "data": "The most interesting part about the development process for this project was having to implement my own character movement system. Since the movement in this game is discrete (along tiles on a grid), I didn't end up using the physics engine. Instead, I created a state machine to keep track of all the pieces on the platform, and then animated all the pieces at once to transition from one state to the next."}
         ]
     },
     "Virtrolio": {
