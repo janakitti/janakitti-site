@@ -9,6 +9,7 @@ export class FormattingService {
     'Python': '#82cf06',
     'C++': '#f77977',
     'TypeScript': '#027be6',
+    'JavaScript': '#cfc400',
     'HTML': '#ff7700',
     'CSS': '#fc0d55',
     'SQL': '#2b9e9a',
@@ -27,7 +28,14 @@ export class FormattingService {
     'Qt': '#22e600',
     'Figma': '#de009f',
     'VSCode': '#004fbd',
-    'WebStorm': '#00cc8b'
+    'WebStorm': '#00cc8b',
+    'Node.js': '#00a814',
+    'Express.js': '#bdb600',
+    'MongoDB': '#09b300',
+    'React': '#00cfc1',
+    'Mongoose': '#9c2200',
+    'Jest': '#de3000',
+    'Postman': '#f26500'
   };
   constructor() { }
 }

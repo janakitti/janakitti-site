@@ -12,6 +12,7 @@ export class SkillsComponent implements OnInit {
     {name: 'Python'},
     {name: 'C++'},
     {name: 'TypeScript'},
+    {name: 'JavaScript'},
     {name: 'HTML'},
     {name: 'CSS'},
     {name: 'SQL'}
@@ -21,7 +22,8 @@ export class SkillsComponent implements OnInit {
     {name: 'Unity'},
     {name: 'Qt'},
     {name: 'WebStorm'},
-    {name: 'VSCode'}
+    {name: 'VSCode'},
+    {name: 'Postman'}
   ];
   creativetools: SkillItem[] = [
     {name: 'Figma'},
@@ -32,10 +34,15 @@ export class SkillsComponent implements OnInit {
     {name: 'MS PowerPoint'}
   ];
   frameworks: SkillItem[] = [
-    {name: 'Firebase'},
-    {name: 'Bootstrap'},
+    {name: 'React'},
     {name: 'Angular'},
-    {name: 'Flask'}
+    {name: 'MongoDB'},
+    {name: 'Mongoose'},
+    {name: 'Firebase'},
+    {name: 'Node.js'},
+    {name: 'Express.js'},
+    {name: 'Flask'},
+    {name: 'Jest'},
   ];
   constructor(public formatService: FormattingService) { }
 
