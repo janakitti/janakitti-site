@@ -11,6 +11,11 @@
         "data": "The game I built was a 3D Sokoban-esque puzzler called HUSH-HUSH in which the player must navigate their “secret” out of a crowd of blocks without revealing it. Although I didn’t quite have enough time to fine-tune some of my level design and UI, I’m pretty happy with what I was able to create from scratch in such a short period of time."
       },
       {
+        "type": "button",
+        "data": "Play my submission 🕹️",
+        "url": "https://play.unity.com/mg/other/hush-hush-2?_ga=2.244412101.1165901708.1612061112-2108602090.1609694703"
+      },
+      {
         "type": "img",
         "data": "../../../assets/images/portfolio/hush/hush-hush-1.png"
       },
@@ -26,6 +31,11 @@
       {
         "type": "text",
         "data": "A virtrolio is a virtual folio—an online version of those last few pages in your yearbook that you use to write personal and long-lasting messages to your friends. In other words, you can create your own virtrolio, share it with friends, and have them write customized messages for you to keep. Whenever you want, you can view your virtrolio and all the messages you have received from your friends!"
+      },
+      {
+        "type": "button",
+        "data": "Get signing 🖊️",
+        "url": "https://virtrolio.web.app/"
       },
       {
         "type": "img",
@@ -91,6 +101,11 @@
         "data": "The body of the bot was built using VEX robotics plates, C-channels, and servo motors. We used the Python OpenCV for object tracking on a Raspberry Pi."
       },
       {
+        "type": "button",
+        "data": "Check out our Devpost 🧲",
+        "url": "https://devpost.com/software/magnet"
+      },
+      {
         "type": "img",
         "data": "../../../assets/images/portfolio/magnet/1.jpg"
       },
@@ -103,6 +118,11 @@
       {
         "type": "text",
         "data": "This is my visual arts & UI/UX design portfolio. Here, I showcase some of my app concepts and mockups, logos, general digital art, and creative spins on works in pop-culture."
+      },
+      {
+        "type": "button",
+        "data": "Give me a follow 😉",
+        "url": "https://www.instagram.com/artwork.jr/"
       },
       {
         "type": "img",
@@ -152,7 +172,7 @@
       },
       {
         "type": "button",
-        "data": "Give it a try!",
+        "data": "Give it a try 👑",
         "url": "https://janakitti.github.io/chess-visualizer/"
       },
       { "type": "img", "data": "../../../assets/images/portfolio/chess/1.png" }
