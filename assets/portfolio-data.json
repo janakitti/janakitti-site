@@ -1,72 +1,181 @@
 {
-    "Hush": {
-        "title": "Hush-Hush",
-        "body": [
-            {"type": "text", "data": "This project was the product of my first ever game jam! I participated in Unity's Create with Code Game Jam in October 2020. In this competition, we were tasked with creating a Unity video game in 56 hours that revolved around the theme of SECRETS."},
-            {"type": "text", "data": "The game I built was a 3D Sokoban-esque puzzler called HUSH-HUSH in which the player must navigate their “secret” out of a crowd of blocks without revealing it. Although I didn’t quite have enough time to fine-tune some of my level design and UI, I’m pretty happy with what I was able to create from scratch in such a short period of time."},
-            {"type": "img", "data": "../../../assets/images/portfolio/hush/hush-hush-1.png"},
-            {"type": "text", "data": "The most interesting part about the development process for this project was having to implement my own character movement system. Since the movement in this game is discrete (along tiles on a grid), I didn't end up using the physics engine. Instead, I created a state machine to keep track of all the pieces on the platform, and then animated all the pieces at once to transition from one state to the next."}
-        ]
-    },
-    "Virtrolio": {
-        "title": "Virtrolio",
-        "body": [
-            {"type": "text", "data": "A virtrolio is a virtual folio—an online version of those last few pages in your yearbook that you use to write personal and long-lasting messages to your friends. In other words, you can create your own virtrolio, share it with friends, and have them write customized messages for you to keep. Whenever you want, you can view your virtrolio and all the messages you have received from your friends!"},
-            {"type": "img", "data": "../../../assets/images/portfolio/virtrolio/home.png"},
-            {"type": "text", "data": "With the COVID-19 pandemic leading to lockdowns and social distancing, a group of friends and I wanted to create an alternative way for graduating students (and others!) to be able to send each other messages in a medium that they can cherish with them as they continue on in their journeys."},
-            {"type": "text", "data": "Virtrolio was built using Angular and Firebase."},
-            {"type": "img", "data": "../../../assets/images/portfolio/virtrolio/book.png"}
-        ]
-    },
-    "Packet": {
-        "title": "Packet Stream Manipulator",
-        "body": [
-            {"type": "text", "data": "The Packet Stream Manipulator is a web interface for the Linux tc command, built during my coop at Providius Corp. tc (traffic control) is a utility that allows you to simulate network packet delay/loss/corruption/duplication for UDP or TCP applications, or limit the bandwidth usage of a service. It can be used to mimic the behaviours of network connections in practical environments."},
-            {"type": "text", "data": "The tc tool in the console is somewhat complicated to use, especially when you want to employ multiple effects on incoming packets or add filters. The web interface I built simplifies this."},
-            {"type": "img", "data": "../../../assets/images/portfolio/packet/interface.png"}
-        ]
-    },
-    "Tangible": {
-        "title": "Tangible",
-        "body": [
-            {"type": "text", "data": "Tangible was our culminating project for our SE 101 Introduction to Methods of Software Engineering course. I worked in a team of 5 to build a device that is designed to provide touch-screen capability to non-touch-screen monitors."},
-            {"type": "text", "data": "The device is built using 6 ultrasonic sensors and an Arduino."},
-            {"type": "img", "data": "../../../assets/images/portfolio/tangible/scroll.gif"}
-        ]
-    },
-    "Magnet": {
-        "title": "Magnet",
-        "body": [
-            {"type": "text", "data": "Magnet is an object-tracking robot that catches objects of a certain colour thrown towards it. This project was built in a team of 4 at the University of Waterloo’s Hack the North 2018."},
-            {"type": "text", "data": "The body of the bot was built using VEX robotics plates, C-channels, and servo motors. We used the Python OpenCV for object tracking on a Raspberry Pi."},
-            {"type": "img", "data": "../../../assets/images/portfolio/magnet/1.jpg"},
-            {"type": "img", "data": "../../../assets/images/portfolio/magnet/2.jpg"}
-        ]
-    },
-    "artwork.jr": {
-        "title": "artwork.jr",
-        "body": [
-            {"type": "text", "data": "This is my visual arts & UI/UX design portfolio. Here, I showcase some of my app concepts and mockups, logos, general digital art, and creative spins on works in pop-culture."},
-            {"type": "img", "data": "../../../assets/images/portfolio/artwork/1.png"},
-            {"type": "img", "data": "../../../assets/images/portfolio/artwork/2.png"},
-            {"type": "img", "data": "../../../assets/images/portfolio/artwork/3.svg"},
-            {"type": "img", "data": "../../../assets/images/portfolio/artwork/4.svg"},
-            {"type": "img", "data": "../../../assets/images/portfolio/artwork/5.svg"}
-        ]
-    },
-    "FedoraField": {
-        "title": "FedoraField",
-        "body": [
-            {"type": "text", "data": "Action video game where gravity is your weapon."},
-            {"type": "img", "data": "../../../assets/images/portfolio/fedora/1.png"},
-            {"type": "vid", "data": "../../../assets/images/portfolio/fedora/vid.mp4"}
-        ]
-    },
-    "Chess": {
-        "title": "Chess Path Visualizer",
-        "body": [
-            {"type": "text", "data": "An interactive chess board that helps you visualize squares under attack using colour."},
-            {"type": "img", "data": "../../../assets/images/portfolio/chess/1.png"}
-        ]
-    }
+  "Hush": {
+    "title": "Hush-Hush",
+    "body": [
+      {
+        "type": "text",
+        "data": "This project was the product of my first ever game jam! I participated in Unity's Create with Code Game Jam in October 2020. In this competition, we were tasked with creating a Unity video game in 56 hours that revolved around the theme of SECRETS."
+      },
+      {
+        "type": "text",
+        "data": "The game I built was a 3D Sokoban-esque puzzler called HUSH-HUSH in which the player must navigate their “secret” out of a crowd of blocks without revealing it. Although I didn’t quite have enough time to fine-tune some of my level design and UI, I’m pretty happy with what I was able to create from scratch in such a short period of time."
+      },
+      {
+        "type": "button",
+        "data": "Play my submission 🕹️",
+        "url": "https://play.unity.com/mg/other/hush-hush-2?_ga=2.244412101.1165901708.1612061112-2108602090.1609694703"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/hush/hush-hush-1.png"
+      },
+      {
+        "type": "text",
+        "data": "The most interesting part about the development process for this project was having to implement my own character movement system. Since the movement in this game is discrete (along tiles on a grid), I didn't end up using the physics engine. Instead, I created a state machine to keep track of all the pieces on the platform, and then animated all the pieces at once to transition from one state to the next."
+      }
+    ]
+  },
+  "Virtrolio": {
+    "title": "Virtrolio",
+    "body": [
+      {
+        "type": "text",
+        "data": "A virtrolio is a virtual folio—an online version of those last few pages in your yearbook that you use to write personal and long-lasting messages to your friends. In other words, you can create your own virtrolio, share it with friends, and have them write customized messages for you to keep. Whenever you want, you can view your virtrolio and all the messages you have received from your friends!"
+      },
+      {
+        "type": "button",
+        "data": "Get signing 🖊️",
+        "url": "https://virtrolio.web.app/"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/virtrolio/home.png"
+      },
+      {
+        "type": "text",
+        "data": "With the COVID-19 pandemic leading to lockdowns and social distancing, a group of friends and I wanted to create an alternative way for graduating students (and others!) to be able to send each other messages in a medium that they can cherish with them as they continue on in their journeys."
+      },
+      {
+        "type": "text",
+        "data": "Virtrolio was built using Angular and Firebase."
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/virtrolio/book.png"
+      }
+    ]
+  },
+  "Packet": {
+    "title": "Packet Stream Manipulator",
+    "body": [
+      {
+        "type": "text",
+        "data": "The Packet Stream Manipulator is a web interface for the Linux tc command, built during my coop at Providius Corp. tc (traffic control) is a utility that allows you to simulate network packet delay/loss/corruption/duplication for UDP or TCP applications, or limit the bandwidth usage of a service. It can be used to mimic the behaviours of network connections in practical environments."
+      },
+      {
+        "type": "text",
+        "data": "The tc tool in the console is somewhat complicated to use, especially when you want to employ multiple effects on incoming packets or add filters. The web interface I built simplifies this."
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/packet/interface.png"
+      }
+    ]
+  },
+  "Tangible": {
+    "title": "Tangible",
+    "body": [
+      {
+        "type": "text",
+        "data": "Tangible was our culminating project for our SE 101 Introduction to Methods of Software Engineering course. I worked in a team of 5 to build a device that is designed to provide touch-screen capability to non-touch-screen monitors."
+      },
+      {
+        "type": "text",
+        "data": "The device is built using 6 ultrasonic sensors and an Arduino."
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/tangible/scroll.gif"
+      }
+    ]
+  },
+  "Magnet": {
+    "title": "Magnet",
+    "body": [
+      {
+        "type": "text",
+        "data": "Magnet is an object-tracking robot that catches objects of a certain colour thrown towards it. This project was built in a team of 4 at the University of Waterloo’s Hack the North 2018."
+      },
+      {
+        "type": "text",
+        "data": "The body of the bot was built using VEX robotics plates, C-channels, and servo motors. We used the Python OpenCV for object tracking on a Raspberry Pi."
+      },
+      {
+        "type": "button",
+        "data": "Check out our Devpost 🧲",
+        "url": "https://devpost.com/software/magnet"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/magnet/1.jpg"
+      },
+      { "type": "img", "data": "../../../assets/images/portfolio/magnet/2.jpg" }
+    ]
+  },
+  "artwork.jr": {
+    "title": "artwork.jr",
+    "body": [
+      {
+        "type": "text",
+        "data": "This is my visual arts & UI/UX design portfolio. Here, I showcase some of my app concepts and mockups, logos, general digital art, and creative spins on works in pop-culture."
+      },
+      {
+        "type": "button",
+        "data": "Give me a follow 😉",
+        "url": "https://www.instagram.com/artwork.jr/"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/artwork/1.png"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/artwork/2.png"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/artwork/3.svg"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/artwork/4.svg"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/artwork/5.svg"
+      }
+    ]
+  },
+  "FedoraField": {
+    "title": "FedoraField",
+    "body": [
+      {
+        "type": "text",
+        "data": "Action video game where gravity is your weapon."
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/fedora/1.png"
+      },
+      {
+        "type": "vid",
+        "data": "../../../assets/images/portfolio/fedora/vid.mp4"
+      }
+    ]
+  },
+  "Chess": {
+    "title": "Chess Path Visualizer",
+    "body": [
+      {
+        "type": "text",
+        "data": "An interactive chess board that helps you visualize squares under attack using colour."
+      },
+      {
+        "type": "button",
+        "data": "Give it a try 👑",
+        "url": "https://janakitti.github.io/chess-visualizer/"
+      },
+      { "type": "img", "data": "../../../assets/images/portfolio/chess/1.png" }
+    ]
+  }
 }
