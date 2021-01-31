@@ -4,7 +4,7 @@
   /* background: linear-gradient(223deg, #fae2f6, #c3a5d7, #d6edfe, #ffeee7);*/
   /*background: linear-gradient(223deg, #dddddd, #ebfaff, #ffebf1, #fffbeb, #ffffff);*/
   /*background: linear-gradient(223deg, #fc4a3a, #e0d314, #c2d627, #13d69f);*/
-  background: linear-gradient(223deg, #ebdeff, #6F005D, #ebdeff);
+  background: linear-gradient(223deg, #ebdeff, #6f005d, #ebdeff);
   background-size: 600% 600%;
 
   -webkit-animation: BgAnimation 30s ease infinite;
@@ -16,19 +16,37 @@
 }
 
 @-webkit-keyframes BgAnimation {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }
 @-moz-keyframes BgAnimation {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }
 @keyframes BgAnimation {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }
 
 #landing-img {
@@ -50,26 +68,23 @@
 /*  right: 1em;*/
 /*}*/
 
-#title-container {
-}
-
 #landing-title {
   font-family: Poppins, sans-serif;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 8vw;
   color: black;
 }
 
 #landing-title-mobile {
   font-family: Poppins, sans-serif;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16vw;
   color: black;
 }
 
 #landing-subtitle {
   font-family: Poppins, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.2vw;
   text-align: right;
   line-height: 0;
@@ -78,7 +93,7 @@
 
 #landing-subtitle-mobile {
   font-family: Poppins, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 4vw;
   text-align: right;
   line-height: 0;
@@ -126,4 +141,3 @@
   height: 1.5em;
   width: 1.5em;
 }
-
