@@ -1,0 +1,27 @@
+[
+    {
+      "image": "../../../assets/images/virtrolio.svg",
+      "link": "virtrolio.web.app"
+    },
+    {
+      "image": "../../../assets/images/fedora-field.svg",
+      "link": "github.com/janakitti/FedoraField"
+    },
+    {
+      "image": "../../../assets/images/jr.svg",
+      "link": "instagram.com/artwork.jr"
+    },
+    {
+      "image": "../../../assets/images/tangible.svg",
+      "link": "git.uwaterloo.ca/jratanar/Tangible"
+    },
+    {
+      "image": "../../../assets/images/magnet.svg",
+      "link": "devpost.com/software/magnet"
+    },
+    {
+      "image": "../../../assets/images/wizard.svg",
+      "link": "youtube.com/channel/UCqDA91GZPdKF69dodlUE7xA"
+    }
+]
+
