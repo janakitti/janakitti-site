@@ -1,14 +1,53 @@
 #Project
+Linklist
+Create elegant landing pages
+Dec 2020 - present
+React, Redux, Next.js, Express, MongoDB
+github.com/janakitti/linklist
+
+<ul>
+	<li>
+		Built a full stack web app for creating mobile-friendly pages to list social media links, using <b>React</b>, <b>Redux</b>, and <b>Next.js</b> for the frontend
+	</li>
+	<li>
+		Developed an <b>Express REST API</b> for storing and updating user data in <b>MongoDB</b>, integrated authentication/authorization using <b>JWT</b>, and implemented email verification
+	</li>
+</ul>
+//
+#Project
+Procedural Landmass Generation
+Unity 3D Project from Sebastian Lague's YouTube Series
+Oct 2020 - Apr 2021
+Unity
+https://github.com/janakitti/Procedural-Landmass-Generation
+
+<ul>
+	<li>
+		 Created an infinite 3D terrain generator that uses Perlin noise and implemented threading to improve performance
+	</li>
+</ul>
+//
+#Project
 virtrolio
 Virtual yearbook-signing web app
 May 2020 - present
 Angular, TypeScript, Firebase
 virtrolio.web.app
 ../../../assets/images/virtrolio.svg
-Worked with a team of 7 to create a web service to allow students to sign each others yearbooks virtually, while practicing physical distancing due to COVID-19
-Developed a Pinterest-style front-end interface for viewing yearbook messages using <b>Angular</b> and <b>Bootstrap</b>
-Implemented Firebase <b>Cloud Firestore</b> to allow users to privately sign and receive yearbook messages
-Led the design of the overall product UI/UX and promotional materials
+<ul>
+	<li>
+		Worked with a team of 7 to create a web service to allow students to sign each others yearbooks virtually, while practicing physical distancing due to COVID-19
+	</li>
+	<li>
+		Developed a Pinterest-style front-end interface for viewing yearbook messages using <b>Angular</b> and <b>Bootstrap</b>
+	</li>
+	<li>
+		Implemented Firebase <b>Cloud Firestore</b> to allow users to privately sign and receive yearbook messages
+	</li>
+	<li>
+		Led the design of the overall product UI/UX and promotional materials
+	</li>
+</ul>
 //
 #Project
 FedoraField
@@ -17,8 +56,14 @@ Oct 2019 - present
 C#, Unity, Adobe Illustrator
 github.com/janakitti/FedoraField
 ../../../assets/images/fedora-field.svg
-Developed a <b>Unity</b> game in which players interact with enemy projectiles using simulated gravitational fields, modelled using the Unity physics engine
-Built a system for mixing audio based on player actions, creating an adaptive soundtrack for a unique experience
+<ul>
+	<li>
+		Developed a <b>Unity</b> game in which players interact with enemy projectiles using simulated gravitational fields, modelled using the Unity physics engine
+	</li>
+	<li>
+		Built a system for mixing audio based on player actions, creating an adaptive soundtrack for a unique experience
+	</li>
+</ul>
 //
 #Project
 Tangible
@@ -27,9 +72,17 @@ Oct 2019 - Dec 2019
 Arduino, C++, Unity
 git.uwaterloo.ca/jratanar/Tangible
 ../../../assets/images/tangible.svg
-Built a 'universal touchscreen' accessory with <b>Arduino</b> ultrasonic sensors to enable touch screen capability on non-touchscreen monitors
-Programmed a finger-mapping system to process sensor inputs as taps and gestures on the screen
-Developed a small collection of touch-optimized <b>Unity</b> applets to demonstrate effectiveness of hardware
+<ul>
+	<li>
+		Built a 'universal touchscreen' accessory with <b>Arduino</b> ultrasonic sensors to enable touch screen capability on non-touchscreen monitors
+	</li>
+	<li>
+		Programmed a finger-mapping system to process sensor inputs as taps and gestures on the screen
+	</li>
+	<li>
+		Developed a small collection of touch-optimized <b>Unity</b> applets to demonstrate effectiveness of hardware
+	</li>
+</ul>
 //
 #Project
 MAGNET
@@ -38,16 +91,71 @@ Sep 2018 // Hack the North '18
 Python, OpenCV, Arduino, Raspberry Pi
 devpost.com/software/magnet
 ../../../assets/images/magnet.svg
-Constructed a projectile-catching robot with a holonomic drive train controlled by an Arduino
-Used <b>OpenCV</b> library in <b>Python</b> on a <b>Raspberry Pi</b> to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets
+<ul>
+	<li>
+		Constructed a projectile-catching robot with a holonomic drive train controlled by an Arduino
+	</li>
+	<li>
+		Used <b>OpenCV</b> library in <b>Python</b> on a <b>Raspberry Pi</b> to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets
+	</li>
+</ul>
 //
 #Experience
-Software Engineering Co-op
+Full Stack Developer
+DarwinAI
+Jan 2021 - Apr 2021
+Waterloo, ON
+React, Python, Docker
+<ul>
+	<li>
+		Worked on the <b>COVID-Net Initiative</b>; a neural network platform for detecting diseases from X-ray and CT scans
+	</li>
+	<li>
+		Rebuilt paginated table component on the app dashboard to <b>reduce page loading times by 7x</b> and support automatic updates through polling
+	</li>
+	<li>
+		Integrated hospital <b>PACS server</b> (Picture Archiving and Communication System) with the web client to allow users to easily query medical data
+	</li>
+	<li>
+		Implemented UI features to support multiple users, notifications, and the displaying of inferences from various deep learning models
+	</li>
+	<li>
+		Created a <b>Python</b> script for easily generating mock DICOM files (Digital Imaging and Communications in Medicine) to test the UI
+	</li>
+</ul>
+//
+#Experience
+Software Developer
 Providius Corp.
 May 2020 - Aug 2020
 Hamilton, ON
 Angular, Flask, Python, Bootstrap, Socketio, C++, Qt
-<ul><li>Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network</li><ul><li>Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socket.io</b>, and <b>Linux Traffic Control</b></li><li>Designed a modular and intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b></li></ul><li><b>Reduced CPU usage by 24%</b> for a network dashboard web app through developing a custom browser using <b>Qt</b> and <b>Chromium Embedded Framework</b></li><ul><li>Configured Chromium browser for seamless integration of the web app with third party vendor apps</li><li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b></li></ul><li>Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using <b>Google App Scripts</b></li></ul>
+<ul>
+	<li>
+	Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network
+	</li>
+	<ul>
+		<li>
+			Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socket.io</b>, and <b>Linux Traffic Control</b>
+		</li>
+		<li>
+			Designed a modular and intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b>
+		</li>
+	</ul>
+	<li>
+		<b>Reduced CPU usage by 24%</b> for a network dashboard web app through developing a custom browser using <b>Qt</b> and <b>Chromium Embedded Framework</b>
+	</li>
+	<ul>
+		<li>
+			Configured Chromium browser for seamless integration of the web app with third party vendor apps
+		</li>
+		<li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b>
+		</li>
+	</ul>
+	<li>
+		Developed a system for organizing Google Drive files by automatically generating filtered file trees on a webpage using <b>Google App Scripts</b>
+	</li>
+</ul>
 //
 #Experience
 Software Developer

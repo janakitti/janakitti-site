@@ -11,7 +11,7 @@ while True:
                'subtitle': '',
                'date': '',
                'tech': [],
-               'description': [],
+               'description': "",
                'link': '',
                'image': ''}
     project['title'] = file.readline().replace("\n", "")
@@ -22,7 +22,7 @@ while True:
     project['image'] = file.readline().replace("\n", "")
     desc = file.readline().replace("\n", "")
     while desc != '//':
-      project['description'].append(desc)
+      project['description'] += desc
       desc = file.readline().replace("\n", "")
     resume['projects'].append(project)
   elif line == '#Experience':
@@ -31,7 +31,7 @@ while True:
                'date': '',
                'location': '',
                'tech': '',
-               'description': []}
+               'description': ""}
     experience['position'] = file.readline().replace("\n", "")
     experience['organization'] = file.readline().replace("\n", "")
     experience['date'] = file.readline().replace("\n", "")
@@ -39,7 +39,7 @@ while True:
     experience['tech'] = file.readline().replace("\n", "").split(', ')
     desc = file.readline().replace("\n", "")
     while desc != '//':
-      experience['description'].append(desc)
+      experience['description'] += desc
       desc = file.readline().replace("\n", "")
     resume['experiences'].append(experience)
   elif line == '#Portfolio':
