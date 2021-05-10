@@ -32,8 +32,8 @@ export class ProgressBarsComponent implements OnInit {
         name: 'Linklist',
         link: 'github.com/janakitti/linklist',
         percentage: otherPercentage,
-        color1: '#333333',
-        color2: '#444444',
+        color1: '#54b386',
+        color2: '#72cfa3',
       },
     ];
   }
