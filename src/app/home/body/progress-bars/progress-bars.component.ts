@@ -15,8 +15,8 @@ export class ProgressBarsComponent implements OnInit {
     const sePercentage = Math.round(
       ((today - seStart) / (seEnd - seStart)) * 100
     );
-    const otherStart = new Date('January 1, 2021, 00:00:00').getTime();
-    const otherEnd = new Date('April 31, 2021, 00:00:00').getTime();
+    const otherStart = new Date('December 20, 2020, 00:00:00').getTime();
+    const otherEnd = new Date('June 30, 2021, 00:00:00').getTime();
     const otherPercentage = Math.round(
       ((today - otherStart) / (otherEnd - otherStart)) * 100
     );
@@ -29,11 +29,11 @@ export class ProgressBarsComponent implements OnInit {
         color2: '#ae54d1',
       },
       {
-        name: 'Machine Learning by Stanford University',
-        link: 'www.coursera.org/learn/machine-learning',
+        name: 'Linklist',
+        link: 'github.com/janakitti/linklist',
         percentage: otherPercentage,
-        color1: '#c4294b',
-        color2: '#d14765',
+        color1: '#b3a41d',
+        color2: '#cfbf34',
       },
     ];
   }
