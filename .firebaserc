@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "janakitti-31ba2": {
+      "hosting": {
+        "janakitti": [
+          "janakitti-31ba2"
+        ]
+      }
+    }
+  }
+}
