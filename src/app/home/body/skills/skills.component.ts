@@ -9,10 +9,13 @@ import { FormattingService } from '../../../core/formatting.service';
 })
 export class SkillsComponent implements OnInit {
   languages: SkillItem[] = [
-    { name: 'Python' },
-    { name: 'C++' },
     { name: 'TypeScript' },
     { name: 'JavaScript' },
+    { name: 'Python' },
+    { name: 'C' },
+    { name: 'C++' },
+    { name: 'C#' },
+    { name: 'Java' },
     { name: 'HTML' },
     { name: 'CSS' },
     { name: 'SQL' },
