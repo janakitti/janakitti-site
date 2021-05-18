@@ -37,12 +37,15 @@ export class SkillsComponent implements OnInit {
   ];
   frameworks: SkillItem[] = [
     { name: 'React' },
+    { name: 'Redux' },
     { name: 'Angular' },
+    { name: 'GraphQL' },
     { name: 'MongoDB' },
     { name: 'Mongoose' },
     { name: 'Firebase' },
+    { name: 'PostgreSQL' },
     { name: 'Node.js' },
-    { name: 'Express.js' },
+    { name: 'Express' },
     { name: 'Flask' },
     { name: 'Jest' },
     { name: 'Unity' },
