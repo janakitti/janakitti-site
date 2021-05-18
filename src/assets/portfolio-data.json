@@ -60,11 +60,15 @@
     "body": [
       {
         "type": "text",
-        "data": "The Packet Stream Manipulator is a web interface for the Linux tc command, built during my coop at Providius Corp. tc (traffic control) is a utility that allows you to simulate network packet delay/loss/corruption/duplication for UDP or TCP applications, or limit the bandwidth usage of a service. It can be used to mimic the behaviours of network connections in practical environments."
+        "data": "The Packet Stream Manipulator is a web interface for the Linux TC (Traffic Control) command line tool, built during my coop at Providius Corp. TC is a Linux utility that allows you to simulate network packet delay/loss/corruption/duplication for UDP or TCP applications, or limit the bandwidth usage of a service. It can be used to mimic the behaviours of network connections in practical environments. The team used this to test their network products under realistic conditions. The challenge here was that the commands for TC are pretty complicated, especially when you want to stack sets of packet rules and filters, or only apply rules to packets coming from a certain source."
       },
       {
         "type": "text",
-        "data": "The tc tool in the console is somewhat complicated to use, especially when you want to employ multiple effects on incoming packets or add filters. The web interface I built simplifies this."
+        "data": "To solve this, I built a Python and Flask API that makes it easier to declare the TC packet rules and filters you want and generate the proper TC command. I then implemented a UI using Angular, Bootstrap, and Angular Material that makes the process a lot more intuitive."
+      },
+      {
+        "type": "text",
+        "data": "<h3>Features</h3><ul><li>Controls for packet...<ul><li>Delay</li><li>Jitter</li><li>Loss</li><li>Corruption</li><li>Duplication</li></ul></li><li>Network stream and interface selection, based on available options on the current network</li><li>Ability to apply filters based on packet source and destination IP</li><li>Ability to store, load, and edit preset rules and filters</li><li>Window for Linux TC command outputs</li></ul>"
       },
       {
         "type": "img",
