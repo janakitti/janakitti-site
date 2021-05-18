@@ -18,12 +18,25 @@ github.com/janakitti/linklist
 Procedural Landmass Generation
 Unity 3D Project from Sebastian Lague's YouTube Series
 Oct 2020 - Apr 2021
-Unity
+C#, Unity
 https://github.com/janakitti/Procedural-Landmass-Generation
 
 <ul>
 	<li>
 		 Created an infinite 3D terrain generator that uses Perlin noise and implemented threading to improve performance
+	</li>
+</ul>
+//
+#Project
+Hush-Hush
+2020 Unity Game Jam Featured Project
+Oct 2020
+C#, Unity
+https://github.com/janakitti/secrets
+
+<ul>
+	<li>
+		 Built a <b>Unity</b> and <b>C#</b> 3D Sokoban-style game, implementing a state machine for player movement and custom collision-detection system
 	</li>
 </ul>
 //
@@ -36,13 +49,10 @@ virtrolio.web.app
 ../../../assets/images/virtrolio.svg
 <ul>
 	<li>
-		Worked with a team of 7 to create a web service to allow students to sign each others yearbooks virtually, while practicing physical distancing due to COVID-19
+		Led a team of 7 developers to launch a web app for students to sign yearbooks virtually during COVID-19 using <b>Angular</b> and <b>Bootstrap</b>
 	</li>
 	<li>
-		Developed a Pinterest-style front-end interface for viewing yearbook messages using <b>Angular</b> and <b>Bootstrap</b>
-	</li>
-	<li>
-		Implemented Firebase <b>Cloud Firestore</b> to allow users to privately sign and receive yearbook messages
+		Integrated <b>Firebase Cloud Firestore</b> to allow <b>150+ users</b> to privately sign and receive customized yearbook messages
 	</li>
 	<li>
 		Led the design of the overall product UI/UX and promotional materials
@@ -105,22 +115,27 @@ Full Stack Developer
 DarwinAI
 Jan 2021 - Apr 2021
 Waterloo, ON
-React, Python, Docker
+React, TypeScript, Python, Docker, ChRIS, orthanc DICOM server
 <ul>
 	<li>
-		Worked on the <b>COVID-Net Initiative</b>; a neural network platform for detecting diseases from X-ray and CT scans
+		Developed a <b>React</b> app for the <b>COVID-Net Initiative</b>; a neural network platform for detecting diseases from X-ray and CT images
 	</li>
 	<li>
-		Rebuilt paginated table component on the app dashboard to <b>reduce page loading times by 7x</b> and support automatic updates through polling
+		Reduced loading times of a major table component <b>by 86%</b> by optimizing API calls to the ChRIS medical cloud computing platform
+	</li>
+	<ul>
+		<li>
+			Implemented a method for efficiently polling the ChRIS backend to automatically update the table when new data is available
+		</li>
+	</ul>
+	<li>
+		 Integrated a hospital <b>PACS server</b> (Picture Archiving and Communication System) with the web client to allow users to easily query medical data
 	</li>
 	<li>
-		Integrated hospital <b>PACS server</b> (Picture Archiving and Communication System) with the web client to allow users to easily query medical data
+		Implemented UI features to support multi-user capability, notifications, and the displaying of results from various deep learning models
 	</li>
 	<li>
-		Implemented UI features to support multiple users, notifications, and the displaying of inferences from various deep learning models
-	</li>
-	<li>
-		Created a <b>Python</b> script for easily generating mock DICOM files (Digital Imaging and Communications in Medicine) to test the UI
+		Created a <b>Python</b> script for easily generating mock DICOM files (Digital Imaging and Communications in Medicine) using <b>pydicom</b>, to test the UI
 	</li>
 </ul>
 //
@@ -129,17 +144,17 @@ Software Developer
 Providius Corp.
 May 2020 - Aug 2020
 Hamilton, ON
-Angular, Flask, Python, Bootstrap, Socketio, C++, Qt
+Angular, TypeScript, Flask, Python, Bootstrap, Socketio, C++, Qt, pypcap, dpkt
 <ul>
 	<li>
-	Built <b>Angular</b> web apps for monitoring and manipulating transmission of packets over a network
+	Built web apps for monitoring and manipulating transmission of packets over a network using <b>Angular</b>, <b>Python</b>, <b>Flask</b>, <b>Socket.io</b>, and the <b>pypcap</b> and <b>dpkt</b> libraries
 	</li>
 	<ul>
 		<li>
-			Created a tool for simulating practical network connections (packet drop, delay, etc.) using a <b>Flask</b> backend, <b>Socket.io</b>, and <b>Linux Traffic Control</b>
+			Created a modular UI for Linux Traffic Control, making it more accessible for developers to simulate practical network connections (packet drop, delay, corruption, etc.) and test network monitoring products
 		</li>
 		<li>
-			Designed a modular and intuitive web interface using <b>Bootstrap</b> and <b>Angular Material</b>
+			Implemented a packet capture app for tracking the source and destination of packets over a network
 		</li>
 	</ul>
 	<li>
@@ -149,7 +164,8 @@ Angular, Flask, Python, Bootstrap, Socketio, C++, Qt
 		<li>
 			Configured Chromium browser for seamless integration of the web app with third party vendor apps
 		</li>
-		<li>Packaged desktop browser app for deployment using <b>QtInstallerFramework</b>
+		<li>
+			Packaged desktop browser app for deployment on Linux and Windows using <b>QtInstallerFramework</b>
 		</li>
 	</ul>
 	<li>
