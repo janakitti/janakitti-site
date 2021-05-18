@@ -68,7 +68,7 @@
       },
       {
         "type": "text",
-        "data": "<h3>Features</h3><ul><li>Controls for packet...<ul><li>Delay</li><li>Jitter</li><li>Loss</li><li>Corruption</li><li>Duplication</li></ul></li><li>Network stream and interface selection, based on available options on the current network</li><li>Ability to apply filters based on packet source and destination IP</li><li>Ability to store, load, and edit preset rules and filters</li><li>Window for Linux TC command outputs</li></ul>"
+        "data": "<h3>Features</h3><ul><li>Controls for packet...<ul><li>Delay</li><li>Jitter</li><li>Loss</li><li>Corruption</li><li>Duplication</li></ul></li><li>Controls for network bandwidth</li><li>Network stream and interface selection, based on available options on the current network</li><li>Ability to apply filters based on packet source and destination IP</li><li>Ability to store, load, and edit preset rules and filters</li><li>Window for Linux TC command outputs</li></ul>"
       },
       {
         "type": "img",
