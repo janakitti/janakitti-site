@@ -4,7 +4,7 @@
   /* background: linear-gradient(223deg, #fae2f6, #c3a5d7, #d6edfe, #ffeee7);*/
   /*background: linear-gradient(223deg, #dddddd, #ebfaff, #ffebf1, #fffbeb, #ffffff);*/
   /*background: linear-gradient(223deg, #fc4a3a, #e0d314, #c2d627, #13d69f);*/
-  background: linear-gradient(223deg, #e6c6ff, #afa8ec, #da9ae7);
+  background: #f5f5f5;
   background-size: 600% 600%;
 
   -webkit-animation: BgAnimation 20s ease infinite;
@@ -50,13 +50,25 @@
 }
 
 #landing-img {
-  background: url("../../../assets/images/landing-img.svg") no-repeat center;
+  /* background: url("../../../assets/images/circle.png") no-repeat center;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
   position: absolute;
   left: 0;
-  right: 0;
+  right: 0; */
+}
+
+#title-img {
+  position: absolute;
+  width: 20vw;
+  z-index: 0;
+}
+
+#title-img-mobile {
+  position: absolute;
+  width: 40vw;
+  z-index: 0;
 }
 
 /*#landing-border {*/
@@ -69,13 +81,16 @@
 /*}*/
 
 #landing-title {
+  position: relative;
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 8vw;
   color: black;
+  z-index: 2;
 }
 
 #landing-title-mobile {
+  position: relative;
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 16vw;
@@ -83,6 +98,7 @@
 }
 
 #landing-subtitle {
+  position: relative;
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 1.2vw;
@@ -92,6 +108,7 @@
 }
 
 #landing-subtitle-mobile {
+  position: relative;
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 4vw;

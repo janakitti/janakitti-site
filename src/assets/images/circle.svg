@@ -1,0 +1,17 @@
+<svg width="344" height="344" viewBox="0 0 344 344" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.6">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="344" height="344">
+<circle cx="172" cy="172" r="172" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="3" cy="98" r="131" fill="#DB001A" fill-opacity="0.71"/>
+<circle cx="-215" cy="9" r="315" fill="#DB001A" fill-opacity="0.71"/>
+<circle cx="263" cy="297" r="87" fill="#0DCAF3" fill-opacity="0.5"/>
+<circle cx="326" cy="382" r="140" fill="#0DCAF3" fill-opacity="0.5"/>
+<path d="M182 380C182 458.424 118.424 522 40 522C-38.4244 522 -102 458.424 -102 380C-102 301.576 -38.4244 238 40 238C118.424 238 182 301.576 182 380Z" fill="#2C00DB" fill-opacity="0.7"/>
+<path d="M248 541C248 711.656 109.656 850 -61 850C-231.656 850 -370 711.656 -370 541C-370 370.344 -231.656 232 -61 232C109.656 232 248 370.344 248 541Z" fill="#2C00DB" fill-opacity="0.7"/>
+<circle cx="291" cy="-11" r="115" fill="#DBB800" fill-opacity="0.69"/>
+<circle cx="381" cy="-149" r="253" fill="#DBB800" fill-opacity="0.69"/>
+</g>
+</g>
+</svg>
