@@ -10,7 +10,7 @@ github.com/janakitti/linklist
 		Built a full stack web app for creating mobile-friendly pages to list social media links, using <b>React</b>, <b>Redux</b>, and <b>Next.js</b> for the frontend
 	</li>
 	<li>
-		Developed an <b>Express REST API</b> for storing and updating user data in <b>MongoDB</b>, integrated authentication/authorization using <b>JWT</b>, and implemented email verification
+		Developed an <b>Express REST API</b> for storing and updating user data in <b>MongoDB</b> and integrated authentication/authorization using <b>JWT</b>
 	</li>
 </ul>
 //
@@ -52,7 +52,7 @@ virtrolio.web.app
 		Led a team of 7 developers to launch a web app for students to sign yearbooks virtually during COVID-19 using <b>Angular</b> and <b>Bootstrap</b>
 	</li>
 	<li>
-		Integrated <b>Firebase Cloud Firestore</b> to allow <b>150+ users</b> to privately sign and receive customized yearbook messages
+		Integrated <b>Firebase Cloud Firestore</b> to allow <b>350+ users</b> to privately sign and receive customized yearbook messages
 	</li>
 	<li>
 		Led the design of the overall product UI/UX and promotional materials
@@ -107,6 +107,18 @@ devpost.com/software/magnet
 	</li>
 	<li>
 		Used <b>OpenCV</b> library in <b>Python</b> on a <b>Raspberry Pi</b> to generate binary images from USB camera input, identify contours, and create minimum bounding circles around targets
+	</li>
+</ul>
+//
+#Experience
+AR/VR Developer
+Spatial
+Sept 2021 - present
+San Francisco, CA
+C#, Unity, Mixed Reality Toolkit, React
+<ul>
+	<li>
+		Currently working on the Spatial VR collaboration app for Oculus, web, and mobile.
 	</li>
 </ul>
 //
