@@ -118,7 +118,7 @@ San Francisco, CA
 C#, Unity, Mixed Reality Toolkit, React
 <ul>
 	<li>
-		Currently working on the Spatial VR collaboration app for Oculus, web, and mobile.
+		Currently working on the Spatial VR collaboration app for Oculus, web, and mobile
 	</li>
 </ul>
 //
