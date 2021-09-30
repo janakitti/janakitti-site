@@ -16,7 +16,7 @@ export class ProgressBarsComponent implements OnInit {
       ((today - seStart) / (seEnd - seStart)) * 100
     );
     const otherStart = new Date('December 20, 2020, 00:00:00').getTime();
-    const otherEnd = new Date('June 30, 2021, 00:00:00').getTime();
+    const otherEnd = new Date('December 30, 2021, 00:00:00').getTime();
     const otherPercentage = Math.round(
       ((today - otherStart) / (otherEnd - otherStart)) * 100
     );
