@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landing.component.css'],
 })
 export class LandingComponent implements OnInit {
+  numLandingImages: number = 3;
   landingImg: number = 0;
   constructor() {}
 
   ngOnInit(): void {
-    this.landingImg = Math.floor(Math.random() * 4);
+    this.landingImg = Math.floor(Math.random() * this.numLandingImages);
   }
 }
