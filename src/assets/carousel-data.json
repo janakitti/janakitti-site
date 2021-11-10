@@ -1,27 +1,32 @@
 [
-  { "title": "Chess",
-    "slides": [
-      "../../assets/images/chess.svg"
-    ],
-    "width": 4,
-    "currentSlide": 0},
   { "title": "Hush",
     "slides": [
       "../../assets/images/hush-hush-01.svg"
     ],
-    "width": 8,
+    "width": 4,
     "currentSlide": 0},
   { "title": "Virtrolio",
     "slides": [
     "../../assets/images/virtrolio-01.svg",
     "../../assets/images/virtrolio-02.png"
     ],
-    "width": 6,
+    "width": 8,
     "currentSlide": 0},
   { "title": "Tangible",
     "slides": [
       "../../assets/images/tangible-01.svg",
       "../../assets/images/tangible-02.gif"
+    ],
+    "width": 6,
+    "currentSlide": 0},
+  { "title": "artwork.jr",
+    "slides": [
+      "../../assets/images/artwork-01.svg",
+      "../../assets/images/artwork-02.png",
+      "../../assets/images/artwork-03.png",
+      "../../assets/images/artwork-04.svg",
+      "../../assets/images/artwork-05.svg",
+      "../../assets/images/artwork-06.svg"
     ],
     "width": 6,
     "currentSlide": 0},
@@ -38,18 +43,13 @@
       "../../assets/images/magnet-02.jpg",
       "../../assets/images/magnet-03.jpg"
     ],
-    "width": 6,
+    "width": 8,
     "currentSlide": 0},
-  { "title": "artwork.jr",
+  { "title": "Chess",
     "slides": [
-      "../../assets/images/artwork-01.svg",
-      "../../assets/images/artwork-02.png",
-      "../../assets/images/artwork-03.png",
-      "../../assets/images/artwork-04.svg",
-      "../../assets/images/artwork-05.svg",
-      "../../assets/images/artwork-06.svg"
+      "../../assets/images/chess.svg"
     ],
-    "width": 6,
+    "width": 4,
     "currentSlide": 0},
   { "title": "FedoraField",
     "slides": [
