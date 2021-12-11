@@ -12,6 +12,12 @@
     ],
     "width": 8,
     "currentSlide": 0},
+  { "title": "DarwinAI",
+    "slides": [
+      "../../assets/images/darwinai.svg"
+    ],
+    "width": 12,
+    "currentSlide": 0},
   { "title": "Tangible",
     "slides": [
       "../../assets/images/tangible-01.svg",
