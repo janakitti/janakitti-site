@@ -1,4 +1,10 @@
 [
+  { "title": "Spatial",
+    "slides": [
+      "../../assets/images/spatial.svg"
+    ],
+    "width": 12,
+    "currentSlide": 0},
   { "title": "Hush",
     "slides": [
       "../../assets/images/hush-hush-01.svg"

@@ -1,4 +1,26 @@
 {
+  "Spatial": {
+    "title": "Internship: Spatial",
+    "body": [
+      {
+        "type": "text",
+        "data": "I'm currently working as an AR/VR Developer intern at Spatial. Stay tuned for some stories about my work here!"
+      },
+      {
+        "type": "button",
+        "data": "Enter the Spatial metaverse 🤩",
+        "url": "https://spatial.io/"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/spatial/spatial-1.jpg"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/spatial/spatial-2.jpg"
+      }
+    ]
+  },
   "Hush": {
     "title": "Hush-Hush",
     "body": [
