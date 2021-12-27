@@ -9,6 +9,7 @@
     }
   },
   "projects": {
-    "janakitti": "janakitti-31ba2"
+    "janakitti": "janakitti-31ba2",
+    "default": "janakitti-31ba2"
   }
 }
