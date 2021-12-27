@@ -13,6 +13,7 @@ export class LandingComponent implements AfterViewInit {
   private loader: THREE.GLTFLoader;
   private camera: THREE.Camera;
   private renderer: THREE.Renderer;
+  private isResized = false;
 
   constructor() {}
 
@@ -59,10 +60,23 @@ export class LandingComponent implements AfterViewInit {
     this.camera.rotation.z = 0.65;
   }
 
+  private resizeCanvasToDisplaySize() {
+    this.isResized = false;
+    this.renderer.setSize(window.innerWidth, window.innerHeight);
+
+    // Update the camera
+    this.camera.aspect = window.innerWidth/window.innerHeight;
+    this.camera.updateProjectionMatrix();
+  }
+
   private startRenderingLoop() {
     let component: LandingComponent = this;
     function animate() {
       requestAnimationFrame( animate );
+      if (component.isResized) {
+        component.resizeCanvasToDisplaySize();
+      }
+
       if (component.model)
       {
         component.model.rotation.y += 0.002;
@@ -73,7 +87,8 @@ export class LandingComponent implements AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-     this.createScene();
-     this.startRenderingLoop(); 
+    window.addEventListener('resize', () => this.isResized = true);
+    this.createScene();
+    this.startRenderingLoop(); 
   }
 }
