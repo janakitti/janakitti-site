@@ -60,12 +60,25 @@
       },
       {
         "type": "button",
-        "data": "COVID-NET 🧠",
+        "data": "COVID-Net 🧠",
         "url": "https://darwinai.com/case-studies/covid-net-an-open-source-convolutional-neural-network-for-covid-19-detection-via-chest-radiography/"
       },
       {
         "type": "img",
         "data": "../../../assets/images/portfolio/darwinai/covid-net.png"
+      }
+    ]
+  },
+  "Linklist": {
+    "title": "Linklist",
+    "body": [
+      {
+        "type": "text",
+        "data": "Linklist is a landing page creator built using the MERN stack. The project is currently under development - stay tuned for updates!"
+      },
+      {
+        "type": "img",
+        "data": "../../../assets/images/portfolio/linklist/linklist-0.svg"
       }
     ]
   },

@@ -24,13 +24,6 @@
     ],
     "width": 12,
     "currentSlide": 0},
-  { "title": "Tangible",
-    "slides": [
-      "../../assets/images/tangible-01.svg",
-      "../../assets/images/tangible-02.gif"
-    ],
-    "width": 6,
-    "currentSlide": 0},
   { "title": "artwork.jr",
     "slides": [
       "../../assets/images/artwork-01.svg",
@@ -39,6 +32,12 @@
       "../../assets/images/artwork-04.svg",
       "../../assets/images/artwork-05.svg",
       "../../assets/images/artwork-06.svg"
+    ],
+    "width": 6,
+    "currentSlide": 0},
+  { "title": "Linklist",
+    "slides": [
+      "../../assets/images/linklist-0.svg"
     ],
     "width": 6,
     "currentSlide": 0},
@@ -55,13 +54,14 @@
       "../../assets/images/magnet-02.jpg",
       "../../assets/images/magnet-03.jpg"
     ],
-    "width": 8,
+    "width": 6,
     "currentSlide": 0},
-  { "title": "Chess",
+  { "title": "Tangible",
     "slides": [
-      "../../assets/images/chess.svg"
+      "../../assets/images/tangible-01.svg",
+      "../../assets/images/tangible-02.gif"
     ],
-    "width": 4,
+    "width": 6,
     "currentSlide": 0},
   { "title": "FedoraField",
     "slides": [
