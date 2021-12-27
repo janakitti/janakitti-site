@@ -57,6 +57,9 @@
   position: absolute;
   left: 0;
   right: 0; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
 #title-img {
@@ -79,6 +82,16 @@
 /*  left: 1em;*/
 /*  right: 1em;*/
 /*}*/
+
+#title-container {
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  background-color: red; */
+  /* z-index: 100;
+  margin: 0 auto;
+  position: absolute; */
+}
 
 #landing-title {
   position: relative;
