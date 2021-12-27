@@ -1,109 +1,79 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import * as dat from 'dat.gui';
+import { GLTFLoader, GLTF } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css'],
 })
-export class LandingComponent implements OnInit {
-  numLandingImages: number = 3;
-  landingImg: number = 0;
+export class LandingComponent implements AfterViewInit {
+  private model: THREE.Group;
+  private scene: THREE.Scene;
+  private loader: THREE.GLTFLoader;
+  private camera: THREE.Camera;
+  private renderer: THREE.Renderer;
+
   constructor() {}
 
-  ngOnInit(): void {
-    this.landingImg = Math.floor(Math.random() * this.numLandingImages);
-    // const gui = new dat.GUI()
-    THREE.Object3D.prototype.rotateAroundWorldAxis = function() {
-      
-      var q1 = new THREE.Quaternion();
-      return function ( point, axis, angle ) {
-  
-          q1.setFromAxisAngle( axis, angle );
-  
-          this.quaternion.multiplyQuaternions( q1, this.quaternion );
-  
-          this.position.sub( point );
-          this.position.applyQuaternion( q1 );
-          this.position.add( point );
-          return this;
-      }
-  
-  }();
+  private createScene() {
+    this.scene = new THREE.Scene();
+    this.camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
+    this.renderer = new THREE.WebGLRenderer( { alpha: true } );
+    this.renderer.setClearColor( 0x000000, 0 );
+    this.renderer.setSize( window.innerWidth, window.innerHeight );
+    this.renderer.physicallyCorrectLights = true;
+    this.renderer.outputEncoding =  THREE.sRGBEncoding;
+    this.renderer.gammaOutput =  true;
+    this.renderer.gammaFactor =  2.2;
 
+    document.getElementById("landing-img").appendChild(this.renderer.domElement);
 
-    const loader = new GLTFLoader();
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-
-    const renderer = new THREE.WebGLRenderer( { alpha: true } );
-    renderer.setClearColor( 0x000000, 0 );
-    renderer.setSize( window.innerWidth, window.innerHeight );
-
-    renderer.physicallyCorrectLights = true;
-renderer.outputEncoding =  THREE.sRGBEncoding;
-
-renderer.gammaOutput =  true;
-renderer.gammaFactor =  2.2;
-    document.getElementById("landing-img").appendChild( renderer.domElement );
-
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-    const cube = new THREE.Mesh( geometry, material );
-    // scene.add( cube );
-
-    let model;
-    loader.load( '../../../assets/3d/shard0.glb', function ( gltf ) {
-      model = gltf.scene;
-      console.log(model)
-      model.traverse(function(child){
-        if(child.isMesh === true){
+    this.loader = new GLTFLoader();
+    this.loader.load( '../../../assets/3d/shard0.glb', ( gltf: GLTF ) => {
+      this.model = gltf.scene;
+      this.model.traverse(child => {
+        if (child.isMesh === true){
             child.material.transparent = true;
             child.material.opacity = 0;
         }
-    });
-      scene.add( gltf.scene );
-    
-    }, undefined, function ( error ) {
-    
+      });
+      this.scene.add(this.model);
+    }, undefined, error => {
       console.error( error );
-    
-    } );
+    });
 
-    const light = new THREE.AmbientLight( 0xffffff ); // soft white light
-scene.add( light );
+    const ambientLight = new THREE.AmbientLight( 0xffffff );
+    this.scene.add( ambientLight );
 
     var hemiLight = new THREE.HemisphereLight( 0xffffff, 0x444444 );
     hemiLight.position.set( 0, 10, 5 );
-    scene.add( hemiLight );
+    this.scene.add( hemiLight );
 
     var dirLight = new THREE.DirectionalLight( 0xffffff );
     dirLight.position.set( 0, 0, 5 );
-    scene.add( dirLight );
+    this.scene.add( dirLight );
 
+    this.camera.position.z = 6;
+    this.camera.rotation.z = 0.65;
+  }
 
-
-    camera.position.z = 6;
-    camera.rotation.z = 0.65;
-
-let a = 0;
+  private startRenderingLoop() {
+    let component: LandingComponent = this;
     function animate() {
       requestAnimationFrame( animate );
-
-      // model.rotation.x += 0.01;
-      if (model)
+      if (component.model)
       {
-        model.rotation.y += 0.002;
+        component.model.rotation.y += 0.002;
       }
-      a += 0.0001;
-      // model?.rotateAroundWorldAxis(new THREE.Vector3(0, 0, 0), new THREE.Vector3(0.5000, 0.8660, 0), a);
-      renderer.render( scene, camera );
+      component.renderer.render( component.scene, component.camera );
     };
-
     animate();
+  }
+
+  ngAfterViewInit(): void {
+     this.createScene();
+     this.startRenderingLoop(); 
   }
 }
