@@ -68,8 +68,16 @@ export class LandingComponent implements AfterViewInit {
     dirLight.position.set(0, 0, 5);
     this.scene.add(dirLight);
 
-    this.camera.position.z = 6;
+    this.setCameraDistance();
     this.camera.rotation.z = 0.65;
+  }
+
+  private setCameraDistance() {
+    if (window.innerWidth < 768) {
+      this.camera.position.z = 12;
+    } else {
+      this.camera.position.z = 6;
+    }
   }
 
   private resizeCanvasToDisplaySize() {
@@ -80,11 +88,7 @@ export class LandingComponent implements AfterViewInit {
     this.camera.aspect = window.innerWidth / window.innerHeight;
     this.camera.updateProjectionMatrix();
 
-    if (window.innerWidth < 768) {
-      this.camera.position.z = 12;
-    } else {
-      this.camera.position.z = 6;
-    }
+    this.setCameraDistance();
   }
 
   private startRenderingLoop() {
