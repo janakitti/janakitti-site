@@ -1,30 +1,39 @@
 [
-  { "title": "Spatial",
-    "slides": [
-      "../../assets/images/spatial.svg"
-    ],
+  {
+    "title": "Google",
+    "slides": ["../../assets/images/google.svg"],
     "width": 12,
-    "currentSlide": 0},
-  { "title": "Hush",
-    "slides": [
-      "../../assets/images/hush-hush-01.svg"
-    ],
+    "currentSlide": 0
+  },
+  {
+    "title": "Spatial",
+    "slides": ["../../assets/images/spatial.svg"],
+    "width": 12,
+    "currentSlide": 0
+  },
+  {
+    "title": "Hush",
+    "slides": ["../../assets/images/hush-hush-01.svg"],
     "width": 4,
-    "currentSlide": 0},
-  { "title": "Virtrolio",
+    "currentSlide": 0
+  },
+  {
+    "title": "Virtrolio",
     "slides": [
-    "../../assets/images/virtrolio-01.svg",
-    "../../assets/images/virtrolio-02.png"
+      "../../assets/images/virtrolio-01.svg",
+      "../../assets/images/virtrolio-02.png"
     ],
     "width": 8,
-    "currentSlide": 0},
-  { "title": "DarwinAI",
-    "slides": [
-      "../../assets/images/darwinai.svg"
-    ],
+    "currentSlide": 0
+  },
+  {
+    "title": "DarwinAI",
+    "slides": ["../../assets/images/darwinai.svg"],
     "width": 12,
-    "currentSlide": 0},
-  { "title": "artwork.jr",
+    "currentSlide": 0
+  },
+  {
+    "title": "artwork.jr",
     "slides": [
       "../../assets/images/artwork-01.svg",
       "../../assets/images/artwork-02.png",
@@ -34,40 +43,49 @@
       "../../assets/images/artwork-06.svg"
     ],
     "width": 6,
-    "currentSlide": 0},
-  { "title": "Linklist",
-    "slides": [
-      "../../assets/images/linklist-0.svg"
-    ],
+    "currentSlide": 0
+  },
+  {
+    "title": "Linklist",
+    "slides": ["../../assets/images/linklist-0.svg"],
     "width": 6,
-    "currentSlide": 0},
-  { "title": "Packet",
+    "currentSlide": 0
+  },
+  {
+    "title": "Packet",
     "slides": [
       "../../assets/images/packet-01.svg",
       "../../assets/images/packet-02.png"
     ],
     "width": 12,
-    "currentSlide": 0},
-  { "title": "Magnet",
+    "currentSlide": 0
+  },
+  {
+    "title": "Magnet",
     "slides": [
       "../../assets/images/magnet-01.svg",
       "../../assets/images/magnet-02.jpg",
       "../../assets/images/magnet-03.jpg"
     ],
     "width": 6,
-    "currentSlide": 0},
-  { "title": "Tangible",
+    "currentSlide": 0
+  },
+  {
+    "title": "Tangible",
     "slides": [
       "../../assets/images/tangible-01.svg",
       "../../assets/images/tangible-02.gif"
     ],
     "width": 6,
-    "currentSlide": 0},
-  { "title": "FedoraField",
+    "currentSlide": 0
+  },
+  {
+    "title": "FedoraField",
     "slides": [
       "../../assets/images/fedorafield-01.svg",
       "../../assets/images/fedorafield-02.svg"
     ],
     "width": 12,
-    "currentSlide": 0}
+    "currentSlide": 0
+  }
 ]

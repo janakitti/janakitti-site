@@ -15,6 +15,7 @@ export class SkillsComponent implements OnInit {
     { name: 'C' },
     { name: 'C++' },
     { name: 'C#' },
+    { name: 'Go' },
     { name: 'Java' },
     { name: 'HTML' },
     { name: 'CSS' },

@@ -10,6 +10,7 @@ export class FormattingService {
     'C++': '#f77977',
     C: '#bd7c3a',
     'C#': '#6b3eb3',
+    Go: '#00a2cf',
     TypeScript: '#027be6',
     JavaScript: '#cfc400',
     Java: '#489ab8',

@@ -111,14 +111,38 @@ devpost.com/software/magnet
 </ul>
 //
 #Experience
+Software Developer Intern
+Google
+May 2022 - August 2022
+Waterloo, ON
+Go, Java, TypeScript, Angular
+<ul>
+	<li>
+		Developed and designed an extension to group images based on common subimages for a screenshot diffing tool used by 300+ teams across Google
+	</li>
+	<li>
+		Implemented a Go library for extracting and categorizing types of image changes within screenshot diff images
+	</li>
+	<li>
+		Built an extensible UI for constructing complex queries to filter test results in Angular, collaborating cross-team and performing user studies
+	</li>
+</ul>
+//
+#Experience
 AR/VR Developer
 Spatial
-Sept 2021 - present
+Sept 2021 - December 2021
 San Francisco, CA
 C#, Unity, Mixed Reality Toolkit, React
 <ul>
 	<li>
-		Currently working on the Spatial VR collaboration app for Oculus, web, and mobile
+		Built 3D UI features and improved the overall UX of the Spatial metaverse platform for Oculus using Microsoft Mixed Reality Toolkit
+	</li>
+	<li>
+		Developed a feature to monitor the loading state of 3D models in a scene in Unity C#, improving overall app loading experience
+	</li>
+	<li>
+		Ported VR headset features to mobile iOS/Android app with React Native
 	</li>
 </ul>
 //

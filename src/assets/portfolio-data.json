@@ -1,10 +1,20 @@
 {
+  "Google": {
+    "title": "Internship: Google",
+    "body": [
+      {
+        "type": "text",
+        "data": "I was a SWE intern at Google during the Summer of 2022. I worked on an extension to an internal screenshot diffing tool used by over 300 teams across Google to regression test UIs. The feature is used to automatically group together screenshot images based on common subimages to allow for an easier test result review process."
+      }
+    ]
+  },
+
   "Spatial": {
     "title": "Internship: Spatial",
     "body": [
       {
         "type": "text",
-        "data": "I'm currently working as an AR/VR Developer intern at Spatial. Stay tuned for some stories about my work here!"
+        "data": "I previously worked as an AR/VR Developer intern at Spatial. Stay tuned for some stories about my work here!"
       },
       {
         "type": "button",
