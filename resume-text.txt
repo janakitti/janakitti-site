@@ -113,7 +113,7 @@ devpost.com/software/magnet
 #Experience
 3D Software Developer
 SideFX
-January 2022 - present
+January 2023 - present
 Toronto, ON
 C++, Qt, OpenGL, Houdini
 <ul>
