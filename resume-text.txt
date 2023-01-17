@@ -111,6 +111,18 @@ devpost.com/software/magnet
 </ul>
 //
 #Experience
+3D Software Developer
+SideFX
+January 2022 - present
+Toronto, ON
+C++, Qt, OpenGL, Houdini
+<ul>
+	<li>
+		Working on the R&D team to develop features for the Houdini VFX software
+	</li>
+</ul>
+//
+#Experience
 Software Developer Intern
 Google
 May 2022 - August 2022
