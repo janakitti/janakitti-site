@@ -111,14 +111,26 @@ devpost.com/software/magnet
 </ul>
 //
 #Experience
+Software Engineering Intern
+YouTube
+May 2023 - present
+Mountain View, CA
+C++, TypeScript, gRPC, LitElement, Jasmine
+<ul>
+	<li>
+		Working on the YouTube Partner Program infrastructure team
+	</li>
+</ul>
+//
+#Experience
 3D Software Developer
 SideFX
-January 2023 - present
+January 2023 - April 2023
 Toronto, ON
 C++, Qt, OpenGL, Houdini
 <ul>
 	<li>
-		Working on the R&D team to develop features for the Houdini VFX software
+		Worked on the R&D team to develop features for the Houdini VFX software
 	</li>
 </ul>
 //
