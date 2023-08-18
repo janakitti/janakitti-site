@@ -31,6 +31,7 @@ export class SkillsComponent implements OnInit {
   creativetools: SkillItem[] = [
     { name: 'Figma' },
     { name: 'Illustrator' },
+    { name: 'Houdini' },
     { name: 'After Effects' },
     { name: 'Motion 5' },
     { name: 'Autodesk Inventor' },
@@ -40,6 +41,7 @@ export class SkillsComponent implements OnInit {
     { name: 'React' },
     { name: 'Redux' },
     { name: 'Angular' },
+    { name: 'LitElement' },
     { name: 'GraphQL' },
     { name: 'MongoDB' },
     { name: 'Mongoose' },

@@ -1,22 +1,33 @@
 <h2 class="section-title">Dashboard</h2>
 <div *ngFor="let item of progressItems" class="progress-container mt-3">
-  <span class="progress-text" [ngStyle]="{'color': item.color1}">{{ item.name }}</span>
-  <a href="//{{ item.link}}" target="_blank">
-    <img src="../../../assets/icons/link.svg" class="link ml-2 pb-1">
-  </a>
+  <span class="progress-text" [ngStyle]="{ color: item.color1 }">{{
+    item.name
+  }}</span>
+  <span *ngIf="item.link.length != 0">
+    <a href="//{{ item.link }}" target="_blank">
+      <img src="../../../assets/icons/link.svg" class="link ml-2 pb-1" />
+    </a>
+  </span>
   <div class="progress-status-container">
-    <div class="progress-status"
-         [ngStyle]="{'width': item.percentage + '%',
-                   'background-color': item.color1,
-                   'background': 'repeating-linear-gradient(-55deg,'
-                                  +item.color1+','
-                                  +item.color1+' 10px,'
-                                  +item.color2+' 10px,'
-                                  +item.color2+' 20px'}">
-    </div>
+    <div
+      class="progress-status"
+      [ngStyle]="{
+        width: item.percentage + '%',
+        'background-color': item.color1,
+        background:
+          'repeating-linear-gradient(-55deg,' +
+          item.color1 +
+          ',' +
+          item.color1 +
+          ' 10px,' +
+          item.color2 +
+          ' 10px,' +
+          item.color2 +
+          ' 20px'
+      }"
+    ></div>
   </div>
 </div>
 <div class="pt-4">
   <app-featured-card></app-featured-card>
 </div>
-

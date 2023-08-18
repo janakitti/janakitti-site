@@ -118,7 +118,16 @@ Mountain View, CA
 C++, TypeScript, gRPC, LitElement, Jasmine
 <ul>
 	<li>
-		Working on the YouTube Partner Program infrastructure team
+		Worked on YouTube Partner Program Infrastructure team
+	</li>
+	<li>
+		Built a full-stack tool to automatically create test YouTube channels and qualify them for monetization, eliminating the need for manual configuration and cross-team approvals; reduced test channel creation time <b>from up to a week to ~3s</b>
+	</li>
+	<li>
+		Developed a <b>C++ RPC</b> handler that interacts with multiple services to emulate the YouTube monetization sign-up flow and implemented a web UI for the handler using <b>TypeScript</b>, <b>LitElement</b>, and <b>Redux</b>
+	</li>
+	<li>
+		Led design discussions about backend latency and scalability, worked cross-functionally with <b>6 teams</b>, and conducted user studies for UX design
 	</li>
 </ul>
 //
@@ -130,7 +139,16 @@ Toronto, ON
 C++, Qt, OpenGL, Houdini
 <ul>
 	<li>
-		Worked on the R&D team to develop features for the Houdini VFX software
+		Worked on the R&D team to develop features for the <b>Houdini VFX software</b>
+	</li>
+	<li>
+		Created a feature for customizing gravity effects on volumetric fluids based on density for more realistic pyro simulations (ex. fire, smoke, explosions) with <b>VEX/OpenCL</b>
+	</li>
+	<li>
+		Designed and built a feature in <b>C++</b> for mirroring 3D model attributes (ex. color) based on the model's topology using <b>graph algorithms</b>
+	</li>
+	<li>
+		Developed the next-generation UI for the Houdini VFX software using <b>C++</b> and <b>Qt</b>
 	</li>
 </ul>
 //
@@ -142,13 +160,13 @@ Waterloo, ON
 Go, Java, TypeScript, Angular
 <ul>
 	<li>
-		Developed and designed an extension to group images based on common subimages for a screenshot diffing tool used by 300+ teams across Google
+		Developed and designed an extension to group images based on common subimages for a screenshot diffing tool <b>used by 300+ teams across Google</b>
 	</li>
 	<li>
-		Implemented a Go library for extracting and categorizing types of image changes within screenshot diff images
+		Created an image processing library in <b>Go</b> for extracting/categorizing common sub-images between pairs of images using <b>graph algorithms</b>
 	</li>
 	<li>
-		Built an extensible UI for constructing complex queries to filter test results in Angular, collaborating cross-team and performing user studies
+		Built an extensible UI for constructing complex queries to filter test results in <b>Angular</b>, collaborating cross-team and performing user studies
 	</li>
 </ul>
 //
@@ -160,13 +178,13 @@ San Francisco, CA
 C#, Unity, Mixed Reality Toolkit, React
 <ul>
 	<li>
-		Built 3D UI features and improved the overall UX of the Spatial metaverse platform for Oculus using Microsoft Mixed Reality Toolkit
+		Built 3D UI features and improved the overall UX of the Spatial metaverse platform for Oculus using <b>Microsoft Mixed Reality Toolkit</b>
 	</li>
 	<li>
-		Developed a feature to monitor the loading state of 3D models in a scene in Unity C#, improving overall app loading experience
+		Developed a feature to monitor the loading state of 3D models in a scene in <b>Unity C#</b>, improving overall app loading experience
 	</li>
 	<li>
-		Ported VR headset features to mobile iOS/Android app with React Native
+		Implemented VR headset features for mobile iOS/Android app with <b>React Native</b>
 	</li>
 </ul>
 //

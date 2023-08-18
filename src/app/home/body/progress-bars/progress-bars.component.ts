@@ -15,8 +15,8 @@ export class ProgressBarsComponent implements OnInit {
     const sePercentage = Math.round(
       ((today - seStart) / (seEnd - seStart)) * 100
     );
-    const otherStart = new Date('December 20, 2020, 00:00:00').getTime();
-    const otherEnd = new Date('December 30, 2021, 00:00:00').getTime();
+    const otherStart = new Date('September 1, 2022, 00:00:00').getTime();
+    const otherEnd = new Date('April 30, 2024, 00:00:00').getTime();
     const otherPercentage = Math.round(
       ((today - otherStart) / (otherEnd - otherStart)) * 100
     );
@@ -29,11 +29,11 @@ export class ProgressBarsComponent implements OnInit {
         color2: '#ae54d1',
       },
       {
-        name: 'Linklist',
-        link: 'github.com/janakitti/linklist',
+        name: 'Spacewalk (Capstone Project)',
+        link: '',
         percentage: otherPercentage,
-        color1: '#54b386',
-        color2: '#72cfa3',
+        color1: '#ff00b3',
+        color2: '#fc51aa',
       },
     ];
   }
