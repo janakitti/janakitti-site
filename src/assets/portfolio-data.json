@@ -1,14 +1,47 @@
 {
+  "YouTube": {
+    "title": "YouTube",
+    "body": [
+      {
+        "type": "text",
+        "data": "I was a SWE intern at YouTube during the summer of 2023. I built a full-stack tool to automatically create test YouTube channels and qualify them for monetization, eliminating the need for manual configuration and cross-team approvals"
+      }
+    ]
+  },
+  "SideFX": {
+    "title": "SideFX",
+    "body": [
+      {
+        "type": "text",
+        "data": "I worked on the Oscar-winning R&D team at SideFX, developing next-generation UI for the Houdini VFX software. I also worked on two computer graphics projects. The first was a feature for customizing gravity effects on volumetric fluids based on density for more realistic pyro simulations (ex. fire, smoke, explosions). The second was a feature for mirroring 3D model attributes (ex. color) based on the model’s topology using graph algorithms. Below are some examples of the pyro gravity feature in use."
+      },
+      {
+        "type": "text",
+        "data": "Dust explosion with no terminal velocity:"
+      },
+      {
+        "type": "vid",
+        "data": "../../../assets/images/portfolio/sidefx/no-terminal-velocity.mp4"
+      },
+      {
+        "type": "text",
+        "data": "Dust explosion with terminal velocity set:"
+      },
+      {
+        "type": "vid",
+        "data": "../../../assets/images/portfolio/sidefx/terminal-velocity.mp4"
+      }
+    ]
+  },
   "Google": {
     "title": "Internship: Google",
     "body": [
       {
         "type": "text",
-        "data": "I was a SWE intern at Google during the Summer of 2022. I worked on an extension to an internal screenshot diffing tool used by over 300 teams across Google to regression test UIs. The feature is used to automatically group together screenshot images based on common subimages to allow for an easier test result review process."
+        "data": "I was a SWE intern at Google during the summer of 2022. I worked on an extension to an internal screenshot diffing tool used by over 300 teams across Google to regression test UIs. The feature is used to automatically group together screenshot images based on common subimages to allow for an easier test result review process."
       }
     ]
   },
-
   "Spatial": {
     "title": "Internship: Spatial",
     "body": [

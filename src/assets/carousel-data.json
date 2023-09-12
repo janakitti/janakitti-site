@@ -1,14 +1,26 @@
 [
   {
+    "title": "YouTube",
+    "slides": ["../../assets/images/youtube.png"],
+    "width": 12,
+    "currentSlide": 0
+  },
+  {
+    "title": "SideFX",
+    "slides": ["../../assets/images/sidefx.png"],
+    "width": 12,
+    "currentSlide": 0
+  },
+  {
     "title": "Google",
     "slides": ["../../assets/images/google.svg"],
-    "width": 12,
+    "width": 6,
     "currentSlide": 0
   },
   {
     "title": "Spatial",
     "slides": ["../../assets/images/spatial.svg"],
-    "width": 12,
+    "width": 6,
     "currentSlide": 0
   },
   {
