@@ -1,4 +1,17 @@
 #Project
+Spacewalk
+Engineering Capstone - 3D Presentation Builder
+September 2022 - present
+TypeScript, React, Three.js, AWS Amplify, DynamoDB
+github.com/janakitti/
+
+<ul>
+	<li>
+		Designing and developing a 3D presentation platform for anyone to build and share beautiful 3D motion graphics on the web.
+	</li>
+</ul>
+//
+#Project
 Linklist
 Create elegant landing pages
 Dec 2020 - present
@@ -111,9 +124,21 @@ devpost.com/software/magnet
 </ul>
 //
 #Experience
+Research Assistant
+Social and Intelligent Robotics Research Laboratory (SIRRL)
+September 2023 - December 2023
+Waterloo, ON
+Python, PyTorch
+<ul>
+	<li>
+		Developed a benchmark for assessing continual object learning models, with the goal of advancing the standard in human social interaction with AI robots
+	</li>
+</ul>
+//
+#Experience
 Software Engineering Intern
 YouTube
-May 2023 - present
+May 2023 - August 2023
 Mountain View, CA
 C++, TypeScript, gRPC, LitElement, Jasmine
 <ul>

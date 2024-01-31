@@ -42,6 +42,7 @@ export class SkillsComponent implements OnInit {
     { name: 'Redux' },
     { name: 'Angular' },
     { name: 'LitElement' },
+    { name: 'Three.js' },
     { name: 'GraphQL' },
     { name: 'MongoDB' },
     { name: 'Mongoose' },

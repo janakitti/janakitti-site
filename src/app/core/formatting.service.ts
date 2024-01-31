@@ -45,6 +45,7 @@ export class FormattingService {
     Mongoose: '#9c2200',
     Jest: '#de3000',
     Postman: '#f26500',
+    'Three.js': '#c4c700',
   };
   constructor() {}
 }

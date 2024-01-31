@@ -1,5 +1,11 @@
 [
   {
+    "title": "Spacewalk",
+    "slides": ["../../assets/images/spacewalk.png"],
+    "width": 12,
+    "currentSlide": 0
+  },
+  {
     "title": "YouTube",
     "slides": ["../../assets/images/youtube.png"],
     "width": 12,
