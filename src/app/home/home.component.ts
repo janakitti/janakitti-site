@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HeroComponent } from './hero/hero.component';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { CommonModule } from '@angular/common';
+import { SectionComponent } from './section/section.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HeroComponent],
+  imports: [CommonModule, HeroComponent, SectionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
