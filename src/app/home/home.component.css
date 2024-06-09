@@ -1,0 +1,6 @@
+.shell {
+  margin: 0 20%;
+  &.mobile {
+    margin: 0 0;
+  }
+}
