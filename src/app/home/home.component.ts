@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeroComponent } from './hero/hero.component';
-import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { BreakpointObserver } from '@angular/cdk/layout';
 import { CommonModule } from '@angular/common';
 import { SectionComponent } from './section/section.component';
+import { ResponsiveService } from '../core/responsive.service';
 
 @Component({
   selector: 'app-home',
@@ -11,17 +12,6 @@ import { SectionComponent } from './section/section.component';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-export class HomeComponent implements OnInit {
-  isMobile = false;
-
-  constructor(private responsive: BreakpointObserver) {}
-
-  ngOnInit(): void {
-    this.responsive.observe(Breakpoints.HandsetPortrait).subscribe((result) => {
-      this.isMobile = false;
-      if (result.matches) {
-        this.isMobile = true;
-      }
-    });
-  }
+export class HomeComponent {
+  constructor(public responsive: ResponsiveService) {}
 }
