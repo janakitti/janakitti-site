@@ -34,10 +34,21 @@ export class DashboardComponent {
     },
   ];
   today = new Date().getTime();
+
+  news = [
+    {
+      supertitle: 'Featured',
+      title: 'virtrolio',
+      imageUrl: '/news/virtrolio.png',
+      color: '#fa8072',
+      description: "We're on Mississauga News! Check us out!",
+      link: 'https://www.mississauga.com/life/something-to-cherish-former-mississauga-students-launch-online-yearbook/article_fb574952-6905-5176-b113-681a0b07fcfd.html?',
+    },
+  ];
+
   constructor(public responsive: ResponsiveService) {}
 
-  foo(start: number, end: number): Number {
-    console.log(Math.round(((this.today - start) / (end - start)) * 100));
+  getBarPercentage(start: number, end: number): Number {
     return Math.round(((this.today - start) / (end - start)) * 100);
   }
 }

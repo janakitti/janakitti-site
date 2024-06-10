@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  column-gap: 1em;
+  column-gap: 2em;
   row-gap: 1em;
   justify-items: stretch;
   align-items: stretch;
@@ -23,12 +23,56 @@
 
 .news {
   grid-area: news;
+
+  .card {
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    border-radius: 1em;
+    height: auto;
+    overflow: hidden;
+
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 3em;
+        width: 3em;
+      }
+      /* object-fit: fill; */
+    }
+
+    .body {
+      background-color: white;
+      padding: 0.5em 1em;
+
+      .supertitle {
+        font-family: Poppins, sans-serif;
+        font-size: 0.65em;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+      }
+
+      .title {
+        font-family: Poppins, sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 0;
+      }
+
+      .description {
+        font-family: Lato, sans-serif;
+        font-size: 0.7em;
+      }
+    }
+  }
 }
 
 .bar-container {
   height: 1em;
   border-radius: 0.5em;
-  background-color: rgb(234, 234, 234);
+  background-color: white;
   overflow: hidden;
   margin-bottom: 1em;
 }

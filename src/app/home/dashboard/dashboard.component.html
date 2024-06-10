@@ -6,7 +6,7 @@
         <div
           class="bar-status"
           [ngStyle]="{
-            width: foo(status.start, status.end) + '%',
+            width: getBarPercentage(status.start, status.end) + '%',
             'background-color': status.color1,
             background:
               'repeating-linear-gradient(-55deg,' +
@@ -23,5 +23,18 @@
       </div>
     </div>
   </div>
-  <div class="news">b</div>
+  <div class="news">
+    <div *ngFor="let item of news">
+      <div class="card">
+        <div class="image" [ngStyle]="{ 'background-color': item.color }">
+          <img src="{{ item.imageUrl }}" />
+        </div>
+        <div class="body">
+          <p class="supertitle">{{ item.supertitle | uppercase }}</p>
+          <p class="title">{{ item.title }}</p>
+          <p class="description">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
