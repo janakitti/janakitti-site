@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  column-gap: 1em;
+  row-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: stretch;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "status news";
+  &.mobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "status" "news";
+  }
+}
+
+.status {
+  grid-area: status;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.news {
+  grid-area: news;
+}
+
+.bar-container {
+  height: 1em;
+  border-radius: 0.5em;
+  background-color: rgb(234, 234, 234);
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.bar-status {
+  height: 1.8em;
+  border-radius: 0.5em 0 0 0.5em;
+}

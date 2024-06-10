@@ -1,0 +1,27 @@
+<div class="container" [ngClass]="responsive.isMobile ? 'mobile' : ''">
+  <div class="status">
+    <div *ngFor="let status of statuses">
+      <p [ngStyle]="{ color: status.color1 }">{{ status.title }}</p>
+      <div class="bar-container">
+        <div
+          class="bar-status"
+          [ngStyle]="{
+            width: foo(status.start, status.end) + '%',
+            'background-color': status.color1,
+            background:
+              'repeating-linear-gradient(-55deg,' +
+              status.color1 +
+              ',' +
+              status.color1 +
+              ' 10px,' +
+              status.color2 +
+              ' 10px,' +
+              status.color2 +
+              ' 20px'
+          }"
+        ></div>
+      </div>
+    </div>
+  </div>
+  <div class="news">b</div>
+</div>

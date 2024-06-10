@@ -4,11 +4,12 @@ import { BreakpointObserver } from '@angular/cdk/layout';
 import { CommonModule } from '@angular/common';
 import { SectionComponent } from './section/section.component';
 import { ResponsiveService } from '../core/responsive.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HeroComponent, SectionComponent],
+  imports: [CommonModule, HeroComponent, SectionComponent, DashboardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
