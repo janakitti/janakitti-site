@@ -1,0 +1,19 @@
+<p-carousel
+  [value]="data"
+  [numVisible]="3"
+  [numScroll]="1"
+  [circular]="true"
+  showIndicators="{{ responsive.isMobile ? 'true' : 'false' }}"
+  [responsiveOptions]="responsiveOptions"
+  showNavigators="{{ responsive.isMobile ? 'false' : 'true' }}"
+>
+  <ng-template let-datum pTemplate="item">
+    <div
+      class="card border-1 surface-border border-round m-2 p-3"
+      [routerLink]="'/a/' + datum.id"
+      [ngStyle]="{ height: height }"
+    >
+      <img [src]="datum.imgUrl" />
+    </div>
+  </ng-template>
+</p-carousel>

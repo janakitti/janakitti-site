@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { CarouselModule } from 'primeng/carousel';
-import { ResponsiveService } from '../../core/responsive.service';
-import { RouterModule } from '@angular/router';
+import { CarouselComponent } from '../carousel/carousel.component';
+import { CarouselItem } from '../../shared/interfaces';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [CarouselModule, RouterModule],
+  imports: [CarouselModule, CarouselComponent],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css',
 })
 export class ExperienceComponent {
-  items = [
+  items: CarouselItem[] = [
     // {
     //   id: 'toybox',
     //   name: 'Toybox Icons',
@@ -53,24 +53,4 @@ export class ExperienceComponent {
       imgUrl: '/experience/darwinai.png',
     },
   ];
-
-  responsiveOptions = [
-    {
-      breakpoint: '1400px',
-      numVisible: 3,
-      numScroll: 1,
-    },
-    {
-      breakpoint: '960px',
-      numVisible: 1,
-      numScroll: 1,
-    },
-    {
-      breakpoint: '599.98px',
-      numVisible: 2,
-      numScroll: 1,
-    },
-  ];
-
-  constructor(public responsive: ResponsiveService) {}
 }
