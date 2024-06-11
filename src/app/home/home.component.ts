@@ -6,6 +6,7 @@ import { SectionComponent } from './section/section.component';
 import { ResponsiveService } from '../core/responsive.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ import { SkillsComponent } from './skills/skills.component';
     SectionComponent,
     DashboardComponent,
     SkillsComponent,
+    ExperienceComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

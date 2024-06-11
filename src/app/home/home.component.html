@@ -28,4 +28,14 @@
   <app-section [title]="'Skills'">
     <app-skills />
   </app-section>
+  <app-section [title]="'Resume'">
+    <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -1em' }">
+      <app-experience />
+    </div>
+  </app-section>
+  <app-section [title]="'Resume'">
+    <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -1em' }">
+      <app-experience />
+    </div>
+  </app-section>
 </div>
