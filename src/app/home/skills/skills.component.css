@@ -21,6 +21,7 @@
 
 .pill {
   background-color: #eaeaea;
+  /* border: #bbbbbb 0.1em solid; */
   margin: 3px;
   display: inline-block;
   border-radius: 30px;
