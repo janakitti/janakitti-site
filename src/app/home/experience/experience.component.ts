@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CarouselModule } from 'primeng/carousel';
 import { ResponsiveService } from '../../core/responsive.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [CarouselModule],
+  imports: [CarouselModule, RouterModule],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css',
 })
