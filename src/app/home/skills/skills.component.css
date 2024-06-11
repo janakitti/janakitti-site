@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  column-gap: 2em;
+  row-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: stretch;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "languages technologies" "creative tools";
+  &.mobile {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "languages" "technologies" "creative" "tools";
+  }
+
+  h1 {
+    font-size: 0.85em;
+  }
+}
+
+.pill {
+  background-color: #eaeaea;
+  margin: 3px;
+  display: inline-block;
+  border-radius: 30px;
+
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 0.7em;
+  padding: 0.2em 0.5em;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}

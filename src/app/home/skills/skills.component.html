@@ -1,0 +1,42 @@
+<div class="container" [ngClass]="responsive.isMobile ? 'mobile' : ''">
+  <div class="languages">
+    <h1>Languages</h1>
+    <div
+      *ngFor="let skill of languages"
+      class="pill"
+      [ngStyle]="{ color: format.skillToColor[skill] }"
+    >
+      {{ skill }}
+    </div>
+  </div>
+  <div class="technologies">
+    <h1>Technologies</h1>
+    <div
+      *ngFor="let skill of technologies"
+      class="pill"
+      [ngStyle]="{ color: format.skillToColor[skill] }"
+    >
+      {{ skill }}
+    </div>
+  </div>
+  <div class="creative">
+    <h1>Creative</h1>
+    <div
+      *ngFor="let skill of creative"
+      class="pill"
+      [ngStyle]="{ color: format.skillToColor[skill] }"
+    >
+      {{ skill }}
+    </div>
+  </div>
+  <div class="tools">
+    <h1>Dev Tools</h1>
+    <div
+      *ngFor="let skill of tools"
+      class="pill"
+      [ngStyle]="{ color: format.skillToColor[skill] }"
+    >
+      {{ skill }}
+    </div>
+  </div>
+</div>

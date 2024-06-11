@@ -5,11 +5,18 @@ import { CommonModule } from '@angular/common';
 import { SectionComponent } from './section/section.component';
 import { ResponsiveService } from '../core/responsive.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HeroComponent, SectionComponent, DashboardComponent],
+  imports: [
+    CommonModule,
+    HeroComponent,
+    SectionComponent,
+    DashboardComponent,
+    SkillsComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
