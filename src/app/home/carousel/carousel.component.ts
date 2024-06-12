@@ -15,6 +15,7 @@ export class CarouselComponent {
   @Input() data: CarouselItem[] = [];
   @Input() numVisible: number[] = [3, 2, 1];
   @Input() aspectRatio: number = 1;
+  @Input() showName: boolean = false;
 
   responsiveOptions = [
     {

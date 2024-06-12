@@ -17,7 +17,7 @@
           <img [src]="datum.imgUrl" />
         </a>
       </div>
-      <p class="title">{{ datum.name }}</p>
+      <p class="title" *ngIf="showName">{{ datum.name }}</p>
     </div>
     <ng-template #routerLinked>
       <div>
@@ -28,7 +28,7 @@
         >
           <img [src]="datum.imgUrl" />
         </div>
-        <p class="title">{{ datum.name }}</p>
+        <p class="title" *ngIf="showName">{{ datum.name }}</p>
       </div>
     </ng-template>
   </ng-template>
