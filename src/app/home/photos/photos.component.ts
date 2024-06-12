@@ -22,9 +22,9 @@ export class PhotosComponent {
       imgUrl: '/photos/doi_inthanon_flowers.jpg',
     },
     {
-      id: 'mori_point',
+      id: 'snorkel',
       name: '',
-      imgUrl: '/photos/mori_point.jpg',
+      imgUrl: '/photos/snorkel.jpeg',
     },
     {
       id: 'leaves',
@@ -32,9 +32,9 @@ export class PhotosComponent {
       imgUrl: '/photos/leaves.jpg',
     },
     {
-      id: 'snorkel',
+      id: 'mori_point',
       name: '',
-      imgUrl: '/photos/snorkel.jpeg',
+      imgUrl: '/photos/mori_point.jpg',
     },
     {
       id: 'temple_dog',
