@@ -1,6 +1,6 @@
 <p-carousel
   [value]="data"
-  [numVisible]="defaultVisible"
+  [numVisible]="numVisible[0]"
   [numScroll]="1"
   [circular]="true"
   showIndicators="{{ responsive.isMobile ? 'true' : 'false' }}"
@@ -11,7 +11,7 @@
     <div
       *ngIf="datum.url !== undefined; else routerLinked"
       class="card border-1 surface-border border-round m-2 p-3"
-      [ngStyle]="{ height: height }"
+      [ngStyle]="{ aspectRatio: aspectRatio }"
     >
       <a href="{{ datum.url }}">
         <img [src]="datum.imgUrl" />
@@ -21,7 +21,7 @@
       <div
         class="card border-1 surface-border border-round m-2 p-3"
         [routerLink]="'/a/' + datum.url"
-        [ngStyle]="{ height: height }"
+        [ngStyle]="{ aspectRatio: aspectRatio }"
       >
         <img [src]="datum.imgUrl" />
       </div>
