@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
+import { MarkdownComponent } from 'ngx-markdown';
 
 @Component({
   selector: 'app-article',
   standalone: true,
-  imports: [],
+  imports: [MarkdownComponent],
   templateUrl: './article.component.html',
   styleUrl: './article.component.css',
 })
