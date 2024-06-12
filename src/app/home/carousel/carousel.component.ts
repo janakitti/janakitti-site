@@ -14,13 +14,9 @@ import { CarouselItem } from '../../shared/interfaces';
 export class CarouselComponent {
   @Input() data: CarouselItem[] = [];
   @Input() height = '8em';
+  @Input() defaultVisible = 3;
 
   responsiveOptions = [
-    {
-      breakpoint: '1400px',
-      numVisible: 3,
-      numScroll: 1,
-    },
     {
       breakpoint: '960px',
       numVisible: 1,

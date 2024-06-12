@@ -33,18 +33,22 @@
       <app-experience />
     </div>
   </app-section>
-  <app-section [title]="'Art'">
+  <app-section [title]="'🎨 Art'">
     <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -2.5em' }">
       <app-artwork />
     </div>
   </app-section>
-  <app-section [title]="'Photos'">
+  <app-section [title]="'📷 Photos'">
     <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -2.5em' }">
       <app-photos />
     </div>
   </app-section>
   <app-section [title]="'Notes'"> </app-section>
-  <app-section [title]="'Recipes'"> </app-section>
+  <app-section [title]="'Recipes'">
+    <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -2.5em' }">
+      <app-recipes />
+    </div>
+  </app-section>
   <app-section [title]="'Music I Like'"> </app-section>
   <app-section [title]="'Movies I Like'"> </app-section>
 </div>
