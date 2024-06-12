@@ -8,22 +8,27 @@
   showNavigators="{{ responsive.isMobile ? 'false' : 'true' }}"
 >
   <ng-template let-datum pTemplate="item">
-    <div
-      *ngIf="datum.url !== undefined; else routerLinked"
-      class="card border-1 surface-border border-round m-2 p-3"
-      [ngStyle]="{ aspectRatio: aspectRatio }"
-    >
-      <a href="{{ datum.url }}">
-        <img [src]="datum.imgUrl" />
-      </a>
-    </div>
-    <ng-template #routerLinked>
+    <div *ngIf="datum.url !== undefined; else routerLinked">
       <div
         class="card border-1 surface-border border-round m-2 p-3"
-        [routerLink]="'/a/' + datum.url"
         [ngStyle]="{ aspectRatio: aspectRatio }"
       >
-        <img [src]="datum.imgUrl" />
+        <a href="{{ datum.url }}">
+          <img [src]="datum.imgUrl" />
+        </a>
+      </div>
+      <p class="title">{{ datum.name }}</p>
+    </div>
+    <ng-template #routerLinked>
+      <div>
+        <div
+          class="card border-1 surface-border border-round m-2 p-3"
+          [routerLink]="'/a/' + datum.url"
+          [ngStyle]="{ aspectRatio: aspectRatio }"
+        >
+          <img [src]="datum.imgUrl" />
+        </div>
+        <p class="title">{{ datum.name }}</p>
       </div>
     </ng-template>
   </ng-template>

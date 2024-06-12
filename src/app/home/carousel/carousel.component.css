@@ -22,3 +22,10 @@
     border-radius: 0.5em;
   }
 }
+
+.title {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.6em;
+  color: #5e5e5e;
+  margin-top: 0.1em;
+}
