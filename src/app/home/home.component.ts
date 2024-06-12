@@ -10,6 +10,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ArtworkComponent } from './artwork/artwork.component';
 import { PhotosComponent } from './photos/photos.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { MusicComponent } from './music/music.component';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +25,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     ArtworkComponent,
     PhotosComponent,
     RecipesComponent,
+    MusicComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

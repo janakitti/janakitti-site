@@ -9,11 +9,22 @@
 >
   <ng-template let-datum pTemplate="item">
     <div
+      *ngIf="datum.url !== undefined; else routerLinked"
       class="card border-1 surface-border border-round m-2 p-3"
-      [routerLink]="'/a/' + datum.id"
       [ngStyle]="{ height: height }"
     >
-      <img [src]="datum.imgUrl" />
+      <a href="{{ datum.url }}">
+        <img [src]="datum.imgUrl" />
+      </a>
     </div>
+    <ng-template #routerLinked>
+      <div
+        class="card border-1 surface-border border-round m-2 p-3"
+        [routerLink]="'/a/' + datum.url"
+        [ngStyle]="{ height: height }"
+      >
+        <img [src]="datum.imgUrl" />
+      </div>
+    </ng-template>
   </ng-template>
 </p-carousel>
