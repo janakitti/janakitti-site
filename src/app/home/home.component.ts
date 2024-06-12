@@ -11,6 +11,7 @@ import { ArtworkComponent } from './artwork/artwork.component';
 import { PhotosComponent } from './photos/photos.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { MusicComponent } from './music/music.component';
+import { MoviesComponent } from './movies/movies.component';
 
 @Component({
   selector: 'app-home',
@@ -26,6 +27,7 @@ import { MusicComponent } from './music/music.component';
     PhotosComponent,
     RecipesComponent,
     MusicComponent,
+    MoviesComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

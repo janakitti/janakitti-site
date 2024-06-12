@@ -51,7 +51,12 @@
   </app-section>
   <app-section [title]="'Music I Like'">
     <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -2.5em' }">
-      <app-music /></div
-  ></app-section>
-  <app-section [title]="'Movies I Like'"> </app-section>
+      <app-music />
+    </div>
+  </app-section>
+  <app-section [title]="'Movies I Like'">
+    <div [ngStyle]="responsive.isMobile ? {} : { margin: '0 -2.5em' }">
+      <app-movies />
+    </div>
+  </app-section>
 </div>
