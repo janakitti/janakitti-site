@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
-import { MarkdownComponent } from 'ngx-markdown';
+import { MarkdownComponent, MarkdownService } from 'ngx-markdown';
 import { ResponsiveService } from '../core/responsive.service';
 import { CommonModule } from '@angular/common';
 
@@ -13,9 +13,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './article.component.css',
 })
 export class ArticleComponent implements OnInit {
+  id = '';
   constructor(
     private route: ActivatedRoute,
     private _sanitizer: DomSanitizer,
+    private _markdownService: MarkdownService,
     public responsive: ResponsiveService
   ) {}
 
@@ -23,9 +25,12 @@ export class ArticleComponent implements OnInit {
     this.getData();
   }
 
+  update() {
+    this._markdownService.reload();
+  }
+
   getData(): void {
-    const data = this.route.snapshot.paramMap.get('data');
-    console.log(data);
+    this.id = this.route.snapshot.paramMap.get('id') || '';
   }
 
   sanitizeUrl(url: string): any {
