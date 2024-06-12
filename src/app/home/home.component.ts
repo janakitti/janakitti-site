@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ArtworkComponent } from './artwork/artwork.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @Component({
   selector: 'app-home',
@@ -20,6 +21,7 @@ import { ArtworkComponent } from './artwork/artwork.component';
     SkillsComponent,
     ExperienceComponent,
     ArtworkComponent,
+    PhotosComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

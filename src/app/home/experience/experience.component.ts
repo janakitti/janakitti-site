@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { CarouselModule } from 'primeng/carousel';
 import { CarouselComponent } from '../carousel/carousel.component';
 import { CarouselItem } from '../../shared/interfaces';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [CarouselModule, CarouselComponent],
+  imports: [CarouselComponent],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css',
 })
