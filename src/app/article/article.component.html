@@ -1,2 +1,7 @@
-<p>article works!</p>
-<markdown [src]="'/test.md'"></markdown>
+<div class="shell" [ngClass]="responsive.isMobile ? 'mobile' : ''">
+  <div class="banner"></div>
+  <h1>Title</h1>
+  <h2>Subtitle</h2>
+  <div class="spacer"></div>
+  <markdown [src]="'/test.md'"></markdown>
+</div>

@@ -2,18 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MarkdownComponent } from 'ngx-markdown';
+import { ResponsiveService } from '../core/responsive.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-article',
   standalone: true,
-  imports: [MarkdownComponent],
+  imports: [CommonModule, MarkdownComponent],
   templateUrl: './article.component.html',
   styleUrl: './article.component.css',
 })
 export class ArticleComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
-    private _sanitizer: DomSanitizer
+    private _sanitizer: DomSanitizer,
+    public responsive: ResponsiveService
   ) {}
 
   ngOnInit(): void {
