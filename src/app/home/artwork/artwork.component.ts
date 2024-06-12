@@ -27,5 +27,10 @@ export class ArtworkComponent {
       name: 'Ghost Crew',
       imgUrl: '/artwork/ghostcrew.png',
     },
+    {
+      id: 'queensgambit',
+      name: "The Queen's Gambit",
+      imgUrl: '/artwork/queens_gambit.png',
+    },
   ];
 }
