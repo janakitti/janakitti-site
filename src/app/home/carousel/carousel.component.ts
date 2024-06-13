@@ -12,23 +12,28 @@ import { CarouselItem } from '../../shared/interfaces';
   styleUrl: './carousel.component.css',
 })
 export class CarouselComponent {
-  @Input() data: CarouselItem[] = [];
-  @Input() numVisible: number[] = [3, 2, 1];
-  @Input() aspectRatio: number = 1;
-  @Input() showName: boolean = false;
-
+  defaultNumVisible = 3;
   responsiveOptions = [
     {
       breakpoint: '960px',
-      numVisible: this.numVisible[1],
+      numVisible: 2,
       numScroll: 1,
     },
     {
       breakpoint: '599.98px',
-      numVisible: this.numVisible[2],
+      numVisible: 1,
       numScroll: 1,
     },
   ];
+
+  @Input() data: CarouselItem[] = [];
+  @Input() set numVisible(value: number[]) {
+    this.defaultNumVisible = value[0];
+    this.responsiveOptions[0].numVisible = value[1];
+    this.responsiveOptions[1].numVisible = value[2];
+  }
+  @Input() aspectRatio: number = 1;
+  @Input() showName: boolean = false;
 
   constructor(public responsive: ResponsiveService) {}
 }
