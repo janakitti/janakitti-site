@@ -1,7 +1,8 @@
 <div class="shell" [ngClass]="responsive.isMobile ? 'mobile' : ''">
-  <div class="banner"></div>
-  <h1>Title</h1>
-  <h2>Subtitle</h2>
+  <div class="banner">
+    <h1 class="title">Title</h1>
+    <h2 class="subtitle">Subtitle</h2>
+  </div>
   <div class="spacer"></div>
   <markdown [src]="'/articles/' + id + '.md'"></markdown>
 </div>

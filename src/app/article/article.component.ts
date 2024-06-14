@@ -23,6 +23,21 @@ export class ArticleComponent implements OnInit {
 
   ngOnInit(): void {
     this.getData();
+    this._markdownService.renderer.listitem = (
+      text: string,
+      task: boolean,
+      checked: boolean
+    ) => {
+      if (task) {
+        if (checked) {
+          return '<li class="checkbox checked">' + text + '</li>';
+        } else {
+          return '<li class="checkbox unchecked">' + text + '</li>';
+        }
+      } else {
+        return '<li>' + text + '</li>';
+      }
+    };
   }
 
   update() {

@@ -32,3 +32,21 @@ a {
     color: #ff00d0;
   }
 }
+
+.checkbox {
+  list-style-type: none;
+  position: relative;
+  &.checked::before {
+    content: "■";
+    position: absolute;
+    left: -1em;
+    font-size: 1.1em;
+  }
+
+  &.unchecked::before {
+    content: "□";
+    position: absolute;
+    left: -1em;
+    font-size: 1.1em;
+  }
+}
