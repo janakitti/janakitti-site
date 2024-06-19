@@ -9,24 +9,22 @@
 >
   <ng-template let-datum pTemplate="item">
     <div *ngIf="datum.url !== undefined; else routerLinked">
-      <div
-        class="card border-1 surface-border border-round m-2 p-3"
-        [ngStyle]="{ aspectRatio: aspectRatio }"
-      >
+      <div class="card" [ngStyle]="{ aspectRatio: aspectRatio }">
         <a href="{{ datum.url }}">
-          <img [src]="datum.imgUrl" />
+          <div class="img-bg">
+            <img [src]="datum.imgUrl" />
+          </div>
         </a>
       </div>
       <p class="title" *ngIf="showName">{{ datum.name }}</p>
     </div>
     <ng-template #routerLinked>
       <div>
-        <div
-          class="card border-1 surface-border border-round m-2 p-3"
-          [ngStyle]="{ aspectRatio: aspectRatio }"
-        >
+        <div class="card" [ngStyle]="{ aspectRatio: aspectRatio }">
           <a href="/a/{{ datum.id }}">
-            <img [src]="datum.imgUrl" />
+            <div class="img-bg">
+              <img [src]="datum.imgUrl" />
+            </div>
           </a>
         </div>
         <p class="title" *ngIf="showName">{{ datum.name }}</p>
