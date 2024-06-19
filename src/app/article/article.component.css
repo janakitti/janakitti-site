@@ -14,7 +14,7 @@
   display: flex;
   align-items: flex-end;
 
-  background-color: coral;
+  background-color: white;
 }
 
 .title {
@@ -22,7 +22,7 @@
   font-family: "Merriweather Sans", sans-serif;
   font-size: 2em;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1.2em;
   color: white;
 }
 

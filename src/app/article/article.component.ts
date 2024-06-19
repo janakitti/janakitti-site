@@ -4,6 +4,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { MarkdownComponent, MarkdownService } from 'ngx-markdown';
 import { ResponsiveService } from '../core/responsive.service';
 import { CommonModule } from '@angular/common';
+import { metadata } from '../shared/article-metadata';
 
 @Component({
   selector: 'app-article',
@@ -14,6 +15,8 @@ import { CommonModule } from '@angular/common';
 })
 export class ArticleComponent implements OnInit {
   id = '';
+  metadata = metadata;
+
   constructor(
     private route: ActivatedRoute,
     private _sanitizer: DomSanitizer,

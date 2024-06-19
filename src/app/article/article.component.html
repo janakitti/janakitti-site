@@ -1,7 +1,7 @@
 <div class="shell" [ngClass]="responsive.isMobile ? 'mobile' : ''">
-  <div class="banner">
-    <h1 class="title">Title</h1>
-    <h2 class="subtitle">Subtitle</h2>
+  <div class="banner" [ngStyle]="{ 'background-color': metadata[id].primary }">
+    <h1 class="title">{{ metadata[id].title }}</h1>
+    <h2 class="subtitle">{{ metadata[id].subtitle }}</h2>
   </div>
   <div class="spacer"></div>
   <markdown [src]="'/articles/' + id + '.md'"></markdown>
