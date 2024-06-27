@@ -11,20 +11,21 @@ import { CarouselItem } from '../../shared/interfaces';
 })
 export class ExperienceComponent {
   items: CarouselItem[] = [
-    // {
-    //   id: 'toybox',
-    //   name: 'Toybox Icons',
-    //   imgUrl: '/experience/spacewalk.png',
-    // },
     {
-      id: 'spacewalk',
-      name: 'Spacewalk',
-      imgUrl: '/experience/spacewalk.png',
+      id: 'toyboxicons',
+      name: 'Toybox Icons',
+      imgUrl: '/experience/toyboxicons.png',
+      url: 'https://toyboxicons.com/',
     },
     {
       id: 'google23',
       name: 'YouTube',
       imgUrl: '/experience/youtube.png',
+    },
+    {
+      id: 'spacewalk',
+      name: 'Spacewalk',
+      imgUrl: '/experience/spacewalk.png',
     },
     {
       id: 'sidefx',
