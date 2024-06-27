@@ -55,7 +55,7 @@ export class MusicComponent {
     },
     {
       id: 'jawbreaker',
-      name: 'jawbreaker',
+      name: 'JAWBREAKER',
       imgUrl: '/music/jawbreaker.png',
       url: 'https://open.spotify.com/playlist/3CNXcCBpnoKPTxqM5k193Z?si=db3aa9c191e44267',
     },
@@ -82,6 +82,24 @@ export class MusicComponent {
       name: 'cruise control',
       imgUrl: '/music/cruise_control.png',
       url: 'https://open.spotify.com/playlist/3Qs0zfK6jAAZS5oEQm9xXy?si=8aaf3f55cdb04daa',
+    },
+    {
+      id: 'bullet_train',
+      name: 'bullet rain',
+      imgUrl: '/music/bullet_train.png',
+      url: 'https://open.spotify.com/playlist/6ApjnQV6RkVVgKAVUVKiq2?si=354dfcc40a5f4819',
+    },
+    {
+      id: 'nautilus',
+      name: 'nautilus',
+      imgUrl: '/music/nautilus.png',
+      url: 'https://open.spotify.com/playlist/4CpvsoC0J0K2eEoJTEVhBR?si=c13fc049ec7641a2',
+    },
+    {
+      id: 'whey_protein_isolate',
+      name: 'whey protein isolate',
+      imgUrl: '/music/whey_protein_isolate.png',
+      url: 'https://open.spotify.com/playlist/3hXQ7RyJA3693sRGFxPFO7?si=b4d1a2baec5049c2',
     },
   ];
 
