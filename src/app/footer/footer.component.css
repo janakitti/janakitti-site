@@ -1,8 +1,21 @@
 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border-top: 0.05em grey solid;
   padding: 1em 0;
   margin: 4em 20% 0 20%;
   &.mobile {
     margin: 4em 1em 0 1em;
   }
+}
+
+.icon-container {
+  a {
+    margin-left: 1em;
+  }
+}
+
+.social {
+  height: 1.5em;
 }
