@@ -85,7 +85,7 @@ export class MusicComponent {
     },
     {
       id: 'bullet_train',
-      name: 'bullet rain',
+      name: 'bullet train',
       imgUrl: '/music/bullet_train.png',
       url: 'https://open.spotify.com/playlist/6ApjnQV6RkVVgKAVUVKiq2?si=354dfcc40a5f4819',
     },
