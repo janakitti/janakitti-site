@@ -35,5 +35,29 @@ export class ArtworkComponent {
       imgUrl: '/artwork/queens_gambit.png',
       url: 'https://www.instagram.com/artwork.jr',
     },
+    {
+      id: 'google_icons',
+      name: 'Google Icons',
+      imgUrl: '/artwork/google_icons.jpg',
+      url: 'https://www.instagram.com/artwork.jr',
+    },
+    {
+      id: 'strings_by_arch',
+      name: 'Strings by Arch',
+      imgUrl: '/artwork/strings_by_arch.jpg',
+      url: 'https://www.instagram.com/artwork.jr',
+    },
+    {
+      id: 'humble',
+      name: 'Humble',
+      imgUrl: '/artwork/humble.png',
+      url: 'https://www.instagram.com/artwork.jr',
+    },
+    {
+      id: 'ram',
+      name: 'Ram',
+      imgUrl: '/artwork/ram.png',
+      url: 'https://www.instagram.com/artwork.jr',
+    },
   ];
 }
