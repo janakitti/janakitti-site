@@ -13,7 +13,7 @@ export class DashboardComponent {
   statuses = [
     {
       title: 'Google APM',
-      start: new Date('May 1, 2024, 00:00:00').getTime(),
+      start: new Date('August 4, 2024, 00:00:00').getTime(),
       end: new Date('August 5, 2026, 00:00:00').getTime(),
       color1: '#FF25DC',
       color2: '#FA63E2',
